@@ -1,2 +1,3 @@
 # leksiko.net
-retejo
+retejo pri kudraj, trikaj, kroĉetaj vortoj
+
