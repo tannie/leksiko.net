@@ -1,6 +1,7 @@
 /* @override
 	http://127.0.0.1:4000/assets/css/palette.css
-	http://leksiko.net/assets/css/palette.css */
+	http://leksiko.net/assets/css/palette.css
+	https://leksiko.net/assets/css/palette.css */
 
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i";
 @fa-font-path: "../webfonts";
@@ -312,7 +313,6 @@ margin-right:10px;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 1
 }
 
 .fa-lg {
@@ -5042,13 +5042,8 @@ margin-right:10px;
 .fa,
 .fas {
   font-family: 'font awesome 5 free';
-  display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  font-weight: 900
+}
 
 /*!* Font Awesome Free 5.1.0 by @fontawesome - https://fontawesome.com
 * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)*/
@@ -5129,7 +5124,7 @@ aside.lingvoj table.infobox tbody tr td.languagename {
 }
 
 .td-search-input {
-  background: transparent;
+  background: rgba(249, 249, 249, 0.55);
   border-radius: 1rem;
   font-family: "font awesome 5 free", open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
   padding-left: 6px;
