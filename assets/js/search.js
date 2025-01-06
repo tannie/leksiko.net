@@ -18,6 +18,10 @@
         return content.replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1');
     }
 
+    function normalizeText(text) {
+        return text.normalize("NFC");
+    }
+
     function getPreview(query, content, previewLength) {
         previewLength = previewLength || (content.length * 2);
 
@@ -72,10 +76,12 @@
             var resultsHTML = "";
             results.forEach(function (item) {
                 if (item.metadata && item.metadata.title) {
+                    let url = item.metadata.url ? item.metadata.url.trim() : '';
+                    let normalizedUrl = normalizeText(url);
                     var contentPreview = getPreview(query, item.sections.Difino || item.sections.Uzado || item.sections.Ekzemploj || "", 170),
                         titlePreview = getPreview(query, item.metadata.title),
                         languagesPreview = item.metadata.languages ? item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Object.values(lang)[0].replace(new RegExp("(" + query + ")", "gi"), "<strong>$1</strong>")}`).join("<br>") : "";
-                    resultsHTML += "<li><h4><a href='" + (item.metadata.url ? item.metadata.url.trim() : '') + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p><p><small>" + languagesPreview + "</small></p></li>";
+                    resultsHTML += "<li><h4><a href='" + normalizedUrl + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p><p><small>" + languagesPreview + "</small></p></li>";
                 }
             });
 
