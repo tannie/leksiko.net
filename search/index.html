@@ -1,0 +1,2745 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+<link rel="alternate" type="application/rss&#43;xml" href="/docs/index.xml">
+
+<link rel="shortcut icon" href="/assets/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/assets/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/assets/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/assets/favicons/android-96x196.png" sizes="96x196">
+<link rel="icon" type="image/png" href="/assets/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/assets/favicons/android-192x192.png"sizes="192x192">
+
+<title>Search</title>
+<meta property="og:title" content="Search" />
+<meta property="og:description" content="Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj
+" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://rcvalle.github.io" />
+<meta property="og:site_name" content="https://rcvalle.github.io" />
+
+<meta itemprop="name" content="Search">
+<meta itemprop="description" content="Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj
+">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Search"/>
+<meta name="twitter:description" content="Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj
+"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/css/palette.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script
+  src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+
+  
+
+  <body class="td-section">
+    <header class="header">
+    <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+<a class="navbar-brand" href="/">
+    <span class="navbar-logo"></span><img height="32" src="/assets/img/logo/android-icon-192x192.png"> <span
+        class="text-uppercase font-weight-bold">Leksiko</span>
+</a>
+
+
+        <div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+
+        </div>
+    <form class="d-flex">
+            <input type="search" class="form-control fa td-search-input" placeholder="&#xf002 Serĉu…" aria-label="Serĉu…"
+                autocomplete="off">
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/pri"><span>Pri</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/docs"><span>Terminaro</span></a>
+                </li>
+            </ul>
+        </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    </div>
+</nav>
+
+</header>
+
+<script>
+$(document).ready(function() {
+  var url = "https://api.github.com/search/repositories?q=tannie/leksiko";
+  fetch(url, {
+      headers: {"Accept":"application/vnd.github.preview"}
+  }).then(function(e) {
+    return e.json()
+  }).then(function(r) {
+     console.log(r.items[0])
+     stars = r.items[0]['stargazers_count']
+     forks = r.items[0]['forks_count']
+     $('#stars').text(stars + " Stars")
+     $('#forks').text(forks + " Forks")
+  });
+});
+</script>
+
+    <div class="clearfix"></div>
+    <!-- <nav>
+	      <ol class="breadcrumb spb-1">
+              
+              
+                <li class="breadcrumb-item active" aria-current="page">
+	          <a href="https://rcvalle.github.io/search/">Search</a>
+                </li>
+                
+	      </ol>
+        </nav> -->
+<main>
+
+  <div class="container content">
+
+    <!-- <div class="bs-component"><aside class="float-end">
+      <nav id="TableOfContents">
+            <ul id="TOC"> -->
+              <!-- Links will be appended here-->
+            <!--/ul>
+       </nav>
+    </aside><
+  </div> -->
+    	      <input class="form-control fa td-search-input" type="search" name="q" id="search-input" placeholder="&#xf002 Search this site…"  style="margin-top:5px" autofocus>
+<i style="color:white; margin-right:8px; margin-left:5px" class="fa fa-search"></i>
+
+<p><span id="search-process">Serĉas</span> <span id="search-query-container" style="display: none;">por "<strong id="search-query"></strong>"</span></p>
+
+<ul id="search-results"></ul>
+
+<script>
+	window.data = {
+		
+				
+					
+					
+					"agrafingo": {
+						"id": "agrafingo",
+						"title": "agrafingo",
+						"categories": "ligiloj",
+						"url": " /agrafingo",
+						"content": "stangeto (fadendika) kies ambaŭ ekstremoj estas ringoj por ebligi kudron sur veston. Agrafo trovigas, ekz., sur unu basko kaj agrafingo sur la alia."
+					}
+					
+				
+		
+				
+					,
+					
+					"agrafo": {
+						"id": "agrafo",
+						"title": "agrafo",
+						"categories": "ligiloj",
+						"url": " /agrafo",
+						"content": "hoketo kun ringetoj aŭ truoj, kiuj ebligas kudri ĝin al vostajo."
+					}
+					
+				
+		
+				
+					,
+					
+					"aldoni": {
+						"id": "aldoni",
+						"title": "aldoni",
+						"categories": "procedoj",
+						"url": " /aldoni",
+						"content": "ĉe la trikado: oni pligrandigas la nombron da maŝoj en linio, trikante du maŝojn en unu maŝo jam farita."
+					}
+					
+				
+		
+				
+					,
+					
+					"alflikado": {
+						"id": "alflikado",
+						"title": "alflikado",
+						"categories": "laborspecoj",
+						"url": " /alflikado",
+						"content": "la surkudrado de pecoj el unu ŝtofo sur fonon el alia ŝtofo, por formi desegnon."
+					}
+					
+				
+		
+				
+					,
+					
+					"alpako": {
+						"id": "alpako",
+						"title": "alpako",
+						"categories": "materialoj",
+						"url": " /alpako",
+						"content": "ŝtofo farita el la teksita lano de besto samnoma, sud-amerika speco de ŝafoj, similaj al la lamoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"apreturo": {
+						"id": "apreturo",
+						"title": "apreturo",
+						"categories": "diversaj vortoj",
+						"url": " /apreturo",
+						"content": "kemia glazuro ofte uzata por finpretigi ŝtofojn, precipe malaltekostajn tolojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"atlaso": {
+						"id": "atlaso",
+						"title": "atlaso",
+						"categories": "materialoj",
+						"url": " /atlaso",
+						"content": "mola kaj glacea silkeca ŝtofo; ĝenerale nur unu flanko estas glacea."
+					}
+					
+				
+		
+				
+					,
+					
+					"bajeto": {
+						"id": "bajeto",
+						"title": "bajeto",
+						"categories": "materialoj",
+						"url": " /bajeto",
+						"content": "maldelikata dika lanteksaĵo, ofte uzata por kovri i.a. tablojn k.s. Rafinitan specon oni uzas por kovri bilardan tablon."
+					}
+					
+				
+		
+				
+					,
+					
+					"banto": {
+						"id": "banto",
+						"title": "banto",
+						"categories": "ligiloj",
+						"url": " /banto",
+						"content": "ligo per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin."
+					}
+					
+				
+		
+				
+					,
+					
+					"barto": {
+						"id": "barto",
+						"title": "barto",
+						"categories": "galanterio",
+						"url": " /barto",
+						"content": "balena ‘dento’ (osteca lameno) uzata por rigidigi vestojn k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"batisteto": {
+						"id": "batisteto",
+						"title": "batisteto",
+						"categories": "materialoj",
+						"url": " /batisteto",
+						"content": "tre maldiku batisto, kia estas uzata por virinaj poŝtukoj k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"batisto": {
+						"id": "batisto",
+						"title": "batisto",
+						"categories": "materialoj",
+						"url": " /batisto",
+						"content": "plej delikata lina tolo."
+					}
+					
+				
+		
+				
+					,
+					
+					"bobeno": {
+						"id": "bobeno",
+						"title": "bobeno",
+						"categories": "iloj",
+						"url": " /bobeno",
+						"content": "cilindroforma objekto (kun du diskaj flankoj kutime) sur kiu oni volvas fadenon."
+					}
+					
+				
+		
+				
+					,
+					
+					"bombazeno": {
+						"id": "bombazeno",
+						"title": "bombazeno",
+						"categories": "materialoj",
+						"url": " /bombazeno",
+						"content": "kepreca ŝtofo el silko kaj lano."
+					}
+					
+				
+		
+				
+					,
+					
+					"bordero": {
+						"id": "bordero",
+						"title": "bordero",
+						"categories": "diversaj vortoj",
+						"url": " /bordero",
+						"content": "ia ajn ornama aranĝo de ŝtofrando."
+					}
+					
+				
+		
+				
+					,
+					
+					"brodi": {
+						"id": "brodi",
+						"title": "brodi",
+						"categories": "laborspecoj",
+						"url": " /brodi",
+						"content": "ornami teksaĵon per fadenoj, variigante la desegnon per diversaj kudreroj (vidu tiun rubrikon) ekz. ĉena, faska, filosta, kuranta, k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"brodtajlado-tajlbrodado": {
+						"id": "brodtajlado-tajlbrodado",
+						"title": "brodtajlado, tajlbrodado",
+						"categories": "laborspecoj",
+						"url": " /brodtajlado,_tajlbrodado",
+						"content": "ornami teksaĵojn, eltranĉante pecetojn, laŭ desegno jam indikita per randa kudrado (vd.); la randon de la truo tiel lasita fortikigas la randkudro (vd. ankaŭ sub tajli)."
+					}
+					
+				
+		
+				
+					,
+					
+					"broki": {
+						"id": "broki",
+						"title": "broki",
+						"categories": "laborspecoj",
+						"url": " /broki",
+						"content": "enteksi brodsimilan desegnon reliefan."
+					}
+					
+				
+		
+				
+					,
+					
+					"bro-c4-89o": {
+						"id": "bro-c4-89o",
+						"title": "broĉo",
+						"categories": "ligiloj",
+						"url": " /bro%C4%89o",
+						"content": "fibulo kun ornama disko aŭ juvelo sur unu stango."
+					}
+					
+				
+		
+				
+					,
+					
+					"buko": {
+						"id": "buko",
+						"title": "buko",
+						"categories": "ligiloj",
+						"url": " /buko",
+						"content": "ligilo kutima ĉe rimenoj kaj zonoj, precipe ledaj, konsistanta el metala ringo kun transversa stangeto, sur kiu trovigas nefiksita “langeto” el metalo, kiu malhelpas elgliton de la rimeno."
+					}
+					
+				
+		
+				
+					,
+					
+					"bulo-lanbulo": {
+						"id": "bulo-lanbulo",
+						"title": "bulo (lanbulo)",
+						"categories": "diversaj vortoj",
+						"url": " /bulo_(lanbulo)",
+						"content": "globforma stato de lanfadeno preta por trikado."
+					}
+					
+				
+		
+				
+					,
+					
+					"butono": {
+						"id": "butono",
+						"title": "butono",
+						"categories": "ligiloj",
+						"url": " /butono",
+						"content": "tubero aŭ disko, kudrata sur vesto kaj puŝata tra truo por kunteni, ekz la jakan fronton."
+					}
+					
+				
+		
+				
+					,
+					
+					"cirka-c5-adturni": {
+						"id": "cirka-c5-adturni",
+						"title": "cirkaŭturni",
+						"categories": "procedoj",
+						"url": " /cirka%C5%ADturni",
+						"content": "ĉe la trikado: oni aldouas maŝon jene: volvu la lanfadenon unufojon ĉirkaŭ la trikilon, tirante ĝin sube unue kaj transmetante ĝin supere."
+					}
+					
+				
+		
+				
+					,
+					
+					"damasko": {
+						"id": "damasko",
+						"title": "damasko",
+						"categories": "materialoj",
+						"url": " /damasko",
+						"content": "speco de tolo kun enteksita samkolora silka desegno."
+					}
+					
+				
+		
+				
+					,
+					
+					"detriki": {
+						"id": "detriki",
+						"title": "detriki",
+						"categories": "procedoj",
+						"url": " /detriki",
+						"content": "forigi unuope Ia lastajn trikmalojn tiel, ke ili restos firme trikitaj."
+					}
+					
+				
+		
+				
+					,
+					
+					"drapiri": {
+						"id": "drapiri",
+						"title": "drapiri",
+						"categories": "procedoj",
+						"url": " /drapiri",
+						"content": "orname kovri per gracie pendanta drapo, silko k.s.; aranĝi belaj la faldojn de pendanta kurteno, k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"drapo": {
+						"id": "drapo",
+						"title": "drapo",
+						"categories": "materialoj",
+						"url": " /drapo",
+						"content": "lana ŝtofo, uzata por fari vestojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"dreliko": {
+						"id": "dreliko",
+						"title": "dreliko",
+						"categories": "materialoj",
+						"url": " /dreliko",
+						"content": "speco de fortika kaj nedelikata tolo uzata por sakoj, laborvestoj, tornistroj k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"dufaldo": {
+						"id": "dufaldo",
+						"title": "dufaldo",
+						"categories": "diversaj vortoj",
+						"url": " /dufaldo",
+						"content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
+					}
+					
+				
+		
+				
+					,
+					
+					"dutaldo": {
+						"id": "dutaldo",
+						"title": "dutaldo",
+						"categories": "diversaj vortoj",
+						"url": " /dutaldo",
+						"content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
+					}
+					
+				
+		
+				
+					,
+					
+					"elasta-rubando-c5-9dnuro": {
+						"id": "elasta-rubando-c5-9dnuro",
+						"title": "elasta rubando -ŝnuro",
+						"categories": "galanterio",
+						"url": " /elasta_rubando_-%C5%9Dnuro",
+						"content": "ĉio tia, kiu estas elasta, etendebla, streĉebla."
+					}
+					
+				
+		
+				
+					,
+					
+					"eskalopoj": {
+						"id": "eskalopoj",
+						"title": "eskalopoj",
+						"categories": "diversaj vortoj",
+						"url": " /eskalopoj",
+						"content": "serio da duonrondoj, kiuj ofte anstataŭas orlon aŭ alian randan ornamon."
+					}
+					
+				
+		
+				
+					,
+					
+					"e-c4-9drubando": {
+						"id": "e-c4-9drubando",
+						"title": "eĝrubando",
+						"categories": "galanterio",
+						"url": " /e%C4%9Drubando",
+						"content": "rubando pli aŭ malpli dika, larĝa, fortika, uzata plej ofte por fortikigi kaj protekti la eĝon de ŝtofo, de matetoj, de tapiŝoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"e-c4-9dtubo": {
+						"id": "e-c4-9dtubo",
+						"title": "eĝtubo",
+						"categories": "galanterio",
+						"url": " /e%C4%9Dtubo",
+						"content": "tubforma rubando, enhavanta ŝnureton, iam uzata por ornami la eĝojn de koltruo, roba poŝo, k.s. (Ankaŭ Tubrubando)."
+					}
+					
+				
+		
+				
+					,
+					
+					"fadeneltirado": {
+						"id": "fadeneltirado",
+						"title": "fadeneltirado",
+						"categories": "laborspecoj",
+						"url": " /fadeneltirado",
+						"content": "ornami teksaĵon per la eltirado de apartaj aŭ tipaj fadenoj de vefto aŭ/kaj varpo."
+					}
+					
+				
+		
+				
+					,
+					
+					"fadeno": {
+						"id": "fadeno",
+						"title": "fadeno",
+						"categories": "galanterio",
+						"url": " /fadeno",
+						"content": "silka aŭ kotona; longa maldika kuntordaĵo de multaj harecaj fibroj taŭgaj por la kudro, stebo, brodo, k.t.p."
+					}
+					
+				
+		
+				
+					,
+					
+					"falbalo": {
+						"id": "falbalo",
+						"title": "falbalo",
+						"categories": "galanterio",
+						"url": " /falbalo",
+						"content": "krispa larĝa rubando alkudrebla sur jupon k.s. por ornamo."
+					}
+					
+				
+		
+				
+					,
+					
+					"faldo": {
+						"id": "faldo",
+						"title": "faldo",
+						"categories": "diversaj vortoj",
+						"url": " /faldo",
+						"content": "ĝenerala vorto por ĉiuj procedoj aŭ drapiroj , kiuj necesigas duobligon de la ŝtofo. Vidu: Platfaldo, Dutaldo, Pintfaldo, Refaldo, Fiksfaldo."
+					}
+					
+				
+		
+				
+					,
+					
+					"falsbanto": {
+						"id": "falsbanto",
+						"title": "falsbanto",
+						"categories": "ligiloj",
+						"url": " /falsbanto",
+						"content": "tia ligo sed kudrita por ne malligigi, kaj uzata por kaŝi agrafon, k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"faltarigi": {
+						"id": "faltarigi",
+						"title": "faltarigi",
+						"categories": "procedoj",
+						"url": " /faltarigi",
+						"content": "fari multajn tiajn faltojn, kiel ekz. ĉe kamparaua kitelo en Anglujo; kutime oni brodornainas tiujn faltarojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"faltigi": {
+						"id": "faltigi",
+						"title": "faltigi",
+						"categories": "procedoj",
+						"url": " /faltigi",
+						"content": "kuntiri mallarĝan faldeton en ŝtofo, kaj tion fiksi per kudro aŭ glade."
+					}
+					
+				
+		
+				
+					,
+					
+					"falto": {
+						"id": "falto",
+						"title": "falto",
+						"categories": "diversaj vortoj",
+						"url": " /falto",
+						"content": "tre malgranda faldo kudrita aŭ premita tiel ke pli restos videbla; neregula faldeto lasita de malbona glado. (Pintfaltoj= plej malgrandaj faltetoj ornamaj)."
+					}
+					
+				
+		
+				
+					,
+					
+					"fasko": {
+						"id": "fasko",
+						"title": "fasko",
+						"categories": "diversaj vortoj",
+						"url": " /fasko",
+						"content": "(Lanfasko) ringforma stato de lanfadeno, antaŭ ol buligo por trikado (ankaŭ Lanringo)."
+					}
+					
+				
+		
+				
+					,
+					
+					"fasoni": {
+						"id": "fasoni",
+						"title": "fasoni",
+						"categories": "procedoj",
+						"url": " /fasoni",
+						"content": "tiel tajli kaj kunkudri veston, ke ĝi havas belan formon kaj komforte, taŭge, sidas al la figuro de la portanto. Fasonita vesto kontrasta kun Konfekcio."
+					}
+					
+				
+		
+				
+					,
+					
+					"felo": {
+						"id": "felo",
+						"title": "felo",
+						"categories": "materialoj",
+						"url": " /felo",
+						"content": "la haŭto de besto, kun aŭ sen la haroj, tanota kaj uzota kiel materialo por vesto."
+					}
+					
+				
+		
+				
+					,
+					
+					"felpo": {
+						"id": "felpo",
+						"title": "felpo",
+						"categories": "materialoj",
+						"url": " /felpo",
+						"content": "ŝtofo simila al veluro, sed havanta harojn pli longajn, plate kuŝantajn."
+					}
+					
+				
+		
+				
+					,
+					
+					"felto": {
+						"id": "felto",
+						"title": "felto",
+						"categories": "materialoj",
+						"url": " /felto",
+						"content": "ŝtofo farita el kungluitaj kaj forte kunpremitaj haroj, fadenoj, laneroj, k.s. Ofte uzata por sorbi skuvibrojn, dampi bruon (ĝi bone malhelpas ke bruo penetru)."
+					}
+					
+				
+		
+				
+					,
+					
+					"fibulo": {
+						"id": "fibulo",
+						"title": "fibulo",
+						"categories": "ligiloj",
+						"url": " /fibulo",
+						"content": "sendanĝera pinglo; ĝi konsistas el longa pinglo, kies pinto estas turnita al la kapo kaj kovrata per ŝirmilo tie fiksita."
+					}
+					
+				
+		
+				
+					,
+					
+					"fiksfaldo": {
+						"id": "fiksfaldo",
+						"title": "fiksfaldo",
+						"categories": "diversaj vortoj",
+						"url": " /fiksfaldo",
+						"content": "(Fiksita Faldo) faldu uzata por mallongigi veston k.c. kudrita aŭ alie firmigita."
+					}
+					
+				
+		
+				
+					,
+					
+					"fingringo": {
+						"id": "fingringo",
+						"title": "fingringo",
+						"categories": "iloj",
+						"url": " /fingringo",
+						"content": "protekta kovrajo por la fingropinto."
+					}
+					
+				
+		
+				
+					,
+					
+					"fintu-c5-9di": {
+						"id": "fintu-c5-9di",
+						"title": "fintuŝi",
+						"categories": "procedoj",
+						"url": " /fintu%C5%9Di",
+						"content": "netigi la lastajn pecctojn de brodaĵo, de farata vesto, orlo, kunkudro, k.t.p. per delikataj kudreroj."
+					}
+					
+				
+		
+				
+					,
+					
+					"flaneleto": {
+						"id": "flaneleto",
+						"title": "flaneleto",
+						"categories": "materialoj",
+						"url": " /flaneleto",
+						"content": "simila ŝtofo pli maldika."
+					}
+					
+				
+		
+				
+					,
+					
+					"flanelo": {
+						"id": "flanelo",
+						"title": "flanelo",
+						"categories": "materialoj",
+						"url": " /flanelo",
+						"content": "mola teksaĵo el lano, varmiga, delikata kaj havanta sorbajn kvalitojn; ofte uzata por subvestoj k.s. dum malvarma sezono."
+					}
+					
+				
+		
+				
+					,
+					
+					"fliki": {
+						"id": "fliki",
+						"title": "fliki",
+						"categories": "laborspecoj",
+						"url": " /fliki",
+						"content": "surkudri aŭ surkudri al truo aŭ difektita parto de vesto aŭ tuko pecon da ŝtofo (kutime precize similan al la ŝtofo de la vesto aŭ tuko mem) por ĝin ripari."
+					}
+					
+				
+		
+				
+					,
+					
+					"framo": {
+						"id": "framo",
+						"title": "framo",
+						"categories": "iloj",
+						"url": " /framo",
+						"content": "kadro sur kiu oni streĉas surbrodatan ŝtofon."
+					}
+					
+				
+		
+				
+					,
+					
+					"fran-c4-9do": {
+						"id": "fran-c4-9do",
+						"title": "franĝo",
+						"categories": "galanterio",
+						"url": " /fran%C4%9Do",
+						"content": "vico da proksime pendantaj kvastetoj, fadenoj, kutime el silko, per kiu oni borderas aŭ alie ornamas veston, kusenon, meblon."
+					}
+					
+				
+		
+				
+					,
+					
+					"fusteno": {
+						"id": "fusteno",
+						"title": "fusteno",
+						"categories": "materialoj",
+						"url": " /fusteno",
+						"content": "fortika ŝtofo, ofte kepra, farita el kotono kaj lino, kapabla elporti multan uzadon (similas al kotona veltiro)."
+					}
+					
+				
+		
+				
+					,
+					
+					"galanterio": {
+						"id": "galanterio",
+						"title": "galanterio",
+						"categories": "galanterio",
+						"url": " /galanterio",
+						"content": "ĉia akcesora ornamaĵo aŭ utilaĵo rilata al vestaĵoj aŭ tualeto."
+					}
+					
+				
+		
+				
+					,
+					
+					"galono": {
+						"id": "galono",
+						"title": "galono",
+						"categories": "galanterio",
+						"url": " /galono",
+						"content": "ŝnuro aŭ rubando iom peza, ofte el oraj aŭ arĝentaj fadenoj, uzata por ornami vestojn kaj uniformojn; ankaŭ por indiki rangon, oficon (pli peza ol ĉeniljo)."
+					}
+					
+				
+		
+				
+					,
+					
+					"garni": {
+						"id": "garni",
+						"title": "garni",
+						"categories": "procedoj",
+						"url": " /garni",
+						"content": "ornami ion per aldona.do de garnituro, bantoj, ĉeniljo, kvastoj, k.s. akcesoraĵoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"garnituro": {
+						"id": "garnituro",
+						"title": "garnituro",
+						"categories": "galanterio",
+						"url": " /garnituro",
+						"content": "garnaĵo; ĉia objekto ne nepre necesa, sed almetita por plibeligi."
+					}
+					
+				
+		
+				
+					,
+					
+					"grefti": {
+						"id": "grefti",
+						"title": "grefti",
+						"categories": "procedoj",
+						"url": " /grefti",
+						"content": "A.tiel kuntriki du egojn, ke la rezulti kunigo ne estas videbla.B.tiel enteksi la egojn de la fliko, ke la nova peco ne estas distingebla for de la originala ŝtofo."
+					}
+					
+				
+		
+				
+					,
+					
+					"haroj": {
+						"id": "haroj",
+						"title": "haroj",
+						"categories": "materialoj",
+						"url": " /haroj",
+						"content": "ĉio fadensimila, ĉu animala aŭ ne, kiun oni povos uzi por la remburado k.s.; ĉevalajn kaj aliajn longajn oni foje uzas tekse."
+					}
+					
+				
+		
+				
+					,
+					
+					"indieno": {
+						"id": "indieno",
+						"title": "indieno",
+						"categories": "materialoj",
+						"url": " /indieno",
+						"content": "maldika kotona kolordesegna teksaĵo kutime iom glacea."
+					}
+					
+				
+		
+				
+					,
+					
+					"inversigi": {
+						"id": "inversigi",
+						"title": "inversigi",
+						"categories": "diversaj vortoj",
+						"url": " /inversigi",
+						"content": "turni la internon de ŝtofo eksteren pro pli bona aspekto"
+					}
+					
+				
+		
+				
+					,
+					
+					"junto": {
+						"id": "junto",
+						"title": "junto",
+						"categories": "diversaj vortoj",
+						"url": " /junto",
+						"content": "vorto uzebla anstataŭ Kunkudro (vd.)"
+					}
+					
+				
+		
+				
+					,
+					
+					"kalibrilo": {
+						"id": "kalibrilo",
+						"title": "kalibrilo",
+						"categories": "iloj",
+						"url": " /kalibrilo",
+						"content": "mezurilo por la diko de trikiloj k.t.p."
+					}
+					
+				
+		
+				
+					,
+					
+					"kalikoteto": {
+						"id": "kalikoteto",
+						"title": "kalikoteto",
+						"categories": "materialoj",
+						"url": " /kalikoteto",
+						"content": "(=perkalo) pli delikata kaj maldika ol kalikoto."
+					}
+					
+				
+		
+				
+					,
+					
+					"kalikoto": {
+						"id": "kalikoto",
+						"title": "kalikoto",
+						"categories": "materialoj",
+						"url": " /kalikoto",
+						"content": "ŝtofo simila al tolo, iom dense teksita el kotono."
+					}
+					
+				
+		
+				
+					,
+					
+					"kamloto": {
+						"id": "kamloto",
+						"title": "kamloto",
+						"categories": "materialoj",
+						"url": " /kamloto",
+						"content": "dika kaj maldelikata ŝtofo, kutime farita el la haroj de la Angora kapro, miksita kun silko, kotono aŭ lano."
+					}
+					
+				
+		
+				
+					,
+					
+					"kanvaso": {
+						"id": "kanvaso",
+						"title": "kanvaso",
+						"categories": "materialoj",
+						"url": " /kanvaso",
+						"content": "tolo el lino aŭ kanabo; se tre maldense teksita per dikaj fadenoj oni faras sur ĝi brodadon; dense teksitan oni uzas por veloj, tendoj, k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"kapoko": {
+						"id": "kapoko",
+						"title": "kapoko",
+						"categories": "materialoj",
+						"url": " /kapoko",
+						"content": "kotono de aparta speco, havanta mallongajn barsimilajn fadenojn; multe uzata anstataŭ haroj por remburi pli bonkvalitajn kusenojn kaj matracojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"katuno": {
+						"id": "katuno",
+						"title": "katuno",
+						"categories": "materialoj",
+						"url": " /katuno",
+						"content": "maldika, relative malaltekosta, teksaĵo el kotono; ĝenerale la desegno sur ĝi estas surpresata unuflanke kaj ne enteksita."
+					}
+					
+				
+		
+				
+					,
+					
+					"ka-c5-9dmira-drapo": {
+						"id": "ka-c5-9dmira-drapo",
+						"title": "kaŝmira drapo",
+						"categories": "materialoj",
+						"url": " /ka%C5%9Dmira_drapo",
+						"content": "(Kaŝmirajo) mola lanteksaĵo el la lano de la Kalmiraj kaproj."
+					}
+					
+				
+		
+				
+					,
+					
+					"kepro": {
+						"id": "kepro",
+						"title": "kepro",
+						"categories": "materialoj",
+						"url": " /kepro",
+						"content": "sia ŝtofo teksita tiel ke la vefto transiras unu varpan fadenon kaj subiras du aŭ pli, por fari oblikvajn striojn sur la surfaco de la Ŝtofo. Kepri, Kepra. (Kepro estas vorto genra)."
+					}
+					
+				
+		
+				
+					,
+					
+					"kolonoj": {
+						"id": "kolonoj",
+						"title": "kolonoj",
+						"categories": "diversaj vortoj",
+						"url": " /kolonoj",
+						"content": "strioj faritaj per maŝoj en la sama loko en ĉiu linio."
+					}
+					
+				
+		
+				
+					,
+					
+					"konfekcio": {
+						"id": "konfekcio",
+						"title": "konfekcio",
+						"categories": "diversaj vortoj",
+						"url": " /konfekcio",
+						"content": "vestoj jam faritaj, kaj aĉetataj rekte el la vendejo senmezure; vestoj ne faritaj laŭ speciala mezuro de portonto. Kontrastas kun Fasonitaj Vestoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"korduro": {
+						"id": "korduro",
+						"title": "korduro",
+						"categories": "materialoj",
+						"url": " /korduro",
+						"content": "(ankaŭ Kordurojo) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn."
+					}
+					
+				
+		
+				
+					,
+					
+					"kordurojo": {
+						"id": "kordurojo",
+						"title": "kordurojo",
+						"categories": "materialoj",
+						"url": " /kordurojo",
+						"content": "(ankaŭ Korduro) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn."
+					}
+					
+				
+		
+				
+					,
+					
+					"kotono": {
+						"id": "kotono",
+						"title": "kotono",
+						"categories": "materialoj",
+						"url": " /kotono",
+						"content": "la kruda lanugeca substanco el kiu oni teksas katunon kaj similajn ŝtofojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"krepo": {
+						"id": "krepo",
+						"title": "krepo",
+						"categories": "materialoj",
+						"url": " /krepo",
+						"content": "krispa ŝtofo kutime gazeca, el silko aŭ lano. La vorto estas aplikebla ankaŭ al aliaj substancoj, ekz. kaŭĉuko, papero. (Komp. Krispa= havanta pli-malpli regulajn kaj ordajn ondojn; Krepa=havanta multajn malpli grandajn faltojn kaj ondetojn senordajn)."
+					}
+					
+				
+		
+				
+					,
+					
+					"kretono": {
+						"id": "kretono",
+						"title": "kretono",
+						"categories": "materialoj",
+						"url": " /kretono",
+						"content": "fortika senglazura ŝtofo (varpo el kanabo, vefto el lino) kiun oni ofte surpresas per desegno."
+					}
+					
+				
+		
+				
+					,
+					
+					"krispo": {
+						"id": "krispo",
+						"title": "krispo",
+						"categories": "galanterio",
+						"url": " /krispo",
+						"content": "ondetara ŝtofo, iam uzata kiel kolumo."
+					}
+					
+				
+		
+				
+					,
+					
+					"kro-c4-89eti-20copy": {
+						"id": "kro-c4-89eti-20copy",
+						"title": "kroĉeti",
+						"categories": "ago",
+						"url": " /kro%C4%89eti%20copy",
+						"content": "Difino\nLa vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per hoko, kaj konektas la ligojn formi kompletan teksaĵon.\n\nReferencoj\n\n\n  Kroĉetado - Vikipedio"
+					}
+					
+				
+		
+				
+					,
+					
+					"kro-c4-89eti": {
+						"id": "kro-c4-89eti",
+						"title": "kroĉeti",
+						"categories": "laborspecoj",
+						"url": " /kro%C4%89eti",
+						"content": "(Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena."
+					}
+					
+				
+		
+				
+					,
+					
+					"kro-c4-89etilo-20copy": {
+						"id": "kro-c4-89etilo-20copy",
+						"title": "kroĉetilo",
+						"categories": "iloj",
+						"url": " /kro%C4%89etilo%20copy",
+						"content": ""
+					}
+					
+				
+		
+				
+					,
+					
+					"kro-c4-89etilo": {
+						"id": "kro-c4-89etilo",
+						"title": "kroĉetilo",
+						"categories": "iloj",
+						"url": " /kro%C4%89etilo",
+						"content": "maldika, malgranda stango kun hoketo, uzata ĉe la kroĉetado."
+					}
+					
+				
+		
+				
+					,
+					
+					"kruckolora": {
+						"id": "kruckolora",
+						"title": "kruckolora",
+						"categories": "diversaj vortoj",
+						"url": " /kruckolora",
+						"content": "silkajo teksita el malsamkoloraj vefto kaj varpo; laŭ vidpunkto kaj lumo unu koloro aŭ la alia, aŭ ambaŭ, vidigis."
+					}
+					
+				
+		
+				
+					,
+					
+					"kudrero": {
+						"id": "kudrero",
+						"title": "kudrero",
+						"categories": "laborspecoj",
+						"url": " /kudrero",
+						"content": "unu kompleta tratiro per kudrilo kaj fadeno."
+					}
+					
+				
+		
+				
+					,
+					
+					"kudri": {
+						"id": "kudri",
+						"title": "kudri",
+						"categories": "laborspecoj",
+						"url": " /kudri",
+						"content": "kunfiksi per fadeno du pecojn da ŝtofo aŭ du apartojn de unu peco; aŭ ornami per fadeno. Oni tratiras la fadenojn per maldika stangeto, la kudrilo."
+					}
+					
+				
+		
+				
+					,
+					
+					"kudrilo": {
+						"id": "kudrilo",
+						"title": "kudrilo",
+						"categories": "iloj",
+						"url": " /kudrilo",
+						"content": "malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"kunkudro": {
+						"id": "kunkudro",
+						"title": "kunkudro",
+						"categories": "diversaj vortoj",
+						"url": " /kunkudro",
+						"content": "kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko."
+					}
+					
+				
+		
+				
+					,
+					
+					"kuntriki": {
+						"id": "kuntriki",
+						"title": "kuntriki",
+						"categories": "procedoj",
+						"url": " /kuntriki",
+						"content": "preni du malojn (aŭ pli) sur la trikilon kune por ke en postaj vicoj estu tiesloke nur unu maŝo (mallonge kt.)"
+					}
+					
+				
+		
+				
+					,
+					
+					"kvasto": {
+						"id": "kvasto",
+						"title": "kvasto",
+						"categories": "galanterio",
+						"url": " /kvasto",
+						"content": "fadenoj pendantaj faske aŭ kvazaŭ peniko, kutime silkaj, uzataj kiel dekoraciaĵo (ankaŭ Kvato, Peniko)."
+					}
+					
+				
+		
+				
+					,
+					
+					"lano": {
+						"id": "lano",
+						"title": "lano",
+						"categories": "materialoj",
+						"url": " /lano",
+						"content": "kreskaĵo harsimila sur la ŝafoj, sur iuj kunikloj, iuj kaproj, kaj la alpakoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"la-c4-89metalo": {
+						"id": "la-c4-89metalo",
+						"title": "laĉmetalo",
+						"categories": "ligiloj",
+						"url": " /la%C4%89metalo",
+						"content": "unu el la metalaj pecetoj, fiksitaj al ĉiu ekstremo de laĉo por faciligi tredadon."
+					}
+					
+				
+		
+				
+					,
+					
+					"la-c4-89o": {
+						"id": "la-c4-89o",
+						"title": "laĉo",
+						"categories": "ligiloj",
+						"url": " /la%C4%89o",
+						"content": "beleta ŝnuro uzata por ligfiksi ŝuon, korsaĵon k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"ledo": {
+						"id": "ledo",
+						"title": "ledo",
+						"categories": "materialoj",
+						"url": " /ledo",
+						"content": "tanita besthaŭto senhara, preparita, por ŝuoj, rimenoj, kaj similaj uzoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"ligo": {
+						"id": "ligo",
+						"title": "ligo",
+						"categories": "diversaj vortoj",
+						"url": " /ligo",
+						"content": "kunvolvo de ŝnuro, rubando, k.s. por kunteni du pecojn; nodo, banto."
+					}
+					
+				
+		
+				
+					,
+					
+					"ma-c5-9dtenilo": {
+						"id": "ma-c5-9dtenilo",
+						"title": "maŝtenilo",
+						"categories": "iloj",
+						"url": " /ma%C5%9Dtenilo",
+						"content": "ilo, ofte kun formo de longa fibulo, kiun oni tredas tra la maŝoj de trikado, por provizore teni ilin dum oni faras alian procedon."
+					}
+					
+				
+		
+				
+					,
+					
+					"mercero": {
+						"id": "mercero",
+						"title": "mercero",
+						"categories": "galanterio",
+						"url": " /mercero",
+						"content": "la komercado per kaj pri galanterio kaj kudraj akcesoraĵoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"mezurrubando": {
+						"id": "mezurrubando",
+						"title": "mezurrubando",
+						"categories": "iloj",
+						"url": " /mezurrubando",
+						"content": "mezurilo kun formo de rubando, markita laŭ la uzataj (naciaj) mezurunuoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"modelfolio": {
+						"id": "modelfolio",
+						"title": "modelfolio",
+						"categories": "iloj",
+						"url": " /modelfolio",
+						"content": "papera folio kun la formo de la aparta vestoparto kiun oni tajlas. Oni kuŝigas ĝin sur la ŝtofo kaj aŭ tajlas ĉirkaŭe, aŭ markas ĉirkaŭe kaj tajlas laŭ la marko."
+					}
+					
+				
+		
+				
+					,
+					
+					"modellibro": {
+						"id": "modellibro",
+						"title": "modellibro",
+						"categories": "diversaj vortoj",
+						"url": " /modellibro",
+						"content": "ĉia eldonaĵo por prezento de novaj (freŝaj) modoj, stiloj, k.t.p. (ankaŭ Modgazeto)."
+					}
+					
+				
+		
+				
+					,
+					
+					"modo": {
+						"id": "modo",
+						"title": "modo",
+						"categories": "diversaj vortoj",
+						"url": " /modo",
+						"content": "vestmaniero, stilo, siatempe populara."
+					}
+					
+				
+		
+				
+					,
+					
+					"mohajro": {
+						"id": "mohajro",
+						"title": "mohajro",
+						"categories": "materialoj",
+						"url": " /mohajro",
+						"content": "la tekseblaj haroj de la Angoraj kaproj."
+					}
+					
+				
+		
+				
+					,
+					
+					"muslino": {
+						"id": "muslino",
+						"title": "muslino",
+						"categories": "materialoj",
+						"url": " /muslino",
+						"content": "delikate malpeza katuno, uzata por inaj vestoj, kurtenoj, k.t.p."
+					}
+					
+				
+		
+				
+					,
+					
+					"nankeno": {
+						"id": "nankeno",
+						"title": "nankeno",
+						"categories": "materialoj",
+						"url": " /nankeno",
+						"content": "ŝtofo el naturkolora kotono (laŭ nomo de urbo en Ĉinujo)."
+					}
+					
+				
+		
+				
+					,
+					
+					"navedo": {
+						"id": "navedo",
+						"title": "navedo",
+						"categories": "iloj",
+						"url": " /navedo",
+						"content": "bobenujo aŭ -ingo, kiu en stebilo aŭ teksmaŝino portas la fadenon tien-reen (ankaŭ Naveto)."
+					}
+					
+				
+		
+				
+					,
+					
+					"nilono": {
+						"id": "nilono",
+						"title": "nilono",
+						"categories": "materialoj",
+						"url": " /nilono",
+						"content": "plej moderna (1947) materialo modpopulara por virinaj ŝtrumpoj (ankaŭ aliaj objektoj, ekz. brosharoj k.s.)"
+					}
+					
+				
+		
+				
+					,
+					
+					"nodo": {
+						"id": "nodo",
+						"title": "nodo",
+						"categories": "diversaj vortoj",
+						"url": " /nodo",
+						"content": "tubera ligaĵo de ŝnuro k.s. (vd. Ligo)."
+					}
+					
+				
+		
+				
+					,
+					
+					"numerilo": {
+						"id": "numerilo",
+						"title": "numerilo",
+						"categories": "iloj",
+						"url": " /numerilo",
+						"content": "ĉiu el la diversaj netoj uzataj por registri aŭ “memori. ‘ la nombron da triklinioj aŭ trikeroj jam faritaj k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"orli": {
+						"id": "orli",
+						"title": "orli",
+						"categories": "procedoj",
+						"url": " /orli",
+						"content": "fari falditan randon; enfaldi kaj kunkudri la egojn de poŝtuko, jupo, aŭ de ĉia ajn ŝtofo."
+					}
+					
+				
+		
+				
+					,
+					
+					"orlo": {
+						"id": "orlo",
+						"title": "orlo",
+						"categories": "diversaj vortoj",
+						"url": " /orlo",
+						"content": "rando de ŝtofo refaldita kaj kudrita tiel, ke kruda ego estas protektata kaj nevidebla."
+					}
+					
+				
+		
+				
+					,
+					
+					"pasamento": {
+						"id": "pasamento",
+						"title": "pasamento",
+						"categories": "galanterio",
+						"url": " /pasamento",
+						"content": "ŝnuro aŭ rubando simila al Galono (supre) sed pli delikata, ofte el silko."
+					}
+					
+				
+		
+				
+					,
+					
+					"pa-c5-adsi": {
+						"id": "pa-c5-adsi",
+						"title": "paŭsi",
+						"categories": "procedoj",
+						"url": " /pa%C5%ADsi",
+						"content": "trakopii desegnon; la desegno trovigas sur papero, sub kiu kuŝas la robo aŭ brodfono; inter la desegno kaj la ŝtofo kuŝas paperfolio inke aŭ vakse kolorigita. Kiam oni krajonas laŭ la desegno la intera folio lasas la desegnon sur la ŝtofo. Oni brodas laŭ tiu paŭsita desegno."
+					}
+					
+				
+		
+				
+					,
+					
+					"pelto": {
+						"id": "pelto",
+						"title": "pelto",
+						"categories": "materialoj",
+						"url": " /pelto",
+						"content": "preparita felo, ĝenerale belhara, uzebla por fari aŭ ornami vestojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"perkalo": {
+						"id": "perkalo",
+						"title": "perkalo",
+						"categories": "materialoj",
+						"url": " /perkalo",
+						"content": "delikata sed dense teksita katuno, tia kian oni uzas por fari naztukojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"pinglo": {
+						"id": "pinglo",
+						"title": "pinglo",
+						"categories": "ligiloj",
+						"url": " /pinglo",
+						"content": "stangeto kun kapeto kaj pinto."
+					}
+					
+				
+		
+				
+					,
+					
+					"pintfalto": {
+						"id": "pintfalto",
+						"title": "pintfalto",
+						"categories": "diversaj vortoj",
+						"url": " /pintfalto",
+						"content": "(vd. supra Falto)."
+					}
+					
+				
+		
+				
+					,
+					
+					"plasto": {
+						"id": "plasto",
+						"title": "plasto",
+						"categories": "materialoj",
+						"url": " /plasto",
+						"content": "ĉiu el la multaj produktaĵoj faritaj el plastikaj substancoj, mulditaj ĉirkaŭ, sur, aŭ en modlilo aŭ muldilo; ofte koloraj, klare travideblaj, pluvrezistaj, kaj fortikaj."
+					}
+					
+				
+		
+				
+					,
+					
+					"platfaldo": {
+						"id": "platfaldo",
+						"title": "platfaldo",
+						"categories": "diversaj vortoj",
+						"url": " /platfaldo",
+						"content": "faldo glade firm-markita por ornami aŭ doni formon al vesto."
+					}
+					
+				
+		
+				
+					,
+					
+					"plumo-j": {
+						"id": "plumo-j",
+						"title": "plumo(j)",
+						"categories": "materialoj",
+						"url": " /plumo(j)",
+						"content": "la birdaj kovrajoj uzataj kiel garnituroj aŭ kiel remburaĵoj por kusenoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"plu-c5-9do": {
+						"id": "plu-c5-9do",
+						"title": "pluŝo",
+						"categories": "materialoj",
+						"url": " /plu%C5%9Do",
+						"content": "ŝtofo simila al veluro, sed havanta pli longajn harojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"prembutono": {
+						"id": "prembutono",
+						"title": "prembutono",
+						"categories": "ligiloj",
+						"url": " /prembutono",
+						"content": "metala butoneto en du partoj; unu parto (prembutoningo) povas fiksi sin sur la alian per iom forta premo; oni apartigas per pli forta tiro; ofte uzata ĉe jupligejo sub agrafoj, kiuj estas pli firmligaj."
+					}
+					
+				
+		
+				
+					,
+					
+					"provpupo": {
+						"id": "provpupo",
+						"title": "provpupo",
+						"categories": "diversaj vortoj",
+						"url": " /provpupo",
+						"content": "torso de pupo homgranda, kun pli-malpli natura formo, kiu portas veston faratan."
+					}
+					
+				
+		
+				
+					,
+					
+					"punto": {
+						"id": "punto",
+						"title": "punto",
+						"categories": "materialoj",
+						"url": " /punto",
+						"content": "delikata aĵureca retaĵo, kutime el silko aŭ maldika katuno, kun arte belaj desegnoj (ofte kroĉtrikita)."
+					}
+					
+				
+		
+				
+					,
+					
+					"refaldo": {
+						"id": "refaldo",
+						"title": "refaldo",
+						"categories": "diversaj vortoj",
+						"url": " /refaldo",
+						"content": "faldo ĉe vestrando, kolumo, por montri la flankon internan."
+					}
+					
+				
+		
+				
+					,
+					
+					"remburi": {
+						"id": "remburi",
+						"title": "remburi",
+						"categories": "procedoj",
+						"url": " /remburi",
+						"content": "(simple) plenŝtopi sakon. (Praktike) plenigi poŝforman aŭ sakforman spacon per ia ajn ŝtofo, tiel, ke ĝi molsolidiĝas. Oni povas rembureti flikon dum alflikado por ilin elstarigi; aŭ plenigi pupon per ĉifonajoj, haroj, k.s.; aŭ kusenon, k.t.p."
+					}
+					
+				
+		
+				
+					,
+					
+					"repso": {
+						"id": "repso",
+						"title": "repso",
+						"categories": "materialoj",
+						"url": " /repso",
+						"content": "fortika ŝtofo el lano kaj kotono, iom simila al korduro (vd.)"
+					}
+					
+				
+		
+				
+					,
+					
+					"reto": {
+						"id": "reto",
+						"title": "reto",
+						"categories": "materialoj",
+						"url": " /reto",
+						"content": "malaro; fadeno tiel teksita aŭ trikita, ke ĝi faras seriojn da ringoj aŭ kvadratoj k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"rimeno": {
+						"id": "rimeno",
+						"title": "rimeno",
+						"categories": "galanterio",
+						"url": " /rimeno",
+						"content": "leda rubando, por ligi aŭ fiksi ion."
+					}
+					
+				
+		
+				
+					,
+					
+					"ripari": {
+						"id": "ripari",
+						"title": "ripari",
+						"categories": "procedoj",
+						"url": " /ripari",
+						"content": "bonigi difekton, ŝiron, tranĉon, rompon, kaŭzitan al ia vesto, k.t.p.; refortikigi eluzitan parton."
+					}
+					
+				
+		
+				
+					,
+					
+					"rubando": {
+						"id": "rubando",
+						"title": "rubando",
+						"categories": "galanterio",
+						"url": " /rubando",
+						"content": "strio el silko aŭ kotono, taŭge kolora, per kiu oni ligas, ornamas, bantas, k.t.p."
+					}
+					
+				
+		
+				
+					,
+					
+					"sarseno": {
+						"id": "sarseno",
+						"title": "sarseno",
+						"categories": "materialoj",
+						"url": " /sarseno",
+						"content": "(sarseneto) dolĉe mola dika silko nun plej ofte uzata kiel subŝtofo."
+					}
+					
+				
+		
+				
+					,
+					
+					"ser-c4-9do": {
+						"id": "ser-c4-9do",
+						"title": "serĝo",
+						"categories": "materialoj",
+						"url": " /ser%C4%9Do",
+						"content": "speco de diketa fortika kepra ŝtofo, portata precipe por peza uzado."
+					}
+					
+				
+		
+				
+					,
+					
+					"silesio": {
+						"id": "silesio",
+						"title": "silesio",
+						"categories": "materialoj",
+						"url": " /silesio",
+						"content": "ĉiu el la diversaj maldikaj ŝtofoj netravideblaj, uzataj por fenestro-kovraĵoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"silko": {
+						"id": "silko",
+						"title": "silko",
+						"categories": "materialoj",
+						"url": " /silko",
+						"content": "delikata ŝtofo farita el la fadeno brila produktata de iuj raŭpoj (kaj iuj araneoj)."
+					}
+					
+				
+		
+				
+					,
+					
+					"stamino": {
+						"id": "stamino",
+						"title": "stamino",
+						"categories": "materialoj",
+						"url": " /stamino",
+						"content": "vualeca ŝtofo el kotono, nedense teksita, kun maloj iomete pli larĝaj ol tiuj de muslino."
+					}
+					
+				
+		
+				
+					,
+					
+					"stebero": {
+						"id": "stebero",
+						"title": "stebero",
+						"categories": "laborspecoj",
+						"url": " /stebero",
+						"content": "unu kompleta trapiko kaj tratiro per stebpinto."
+					}
+					
+				
+		
+				
+					,
+					
+					"stebi": {
+						"id": "stebi",
+						"title": "stebi",
+						"categories": "laborspecoj",
+						"url": " /stebi",
+						"content": "kudri per maŝino (stebilo, stebmaŝino)."
+					}
+					
+				
+		
+				
+					,
+					
+					"stebma-c5-9dino": {
+						"id": "stebma-c5-9dino",
+						"title": "stebmaŝino",
+						"categories": "iloj",
+						"url": " /stebma%C5%9Dino",
+						"content": "maŝino kiu kunfiksas pecojn da drapo, aŭ alia ŝtofo kvazaŭ kudrante. Plej ofte ĝi kunplektas du fadenojn, el kiuj unu estas sur bobeno en navedo, la alia tredita tra stebpinto (simila al kudrilo). Kutime oni funkciigas stebmaŝinon per pedalo, sed ekzistas ankaŭ multaj elektraj, kaj aliaj mane funkciigataj (ankaŭ Stebilo)."
+					}
+					
+				
+		
+				
+					,
+					
+					"sub-c5-9dtofo": {
+						"id": "sub-c5-9dtofo",
+						"title": "subŝtofo",
+						"categories": "diversaj vortoj",
+						"url": " /sub%C5%9Dtofo",
+						"content": "ĉia Stalo uzata interne de vesto aŭ por plia diko, aŭ por plia komforta; kutime malpli dika, ofte silka."
+					}
+					
+				
+		
+				
+					,
+					
+					"surprovi": {
+						"id": "surprovi",
+						"title": "surprovi",
+						"categories": "procedoj",
+						"url": " /surprovi",
+						"content": "surmeti faratan veston sur la portonton por eltrovi ĉu modifoj necesas por perfekta fasono."
+					}
+					
+				
+		
+				
+					,
+					
+					"surtriki": {
+						"id": "surtriki",
+						"title": "surtriki",
+						"categories": "procedoj",
+						"url": " /surtriki",
+						"content": "(aŭ surmeti) triki la unuan vicon da maŝoj. Surmeti"
+					}
+					
+				
+		
+				
+					,
+					
+					"tafto": {
+						"id": "tafto",
+						"title": "tafto",
+						"categories": "materialoj",
+						"url": " /tafto",
+						"content": "speco de maldika silka ŝtofo, teksita tre glacea."
+					}
+					
+				
+		
+				
+					,
+					
+					"tajli": {
+						"id": "tajli",
+						"title": "tajli",
+						"categories": "procedoj",
+						"url": " /tajli",
+						"content": "A. eltondi ŝtofon en la formoj necesaj por vesto. B. ĉe la brodado: ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas"
+					}
+					
+				
+		
+				
+					,
+					
+					"tajlori": {
+						"id": "tajlori",
+						"title": "tajlori",
+						"categories": "laborspecoj",
+						"url": " /tajlori",
+						"content": "fari vestojn laŭ la fasono kutima ĉe la viroj. Ĉi tiu vorto ampleksas ĉion rilatan al tiu metio: tajli, fasoni, kudri, gladi, k.c."
+					}
+					
+				
+		
+				
+					,
+					
+					"teksa-c4-b5o": {
+						"id": "teksa-c4-b5o",
+						"title": "teksaĵo",
+						"categories": "materialoj",
+						"url": " /teksa%C4%B5o",
+						"content": "ĉia produktaĵo de teksmaŝino."
+					}
+					
+				
+		
+				
+					,
+					
+					"tekse-c4-9do": {
+						"id": "tekse-c4-9do",
+						"title": "tekseĝo",
+						"categories": "diversaj vortoj",
+						"url": " /tekse%C4%9Do",
+						"content": "la natura sentranĉa longa ego de la teksita ŝtofo, kun ĉiuj returnoj de la veno. Ofte kun pluraj varperoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"teria-veluro": {
+						"id": "teria-veluro",
+						"title": "teria veluro",
+						"categories": "materialoj",
+						"url": " /teria_veluro",
+						"content": "veluro, kies haretoj restas netranĉitaj kaj iom pli longaj."
+					}
+					
+				
+		
+				
+					,
+					
+					"tiko": {
+						"id": "tiko",
+						"title": "tiko",
+						"categories": "materialoj",
+						"url": " /tiko",
+						"content": "speco de fortika tolteksaĵo kun duopaj fadenoj. Ofte uzata por kovri matracon."
+					}
+					
+				
+		
+				
+					,
+					
+					"tolo": {
+						"id": "tolo",
+						"title": "tolo",
+						"categories": "materialoj",
+						"url": " /tolo",
+						"content": "teksita ŝtofo el kanabo aŭ lino, uzata por bonaj vestoj kaj litaj tukoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"tondilo": {
+						"id": "tondilo",
+						"title": "tondilo",
+						"categories": "iloj",
+						"url": " /tondilo",
+						"content": "instrumento per kiu oni tajlas la ŝtofon, konsistanta el du kunpivotantaj klingoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"transpresa-c4-b5o": {
+						"id": "transpresa-c4-b5o",
+						"title": "transpresaĵo",
+						"categories": "iloj",
+						"url": " /transpresa%C4%B5o",
+						"content": "(-ilo) maldika paperfolio sur kiu desegnaĵo estas presita per vaksa inko. Oni almetas nin sur ornamotan veston k.s. kaj gladas la malantaŭon. Tio impresas la vaksan desegnon sur Ia veston, kaj laŭ tio oni brodas."
+					}
+					
+				
+		
+				
+					,
+					
+					"tredi": {
+						"id": "tredi",
+						"title": "tredi",
+						"categories": "procedoj",
+						"url": " /tredi",
+						"content": "enmeti fadenon, ŝnuron k.s. tra truo aŭ truoj, orlo, aŭ ringo k.t.p. Oni tredas fadenon en kudrilon; oni tredas silkan rubandon tra truvico ĉirkaŭ bluz-kolumo; oni tredas stangon tra kurtenaj ringoj, laĉon tra truoj en la ŝuo, k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"tredilo": {
+						"id": "tredilo",
+						"title": "tredilo",
+						"categories": "iloj",
+						"url": " /tredilo",
+						"content": "instrumento per kiu oni tiras fadenon tra truo (ekz. en kudrilo, aŭ en stebpinto) aŭ tra la tubo de orlo (ekz. ‘ĉirkaŭ la zono de vira piĵama pantalono, aŭ do virina kalsono)."
+					}
+					
+				
+		
+				
+					,
+					
+					"triki": {
+						"id": "triki",
+						"title": "triki",
+						"categories": "laborspecoj",
+						"url": " /triki",
+						"content": "fabriki trikoton (vd.) farante seriojn da maŝoj per du aŭ kvar longaj maldikaj stangoj, la trikiloj. La du bazaj maŝoj estas rekta kaj inversa. Oni faras senfine diversajn desegnojn per alternado kaj diversaj kombinoj de tiuj du, ankaŭ per aliaj rimedoj; ekz. kuntriko (k) de du (aŭ pli) maŝoj, aldoni maŝojn meze en linio, k.t.p.La dikon de la trikiloj oni mezuras per kalibrilo."
+					}
+					
+				
+		
+				
+					,
+					
+					"triki-inverse": {
+						"id": "triki-inverse",
+						"title": "triki inverse",
+						"categories": "procedoj",
+						"url": " /triki_inverse",
+						"content": "Angla metodo: fari maŝon, komence enpuŝante trikilon tra la jama maŝo en la direkto kontraŭ tiu de la trikilo tenanta la jaman maŝon."
+					}
+					
+				
+		
+				
+					,
+					
+					"triki-rekte": {
+						"id": "triki-rekte",
+						"title": "triki rekte",
+						"categories": "procedoj",
+						"url": " /triki_rekte",
+						"content": "Angla metodo: fari maŝon, komence enpuŝante trikilon tra jama maŝo en direkto sama kiel tiu de la trikilo sur kiu la jama maŝo trovigas."
+					}
+					
+				
+		
+				
+					,
+					
+					"trikilo-20copy": {
+						"id": "trikilo-20copy",
+						"title": "trikilo",
+						"categories": "iloj",
+						"url": " /trikilo%20copy",
+						"content": "La trikilo estas eta stango kun difinita longo, kiu estas uzata por trikado.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nIn sit amet quam molestie metus fermentum condimentum lacinia et purus. Mauris blandit sem et porta tincidunt. Nam egestas feugiat lorem, quis maximus ex placerat.\n\nVestibulum porttitor blandit augue, vitae iaculis odio tincidunt in. Suspendisse sed pretium purus. Etiam quis turpis imperdiet, vulputate ante sed, dapibus erat. Integer enim mi, suscipit in risus sit amet, congue porttitor lacus. In sem mauris, bibendum non felis eu, rutrum consectetur sapien. Aenean ac elementum elit. Aenean ut est non est dapibus gravida sed vitae magna. Aliquam congue, quam a imperdiet dictum, purus nulla dignissim tortor, sed mollis leo urna vitae elit. Suspendisse tempor, tellus sit amet ultricies hendrerit, ligula felis efficitur risus, ac maximus odio nunc eget eros. Aenean lorem orci, ornare nec dolor sed, faucibus eleifend enim. Duis faucibus magna non accumsan tristique. Praesent egestas massa ut lectus suscipit suscipit. Nam malesuada efficitur mollis. Nullam felis erat, aliquet eu ante sed, laoreet iaculis diam. Morbi ultrices nisl eu lectus venenatis laoreet.\n\nVestibulum eget pulvinar orci. Donec in diam finibus, ultricies augue ac, porta dolor. Praesent porta lectus id auctor ultricies. Donec vitae magna nec leo feugiat ullamcorper eget sit amet ex. Phasellus lectus mi, rutrum sit amet ante et, tincidunt malesuada elit. Nunc id elit congue, imperdiet ligula nec, interdum enim. Quisque non placerat augue. In vitae sagittis sem, nec tincidunt nunc. Vivamus ut velit ac tellus luctus porta a nec lorem. Nam ultrices, lectus at facilisis pellentesque, odio massa consectetur ex, id dapibus sem lorem scelerisque nisi. Cras euismod quam velit, id hendrerit dolor tristique et. Phasellus ex mauris, ullamcorper eget pellentesque ornare, volutpat at nisl. Fusce mollis fermentum dui.\nFusce sed lorem diam. Morbi tempor risus lectus, nec volutpat lorem tempor eu. Morbi gravida efficitur erat eu blandit. Aliquam tempus mi magna, at porta lorem pretium ut. Ut finibus pulvinar pharetra. Aliquam erat volutpat. Aenean gravida lacus libero. Sed vel justo enim.\n\nNunc enim nibh, tempor maximus lobortis quis, condimentum ac ex. Cras porta, neque ut rhoncus fringilla, tortor orci eleifend lorem, ac tincidunt orci nisl mattis lectus. Vivamus interdum tellus lacinia mauris placerat laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam nec nisl egestas, ornare nulla ac, sagittis lectus. Nam quis gravida ipsum. In vitae consectetur neque. Praesent nisi tellus, aliquam sed ullamcorper id, aliquam vel orci. Vivamus lobortis urna lacinia ultricies dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque id sapien neque. Pellentesque sed facilisis arcu. Proin pellentesque metus ut quam sodales maximus. Mauris congue, arcu a sollicitudin efficitur, tellus dolor rutrum sem, vel condimentum lorem elit ac elit.\nCras non nunc at dui consequat condimentum eget vel urna. Ut turpis tellus, finibus et mi eu, finibus sagittis elit. Maecenas ut consectetur tellus. Pellentesque elementum nibh augue, eget molestie sem volutpat ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris rutrum tellus ac velit tempor, ac ultricies dui facilisis. Donec vitae tellus non ipsum hendrerit pulvinar vitae pretium sem.\nDonec sagittis neque metus, quis vehicula ante placerat ac. Proin quis urna in ante consequat tristique. Maecenas vehicula lacinia varius. Vestibulum libero nisi, vulputate in accumsan sit amet, cursus non lectus. Maecenas accumsan arcu quis sem volutpat suscipit. Proin lobortis tortor nec pharetra volutpat. Curabitur luctus mauris ante, in blandit risus facilisis ut. Proin rutrum accumsan ex non ultrices.\nNulla pharetra massa et quam interdum sagittis. Proin dictum libero et faucibus vehicula. Pellentesque blandit libero non magna posuere, at bibendum nibh faucibus. Sed at efficitur turpis. Praesent mattis congue bibendum. Aenean vitae velit quam. Praesent eu tristique mauris, ut congue libero. Duis velit purus, pharetra in aliquet non, bibendum id velit.\n\nMauris condimentum ante eleifend vehicula luctus. Phasellus rutrum molestie massa. Nulla eros lacus, posuere volutpat malesuada eget, auctor in ante. Aliquam id laoreet elit. Donec ullamcorper ultrices ante non dictum. Donec eget magna id lorem vulputate posuere. Fusce convallis nisl sit amet feugiat volutpat.\nUt maximus fermentum tempor. Phasellus pretium placerat dolor ut cursus. Donec neque dui, convallis a porttitor at, rhoncus et lectus. Donec orci libero, placerat sed nisl vitae, vestibulum porta enim. Phasellus et nunc sit amet enim egestas maximus. Nunc sit amet risus id ex laoreet sagittis nec nec turpis. Aliquam a venenatis risus. Ut dapibus felis vitae viverra accumsan. Quisque laoreet ipsum eu nulla vehicula sodales. Sed placerat pellentesque neque, at ultrices augue semper ornare. Donec bibendum dui nisl, vitae tristique massa ultrices nec. Fusce vitae molestie lectus. Curabitur gravida et lorem at dapibus.\n\nCurabitur dignissim placerat purus, et ultricies ipsum fermentum sed. Vivamus sagittis, enim vel luctus euismod, enim nulla tincidunt nisi, vitae aliquam turpis metus rutrum ante. Curabitur ut tristique ligula, et efficitur nulla. Duis bibendum nulla mauris, eget viverra nunc finibus fermentum. Mauris imperdiet turpis in ultricies cursus. Mauris congue augue urna, id dictum libero mattis vel. Sed varius ac risus non luctus. Curabitur lacinia diam a nunc egestas efficitur. Duis mollis congue enim, hendrerit eleifend arcu rhoncus in. Duis id mattis dolor. Praesent nec ultrices mi.\n\nPhasellus dapibus congue ipsum, in dictum elit lobortis et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non vestibulum arcu. Quisque semper nisi vel dolor tincidunt, at pretium orci tristique. Pellentesque venenatis mattis urna, ut dignissim ante consectetur aliquam. Sed non enim euismod, semper elit interdum, accumsan arcu. Nullam eros tortor, semper vitae tincidunt non, faucibus vel felis. Sed accumsan, odio vitae gravida malesuada, tellus nisi venenatis dui, ac vehicula libero leo sed tellus. Etiam non vehicula tortor.\n\nAliquam erat volutpat. Praesent id suscipit nisl, a pharetra dui. Duis eu elementum orci, nec egestas erat. Sed in interdum ipsum, eu ornare eros. Proin ornare bibendum ex, dictum suscipit sem tristique sit amet. Nullam ipsum sem, bibendum sed mauris et, condimentum placerat libero. Curabitur ligula felis, tempus a commodo nec, accumsan a risus.\n\nNunc at nisl ut ante molestie convallis sit amet in felis. Donec nisl erat, ultrices quis lacus sit amet, faucibus consequat tortor. Nullam neque quam, luctus in erat ut, ullamcorper condimentum nibh. Praesent ac cursus leo, et rutrum lorem. Mauris a ante quis ante maximus blandit. Vestibulum varius lectus erat, ut lobortis nunc porta non. Sed sed ultrices sem. Suspendisse nec suscipit nisl. Nulla ac viverra odio, eu bibendum nisi. Vestibulum non tortor lorem. Nam ac fringilla quam, id iaculis leo. Donec tincidunt et erat et imperdiet. Sed vehicula, velit sed semper dictum, diam tellus fermentum erat, quis efficitur ante orci a nisi. Vivamus egestas, diam ac pharetra pellentesque, orci augue ullamcorper augue, non dictum risus lectus in lacus.\n\nPellentesque non urna luctus mauris rhoncus malesuada. Vivamus non lectus sed mauris convallis viverra sit amet eu mauris. Cras vel orci odio. Praesent lobortis sem et tempus mollis. Morbi nec sem fringilla, vehicula ipsum sed, blandit risus. Donec vel consectetur arcu. Duis consequat volutpat ligula eget iaculis. Nulla tincidunt, magna et imperdiet vehicula, dui eros venenatis nulla, in luctus eros lectus id massa. Aliquam sed semper arcu, nec porta mauris.\n\nNunc quam nisi, viverra vitae molestie sit amet, gravida convallis mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec mi orci, ornare non pulvinar id, mattis sit amet erat. Sed mattis lectus id placerat semper. In erat leo, varius eu dolor eu, maximus vehicula ipsum. Ut sit amet volutpat neque. Integer ornare quam lectus, non accumsan enim luctus eu. Aenean a pretium leo. Ut tristique, lorem nec pretium porttitor, neque augue blandit urna, at iaculis risus est ut enim. Donec dictum fermentum turpis at aliquet. Maecenas sit amet vehicula tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi dui purus, pharetra id nisi ut, vestibulum molestie orci. Curabitur sed dui euismod, sodales arcu at, porta orci. Proin sagittis ipsum nec orci consectetur mollis. Fusce aliquam tortor sit amet commodo sodales.\n\nInterdum et malesuada fames ac ante ipsum primis in faucibus. Praesent purus felis, tincidunt quis accumsan non, maximus ac felis. Donec et felis ornare, facilisis mauris nec, molestie mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec non orci vitae metus viverra luctus. Duis volutpat turpis tincidunt ante ultricies, et vulputate velit ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus sed sagittis urna, vitae pellentesque lectus. Nam dignissim, urna id rutrum iaculis, lectus nunc pretium sem, sit amet faucibus enim quam tempus orci. Etiam mauris orci, maximus convallis nibh eget, imperdiet bibendum dui. Nam ornare, leo at congue congue, arcu lacus dapibus odio, porta tempor nisl urna imperdiet metus. Mauris non bibendum nibh. Sed ac elit vel risus accumsan efficitur pretium ut arcu.\n\nDonec vel orci ut turpis bibendum condimentum. Curabitur in purus augue. Nullam nec feugiat ante. Morbi tincidunt sed lorem nec feugiat. Donec porttitor ipsum in lectus tempor, id iaculis purus interdum. Maecenas vitae malesuada nibh, vel rhoncus lacus. Fusce pharetra odio at urna fermentum ultricies. Sed luctus, tortor ac interdum iaculis, sapien dui molestie enim, at interdum magna turpis in dui. Suspendisse tincidunt velit eu metus mollis, non ultricies augue bibendum. Phasellus laoreet velit eget augue tempor, vel laoreet est consectetur. Mauris eget venenatis lectus. Ut facilisis, urna nec porttitor placerat, ex eros scelerisque nulla, et sagittis turpis felis non nulla.\n\nUt eget congue eros. Praesent nec egestas magna. Duis rutrum lorem fermentum, iaculis quam vel, gravida urna. Donec euismod magna quam. Donec eget nunc sed quam suscipit congue. Suspendisse potenti. Aenean viverra, felis id rutrum pellentesque, massa metus sagittis diam, in commodo nisl nunc finibus urna. Maecenas hendrerit dolor id ligula blandit, ac venenatis justo viverra. Suspendisse potenti. Nunc commodo bibendum sapien. Sed at sollicitudin lectus. Morbi non nisl condimentum dui gravida congue. Fusce urna mi, luctus a arcu et, tempor facilisis orci. Duis lobortis turpis a massa ultricies ornare. Mauris venenatis iaculis tellus a aliquet.\n\nDuis maximus dui eget sodales elementum. Aliquam elementum mi libero, vitae rutrum lectus pharetra ut. Integer pretium non ante mattis iaculis. Nullam a fermentum dolor, eget rutrum purus. Sed rutrum interdum lorem, in pharetra eros. Nunc finibus elit nec libero ultrices, eu suscipit velit blandit. Fusce elit lacus, aliquam et urna vitae, bibendum tristique dui. Mauris at imperdiet eros, at facilisis felis. Curabitur at molestie justo. Cras ut varius purus. Morbi odio dui, pellentesque non lobortis sit amet, commodo at sapien.\n\nMauris in elementum sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam molestie ante magna, in tempus erat venenatis vel. Phasellus auctor magna ante, id varius nisi varius et. Nullam sodales, orci ut auctor volutpat, libero nisi accumsan lorem, in vestibulum odio risus ut ex. Pellentesque eleifend interdum nunc, at varius risus lobortis eget. Donec facilisis est sit amet ex aliquam, eu rutrum est euismod.\nInterdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vel ultricies lectus. In vulputate turpis tristique, placerat eros at, fringilla nisl. Maecenas quis libero est. Morbi tempor justo eros. Duis aliquam porta sapien nec volutpat. Aliquam a nunc a quam auctor condimentum euismod non mi. Maecenas venenatis purus quis elit feugiat, et imperdiet velit porta. Integer eu erat et purus rhoncus tristique. Mauris vel tortor quis dui sagittis suscipit nec aliquet lacus. Phasellus urna velit, bibendum ut dictum nec, rutrum vitae nunc. Duis vel laoreet neque. Phasellus porttitor molestie odio in rhoncus.\nMaecenas gravida neque velit, et ultrices leo rhoncus eu. Morbi dictum, nisl id pharetra iaculis, enim erat tristique orci, sit amet scelerisque mauris libero ut purus. Donec sed mattis purus. Donec bibendum magna varius augue convallis maximus. Fusce orci tellus, bibendum quis enim iaculis, commodo efficitur urna. Cras non ipsum dui. Fusce non molestie ante.\nCurabitur at elit sed elit venenatis posuere sit amet vitae justo. Sed nec commodo massa, quis eleifend metus. Donec suscipit sodales justo et malesuada. Pellentesque arcu mauris, faucibus et semper eu, porttitor vel felis. Quisque eget nibh est. Duis iaculis nulla malesuada risus egestas eleifend. Maecenas vel imperdiet ipsum. Pellentesque rutrum felis nec urna imperdiet dapibus. Donec quis libero ac metus suscipit mattis in sed magna. Curabitur eu mauris iaculis, tempor ipsum eget, rhoncus nibh. Morbi luctus augue in hendrerit dictum.\nPellentesque eget est turpis. Nulla at enim lectus. Mauris commodo tortor a libero iaculis, non dapibus libero faucibus. Aenean nibh lectus, malesuada ut mauris et, suscipit egestas massa. Sed in lectus nibh. Suspendisse potenti. Curabitur ut iaculis sem, non pretium justo. Ut mollis ac velit nec bibendum. Integer condimentum enim metus, sed sagittis ex mattis in. Vestibulum et nunc lacinia, vulputate tellus at, porta elit. Duis facilisis, eros non vulputate congue, diam quam consectetur leo, vitae hendrerit ipsum sem a tellus. Aenean cursus pulvinar leo a fringilla.\nQuisque nunc lacus, ullamcorper vel dignissim nec, ullamcorper nec ipsum. Integer vel sapien finibus tortor accumsan vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget est a quam maximus consectetur eget quis mauris. Sed eget facilisis erat, a condimentum tortor. Vestibulum et tortor est. Praesent commodo, ante non rutrum consequat, augue risus auctor neque, id gravida nibh felis ac eros. Nunc pharetra, libero in elementum varius, tortor turpis ultricies nulla, vitae venenatis neque ex sed nunc. Aliquam leo ligula, ornare et elementum ut, dictum eget nisl. Nullam lobortis felis a sem vulputate elementum. Phasellus auctor fermentum sapien nec mollis. Curabitur vitae enim varius, consequat lacus ac, ullamcorper turpis. In nibh nulla, laoreet eu rhoncus nec, congue id ligula."
+					}
+					
+				
+		
+				
+					,
+					
+					"trikilo": {
+						"id": "trikilo",
+						"title": "trikilo",
+						"categories": "iloj",
+						"url": " /trikilo",
+						"content": "stango de difinita diko, kun pinto (kaj kutime ankaŭ kapeto), per kiu oni trikas."
+					}
+					
+				
+		
+				
+					,
+					
+					"trikoto": {
+						"id": "trikoto",
+						"title": "trikoto",
+						"categories": "materialoj",
+						"url": " /trikoto",
+						"content": "la rezultato de la trikado, precipe ĉe delikataj materialoj. Bedaŭrinda vorto! Oni bezonas pli taŭgan, por eviti konfuzon inter vesto trikota (kiun oni trikos) kaj vesto trikota (el trikoto). Trikotaĵo estas ŝtofo jam trikita!"
+					}
+					
+				
+		
+				
+					,
+					
+					"trikro-c4-89i": {
+						"id": "trikro-c4-89i",
+						"title": "trikroĉi",
+						"categories": "laborspecoj",
+						"url": " /trikro%C4%89i",
+						"content": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki)."
+					}
+					
+				
+		
+				
+					,
+					
+					"trikro-c4-89ilo": {
+						"id": "trikro-c4-89ilo",
+						"title": "trikroĉilo",
+						"categories": "iloj",
+						"url": " /trikro%C4%89ilo",
+						"content": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda."
+					}
+					
+				
+		
+				
+					,
+					
+					"tuko": {
+						"id": "tuko",
+						"title": "tuko",
+						"categories": "galanterio",
+						"url": " /tuko",
+						"content": "peco da ŝtofo kun definitiva celo, uzo : tablotuko, naztuko, vindtuko, viŝtuko, k.c."
+					}
+					
+				
+		
+				
+					,
+					
+					"tulo": {
+						"id": "tulo",
+						"title": "tulo",
+						"categories": "materialoj",
+						"url": " /tulo",
+						"content": "delikata kaj travidebla retaĵo ofte uzata por vualoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"varpero": {
+						"id": "varpero",
+						"title": "varpero",
+						"categories": "diversaj vortoj",
+						"url": " /varpero",
+						"content": "unu tia fadeno."
+					}
+					
+				
+		
+				
+					,
+					
+					"varpo": {
+						"id": "varpo",
+						"title": "varpo",
+						"categories": "diversaj vortoj",
+						"url": " /varpo",
+						"content": "la fadenaro kuŝanta laŭlonge en la teksa.ĵo."
+					}
+					
+				
+		
+				
+					,
+					
+					"veftero": {
+						"id": "veftero",
+						"title": "veftero",
+						"categories": "diversaj vortoj",
+						"url": " /veftero",
+						"content": "unu transversiro de vefto."
+					}
+					
+				
+		
+				
+					,
+					
+					"vefto": {
+						"id": "vefto",
+						"title": "vefto",
+						"categories": "diversaj vortoj",
+						"url": " /vefto",
+						"content": "la fadenaro kuŝanta transverse en teksaĵo."
+					}
+					
+				
+		
+				
+					,
+					
+					"veluro": {
+						"id": "veluro",
+						"title": "veluro",
+						"categories": "materialoj",
+						"url": " /veluro",
+						"content": "silka, kotona, aŭ lana ŝtofo, unuflanke densteksa, aliflanke havanta mallongajn haretojn."
+					}
+					
+				
+		
+				
+					,
+					
+					"vincjeto": {
+						"id": "vincjeto",
+						"title": "vincjeto",
+						"categories": "materialoj",
+						"url": " /vincjeto",
+						"content": "simila ŝtofo pli maldika, uzata. en Anglujo por dormvestoj, k.s."
+					}
+					
+				
+		
+				
+					,
+					
+					"vincjo": {
+						"id": "vincjo",
+						"title": "vincjo",
+						"categories": "materialoj",
+						"url": " /vincjo",
+						"content": "forta ŝtofo el lano kaj kotono, kun lanuga surfaco uzata por iuj eksteraj vestaĵoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"zipligilo": {
+						"id": "zipligilo",
+						"title": "zipligilo",
+						"categories": "ligiloj",
+						"url": " /zipligilo",
+						"content": "rapide fermebla ligilo por longaj aperturoj. Gi konsistas el vico da hoketoj sur ambaŭ flankoj de la aperturo, kiujn oni povas tuj interkroĉigi per (zip-) fermilo. (Oni aŭdas sonon similan al zip ĉe la uzado). Tirligilo"
+					}
+					
+				
+		
+				
+					,
+					
+					"zono": {
+						"id": "zono",
+						"title": "zono",
+						"categories": "ligiloj",
+						"url": " /zono",
+						"content": "rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto)."
+					}
+					
+				
+		
+				
+					,
+					
+					"c4-89eniljo": {
+						"id": "c4-89eniljo",
+						"title": "ĉeniljo",
+						"categories": "galanterio",
+						"url": " /%C4%89eniljo",
+						"content": "velureca ŝnuro uzata ĉe la garnado. (ĉenilo)"
+					}
+					
+				
+		
+				
+					,
+					
+					"c4-89ifono": {
+						"id": "c4-89ifono",
+						"title": "ĉifono",
+						"categories": "materialoj",
+						"url": " /%C4%89ifono",
+						"content": "ĉifita peco da:eluzita ŝtofo."
+					}
+					
+				
+		
+				
+					,
+					
+					"c4-89irka-c5-adturni": {
+						"id": "c4-89irka-c5-adturni",
+						"title": "ĉirkaŭturni",
+						"categories": "diversaj vortoj",
+						"url": " /%C4%89irka%C5%ADturni",
+						"content": "aldoni maŝon jene: metu la lanfadenon sub kaj super la stangon tiel, ke Ia fadeno ĉirkaŭiras Ia stangon."
+					}
+					
+				
+		
+				
+					,
+					
+					"c4-b5aboto": {
+						"id": "c4-b5aboto",
+						"title": "ĵaboto",
+						"categories": "galanterio",
+						"url": " /%C4%B5aboto",
+						"content": "punta aŭ alia ornamaĵo pleniganta dekolton aŭ brustan spacon ĉe bluzo aŭ robo."
+					}
+					
+				
+		
+				
+					,
+					
+					"c5-9dika": {
+						"id": "c5-9dika",
+						"title": "ŝika",
+						"categories": "diversaj vortoj",
+						"url": " /%C5%9Dika",
+						"content": "(pli prefere Ĉika) elstare laŭmoda, beleta, moderne eleganta. [nun oni preferas ‘ŝika’ laŭ vortaro.net]"
+					}
+					
+				
+		
+				
+					,
+					
+					"c5-9dnuro": {
+						"id": "c5-9dnuro",
+						"title": "ŝnuro",
+						"categories": "ligiloj",
+						"url": " /%C5%9Dnuro",
+						"content": "orde kuntorditaj fadenoj aŭ haroj."
+					}
+					
+				
+		
+				
+					,
+					
+					"c5-9dtofo": {
+						"id": "c5-9dtofo",
+						"title": "ŝtofo",
+						"categories": "materialoj",
+						"url": " /%C5%9Dtofo",
+						"content": "ĉia substanco ĉu teksita, trikita aŭ alimaniere produktita, (ĉi tie uzata kun la senco) uzebla por vestoj."
+					}
+					
+				
+		
+				
+					,
+					
+					"c5-9dtopi": {
+						"id": "c5-9dtopi",
+						"title": "ŝtopi",
+						"categories": "procedoj",
+						"url": " /%C5%9Dtopi",
+						"content": "plenigi truon, ekzemple en ŝtrumpo, per entekso de plua lano, aŭ per almeto de fliko."
+					}
+					
+				
+		
+		
+		
+				
+					,
+					
+					"archive": {
+						"id": "archive",
+						"title": "Articles",
+						"categories": "",
+						"url": " /archive/",
+						"content": "News Archive"
+					}
+					
+				
+		
+				
+					,
+					
+					"docs": {
+						"id": "docs",
+						"title": "Documentation",
+						"categories": "",
+						"url": " /docs/",
+						"content": "Documentation\n\nWelcome to the Leksiko pages! Here you can quickly jump to a\nparticular page.\n\n\n    \n    \n    \n    agrafingo\n    stangeto (fadendika) kies ambaŭ ekstremoj estas ringoj por ebligi kudron sur veston. Agrafo trovigas, ekz., sur unu basko kaj agrafingo sur la alia.\n\n    \n    \n    agrafo\n    hoketo kun ringetoj aŭ truoj, kiuj ebligas kudri ĝin al vostajo.\n\n    \n    \n    aldoni\n    ĉe la trikado: oni pligrandigas la nombron da maŝoj en linio, trikante du maŝojn en unu maŝo jam farita.\n\n    \n    \n    alflikado\n    la surkudrado de pecoj el unu ŝtofo sur fonon el alia ŝtofo, por formi desegnon.\n\n    \n    \n    alpako\n    ŝtofo farita el la teksita lano de besto samnoma, sud-amerika speco de ŝafoj, similaj al la lamoj.\n\n    \n    \n    apreturo\n    kemia glazuro ofte uzata por finpretigi ŝtofojn, precipe malaltekostajn tolojn.\n\n    \n    \n    atlaso\n    mola kaj glacea silkeca ŝtofo; ĝenerale nur unu flanko estas glacea.\n\n    \n    \n    bajeto\n    maldelikata dika lanteksaĵo, ofte uzata por kovri i.a. tablojn k.s. Rafinitan specon oni uzas por kovri bilardan tablon.\n\n    \n    \n    banto\n    ligo per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin.\n\n    \n    \n    barto\n    balena ‘dento’ (osteca lameno) uzata por rigidigi vestojn k.s.\n\n    \n    \n    batisteto\n    tre maldiku batisto, kia estas uzata por virinaj poŝtukoj k.s.\n\n    \n    \n    batisto\n    plej delikata lina tolo.\n\n    \n    \n    bobeno\n    cilindroforma objekto (kun du diskaj flankoj kutime) sur kiu oni volvas fadenon.\n\n    \n    \n    bombazeno\n    kepreca ŝtofo el silko kaj lano.\n\n    \n    \n    bordero\n    ia ajn ornama aranĝo de ŝtofrando.\n\n    \n    \n    brodi\n    ornami teksaĵon per fadenoj, variigante la desegnon per diversaj kudreroj (vidu tiun rubrikon) ekz. ĉena, faska, filosta, kuranta, k.s.\n\n    \n    \n    brodtajlado, tajlbrodado\n    ornami teksaĵojn, eltranĉante pecetojn, laŭ desegno jam indikita per randa kudrado (vd.); la randon de la truo tiel lasita fortikigas la randkudro (vd. ankaŭ sub tajli).\n\n    \n    \n    broki\n    enteksi brodsimilan desegnon reliefan.\n\n    \n    \n    broĉo\n    fibulo kun ornama disko aŭ juvelo sur unu stango.\n\n    \n    \n    buko\n    ligilo kutima ĉe rimenoj kaj zonoj, precipe ledaj, konsistanta el metala ringo kun transversa stangeto, sur kiu trovigas nefiksita “langeto” el metalo, kiu malhelpas elgliton de la rimeno.\n\n    \n    \n    bulo (lanbulo)\n    globforma stato de lanfadeno preta por trikado.\n\n    \n    \n    butono\n    tubero aŭ disko, kudrata sur vesto kaj puŝata tra truo por kunteni, ekz la jakan fronton.\n\n    \n    \n    cirkaŭturni\n    ĉe la trikado: oni aldouas maŝon jene: volvu la lanfadenon unufojon ĉirkaŭ la trikilon, tirante ĝin sube unue kaj transmetante ĝin supere.\n\n    \n    \n    damasko\n    speco de tolo kun enteksita samkolora silka desegno.\n\n    \n    \n    detriki\n    forigi unuope Ia lastajn trikmalojn tiel, ke ili restos firme trikitaj.\n\n    \n    \n    drapiri\n    orname kovri per gracie pendanta drapo, silko k.s.; aranĝi belaj la faldojn de pendanta kurteno, k.s.\n\n    \n    \n    drapo\n    lana ŝtofo, uzata por fari vestojn.\n\n    \n    \n    dreliko\n    speco de fortika kaj nedelikata tolo uzata por sakoj, laborvestoj, tornistroj k.s.\n\n    \n    \n    dufaldo\n    (Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63).\n\n    \n    \n    dutaldo\n    (Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63).\n\n    \n    \n    elasta rubando -ŝnuro\n    ĉio tia, kiu estas elasta, etendebla, streĉebla.\n\n    \n    \n    eskalopoj\n    serio da duonrondoj, kiuj ofte anstataŭas orlon aŭ alian randan ornamon.\n\n    \n    \n    eĝrubando\n    rubando pli aŭ malpli dika, larĝa, fortika, uzata plej ofte por fortikigi kaj protekti la eĝon de ŝtofo, de matetoj, de tapiŝoj.\n\n    \n    \n    eĝtubo\n    tubforma rubando, enhavanta ŝnureton, iam uzata por ornami la eĝojn de koltruo, roba poŝo, k.s. (Ankaŭ Tubrubando).\n\n    \n    \n    fadeneltirado\n    ornami teksaĵon per la eltirado de apartaj aŭ tipaj fadenoj de vefto aŭ/kaj varpo.\n\n    \n    \n    fadeno\n    silka aŭ kotona; longa maldika kuntordaĵo de multaj harecaj fibroj taŭgaj por la kudro, stebo, brodo, k.t.p.\n\n    \n    \n    falbalo\n    krispa larĝa rubando alkudrebla sur jupon k.s. por ornamo.\n\n    \n    \n    faldo\n    ĝenerala vorto por ĉiuj procedoj aŭ drapiroj , kiuj necesigas duobligon de la ŝtofo. Vidu: Platfaldo, Dutaldo, Pintfaldo, Refaldo, Fiksfaldo.\n\n    \n    \n    falsbanto\n    tia ligo sed kudrita por ne malligigi, kaj uzata por kaŝi agrafon, k.s.\n\n    \n    \n    faltarigi\n    fari multajn tiajn faltojn, kiel ekz. ĉe kamparaua kitelo en Anglujo; kutime oni brodornainas tiujn faltarojn.\n\n    \n    \n    faltigi\n    kuntiri mallarĝan faldeton en ŝtofo, kaj tion fiksi per kudro aŭ glade.\n\n    \n    \n    falto\n    tre malgranda faldo kudrita aŭ premita tiel ke pli restos videbla; neregula faldeto lasita de malbona glado. (Pintfaltoj= plej malgrandaj faltetoj ornamaj).\n\n    \n    \n    fasko\n    (Lanfasko) ringforma stato de lanfadeno, antaŭ ol buligo por trikado (ankaŭ Lanringo).\n\n    \n    \n    fasoni\n    tiel tajli kaj kunkudri veston, ke ĝi havas belan formon kaj komforte, taŭge, sidas al la figuro de la portanto. Fasonita vesto kontrasta kun Konfekcio.\n\n    \n    \n    felo\n    la haŭto de besto, kun aŭ sen la haroj, tanota kaj uzota kiel materialo por vesto.\n\n    \n    \n    felpo\n    ŝtofo simila al veluro, sed havanta harojn pli longajn, plate kuŝantajn.\n\n    \n    \n    felto\n    ŝtofo farita el kungluitaj kaj forte kunpremitaj haroj, fadenoj, laneroj, k.s. Ofte uzata por sorbi skuvibrojn, dampi bruon (ĝi bone malhelpas ke bruo penetru).\n\n    \n    \n    fibulo\n    sendanĝera pinglo; ĝi konsistas el longa pinglo, kies pinto estas turnita al la kapo kaj kovrata per ŝirmilo tie fiksita.\n\n    \n    \n    fiksfaldo\n    (Fiksita Faldo) faldu uzata por mallongigi veston k.c. kudrita aŭ alie firmigita.\n\n    \n    \n    fingringo\n    protekta kovrajo por la fingropinto.\n\n    \n    \n    fintuŝi\n    netigi la lastajn pecctojn de brodaĵo, de farata vesto, orlo, kunkudro, k.t.p. per delikataj kudreroj.\n\n    \n    \n    flaneleto\n    simila ŝtofo pli maldika.\n\n    \n    \n    flanelo\n    mola teksaĵo el lano, varmiga, delikata kaj havanta sorbajn kvalitojn; ofte uzata por subvestoj k.s. dum malvarma sezono.\n\n    \n    \n    fliki\n    surkudri aŭ surkudri al truo aŭ difektita parto de vesto aŭ tuko pecon da ŝtofo (kutime precize similan al la ŝtofo de la vesto aŭ tuko mem) por ĝin ripari.\n\n    \n    \n    framo\n    kadro sur kiu oni streĉas surbrodatan ŝtofon.\n\n    \n    \n    franĝo\n    vico da proksime pendantaj kvastetoj, fadenoj, kutime el silko, per kiu oni borderas aŭ alie ornamas veston, kusenon, meblon.\n\n    \n    \n    fusteno\n    fortika ŝtofo, ofte kepra, farita el kotono kaj lino, kapabla elporti multan uzadon (similas al kotona veltiro).\n\n    \n    \n    galanterio\n    ĉia akcesora ornamaĵo aŭ utilaĵo rilata al vestaĵoj aŭ tualeto.\n\n    \n    \n    galono\n    ŝnuro aŭ rubando iom peza, ofte el oraj aŭ arĝentaj fadenoj, uzata por ornami vestojn kaj uniformojn; ankaŭ por indiki rangon, oficon (pli peza ol ĉeniljo).\n\n    \n    \n    garni\n    ornami ion per aldona.do de garnituro, bantoj, ĉeniljo, kvastoj, k.s. akcesoraĵoj.\n\n    \n    \n    garnituro\n    garnaĵo; ĉia objekto ne nepre necesa, sed almetita por plibeligi.\n\n    \n    \n    grefti\n    A.tiel kuntriki du egojn, ke la rezulti kunigo ne estas videbla.B.tiel enteksi la egojn de la fliko, ke la nova peco ne estas distingebla for de la originala ŝtofo.\n\n    \n    \n    haroj\n    ĉio fadensimila, ĉu animala aŭ ne, kiun oni povos uzi por la remburado k.s.; ĉevalajn kaj aliajn longajn oni foje uzas tekse.\n\n    \n    \n    indieno\n    maldika kotona kolordesegna teksaĵo kutime iom glacea.\n\n    \n    \n    inversigi\n    turni la internon de ŝtofo eksteren pro pli bona aspekto\n\n    \n    \n    junto\n    vorto uzebla anstataŭ Kunkudro (vd.)\n\n    \n    \n    kalibrilo\n    mezurilo por la diko de trikiloj k.t.p.\n\n    \n    \n    kalikoteto\n    (=perkalo) pli delikata kaj maldika ol kalikoto.\n\n    \n    \n    kalikoto\n    ŝtofo simila al tolo, iom dense teksita el kotono.\n\n    \n    \n    kamloto\n    dika kaj maldelikata ŝtofo, kutime farita el la haroj de la Angora kapro, miksita kun silko, kotono aŭ lano.\n\n    \n    \n    kanvaso\n    tolo el lino aŭ kanabo; se tre maldense teksita per dikaj fadenoj oni faras sur ĝi brodadon; dense teksitan oni uzas por veloj, tendoj, k.s.\n\n    \n    \n    kapoko\n    kotono de aparta speco, havanta mallongajn barsimilajn fadenojn; multe uzata anstataŭ haroj por remburi pli bonkvalitajn kusenojn kaj matracojn.\n\n    \n    \n    katuno\n    maldika, relative malaltekosta, teksaĵo el kotono; ĝenerale la desegno sur ĝi estas surpresata unuflanke kaj ne enteksita.\n\n    \n    \n    kaŝmira drapo\n    (Kaŝmirajo) mola lanteksaĵo el la lano de la Kalmiraj kaproj.\n\n    \n    \n    kepro\n    sia ŝtofo teksita tiel ke la vefto transiras unu varpan fadenon kaj subiras du aŭ pli, por fari oblikvajn striojn sur la surfaco de la Ŝtofo. Kepri, Kepra. (Kepro estas vorto genra).\n\n    \n    \n    kolonoj\n    strioj faritaj per maŝoj en la sama loko en ĉiu linio.\n\n    \n    \n    konfekcio\n    vestoj jam faritaj, kaj aĉetataj rekte el la vendejo senmezure; vestoj ne faritaj laŭ speciala mezuro de portonto. Kontrastas kun Fasonitaj Vestoj.\n\n    \n    \n    korduro\n    (ankaŭ Kordurojo) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn.\n\n    \n    \n    kordurojo\n    (ankaŭ Korduro) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn.\n\n    \n    \n    kotono\n    la kruda lanugeca substanco el kiu oni teksas katunon kaj similajn ŝtofojn.\n\n    \n    \n    krepo\n    krispa ŝtofo kutime gazeca, el silko aŭ lano. La vorto estas aplikebla ankaŭ al aliaj substancoj, ekz. kaŭĉuko, papero. (Komp. Krispa= havanta pli-malpli regulajn kaj ordajn ondojn; Krepa=havanta multajn malpli grandajn faltojn kaj ondetojn senordajn).\n\n    \n    \n    kretono\n    fortika senglazura ŝtofo (varpo el kanabo, vefto el lino) kiun oni ofte surpresas per desegno.\n\n    \n    \n    krispo\n    ondetara ŝtofo, iam uzata kiel kolumo.\n\n    \n    \n    kroĉeti\n    Difino\nLa vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per hoko, kaj konektas la ligojn formi kompletan teksaĵon.\n\n    \n    \n    kroĉeti\n    (Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena.\n\n    \n    \n    kroĉetilo\n    \n\n    \n    \n    kroĉetilo\n    maldika, malgranda stango kun hoketo, uzata ĉe la kroĉetado.\n\n    \n    \n    kruckolora\n    silkajo teksita el malsamkoloraj vefto kaj varpo; laŭ vidpunkto kaj lumo unu koloro aŭ la alia, aŭ ambaŭ, vidigis.\n\n    \n    \n    kudrero\n    unu kompleta tratiro per kudrilo kaj fadeno.\n\n    \n    \n    kudri\n    kunfiksi per fadeno du pecojn da ŝtofo aŭ du apartojn de unu peco; aŭ ornami per fadeno. Oni tratiras la fadenojn per maldika stangeto, la kudrilo.\n\n    \n    \n    kudrilo\n    malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj.\n\n    \n    \n    kunkudro\n    kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko.\n\n    \n    \n    kuntriki\n    preni du malojn (aŭ pli) sur la trikilon kune por ke en postaj vicoj estu tiesloke nur unu maŝo (mallonge kt.)\n\n    \n    \n    kvasto\n    fadenoj pendantaj faske aŭ kvazaŭ peniko, kutime silkaj, uzataj kiel dekoraciaĵo (ankaŭ Kvato, Peniko).\n\n    \n    \n    lano\n    kreskaĵo harsimila sur la ŝafoj, sur iuj kunikloj, iuj kaproj, kaj la alpakoj.\n\n    \n    \n    laĉmetalo\n    unu el la metalaj pecetoj, fiksitaj al ĉiu ekstremo de laĉo por faciligi tredadon.\n\n    \n    \n    laĉo\n    beleta ŝnuro uzata por ligfiksi ŝuon, korsaĵon k.s.\n\n    \n    \n    ledo\n    tanita besthaŭto senhara, preparita, por ŝuoj, rimenoj, kaj similaj uzoj.\n\n    \n    \n    ligo\n    kunvolvo de ŝnuro, rubando, k.s. por kunteni du pecojn; nodo, banto.\n\n    \n    \n    maŝtenilo\n    ilo, ofte kun formo de longa fibulo, kiun oni tredas tra la maŝoj de trikado, por provizore teni ilin dum oni faras alian procedon.\n\n    \n    \n    mercero\n    la komercado per kaj pri galanterio kaj kudraj akcesoraĵoj.\n\n    \n    \n    mezurrubando\n    mezurilo kun formo de rubando, markita laŭ la uzataj (naciaj) mezurunuoj.\n\n    \n    \n    modelfolio\n    papera folio kun la formo de la aparta vestoparto kiun oni tajlas. Oni kuŝigas ĝin sur la ŝtofo kaj aŭ tajlas ĉirkaŭe, aŭ markas ĉirkaŭe kaj tajlas laŭ la marko.\n\n    \n    \n    modellibro\n    ĉia eldonaĵo por prezento de novaj (freŝaj) modoj, stiloj, k.t.p. (ankaŭ Modgazeto).\n\n    \n    \n    modo\n    vestmaniero, stilo, siatempe populara.\n\n    \n    \n    mohajro\n    la tekseblaj haroj de la Angoraj kaproj.\n\n    \n    \n    muslino\n    delikate malpeza katuno, uzata por inaj vestoj, kurtenoj, k.t.p.\n\n    \n    \n    nankeno\n    ŝtofo el naturkolora kotono (laŭ nomo de urbo en Ĉinujo).\n\n    \n    \n    navedo\n    bobenujo aŭ -ingo, kiu en stebilo aŭ teksmaŝino portas la fadenon tien-reen (ankaŭ Naveto).\n\n    \n    \n    nilono\n    plej moderna (1947) materialo modpopulara por virinaj ŝtrumpoj (ankaŭ aliaj objektoj, ekz. brosharoj k.s.)\n\n    \n    \n    nodo\n    tubera ligaĵo de ŝnuro k.s. (vd. Ligo).\n\n    \n    \n    numerilo\n    ĉiu el la diversaj netoj uzataj por registri aŭ “memori. ‘ la nombron da triklinioj aŭ trikeroj jam faritaj k.s.\n\n    \n    \n    orli\n    fari falditan randon; enfaldi kaj kunkudri la egojn de poŝtuko, jupo, aŭ de ĉia ajn ŝtofo.\n\n    \n    \n    orlo\n    rando de ŝtofo refaldita kaj kudrita tiel, ke kruda ego estas protektata kaj nevidebla.\n\n    \n    \n    pasamento\n    ŝnuro aŭ rubando simila al Galono (supre) sed pli delikata, ofte el silko.\n\n    \n    \n    paŭsi\n    trakopii desegnon; la desegno trovigas sur papero, sub kiu kuŝas la robo aŭ brodfono; inter la desegno kaj la ŝtofo kuŝas paperfolio inke aŭ vakse kolorigita. Kiam oni krajonas laŭ la desegno la intera folio lasas la desegnon sur la ŝtofo. Oni brodas laŭ tiu paŭsita desegno.\n\n    \n    \n    pelto\n    preparita felo, ĝenerale belhara, uzebla por fari aŭ ornami vestojn.\n\n    \n    \n    perkalo\n    delikata sed dense teksita katuno, tia kian oni uzas por fari naztukojn.\n\n    \n    \n    pinglo\n    stangeto kun kapeto kaj pinto.\n\n    \n    \n    pintfalto\n    (vd. supra Falto).\n\n    \n    \n    plasto\n    ĉiu el la multaj produktaĵoj faritaj el plastikaj substancoj, mulditaj ĉirkaŭ, sur, aŭ en modlilo aŭ muldilo; ofte koloraj, klare travideblaj, pluvrezistaj, kaj fortikaj.\n\n    \n    \n    platfaldo\n    faldo glade firm-markita por ornami aŭ doni formon al vesto.\n\n    \n    \n    plumo(j)\n    la birdaj kovrajoj uzataj kiel garnituroj aŭ kiel remburaĵoj por kusenoj.\n\n    \n    \n    pluŝo\n    ŝtofo simila al veluro, sed havanta pli longajn harojn.\n\n    \n    \n    prembutono\n    metala butoneto en du partoj; unu parto (prembutoningo) povas fiksi sin sur la alian per iom forta premo; oni apartigas per pli forta tiro; ofte uzata ĉe jupligejo sub agrafoj, kiuj estas pli firmligaj.\n\n    \n    \n    provpupo\n    torso de pupo homgranda, kun pli-malpli natura formo, kiu portas veston faratan.\n\n    \n    \n    punto\n    delikata aĵureca retaĵo, kutime el silko aŭ maldika katuno, kun arte belaj desegnoj (ofte kroĉtrikita).\n\n    \n    \n    refaldo\n    faldo ĉe vestrando, kolumo, por montri la flankon internan.\n\n    \n    \n    remburi\n    (simple) plenŝtopi sakon. (Praktike) plenigi poŝforman aŭ sakforman spacon per ia ajn ŝtofo, tiel, ke ĝi molsolidiĝas. Oni povas rembureti flikon dum alflikado por ilin elstarigi; aŭ plenigi pupon per ĉifonajoj, haroj, k.s.; aŭ kusenon, k.t.p.\n\n    \n    \n    repso\n    fortika ŝtofo el lano kaj kotono, iom simila al korduro (vd.)\n\n    \n    \n    reto\n    malaro; fadeno tiel teksita aŭ trikita, ke ĝi faras seriojn da ringoj aŭ kvadratoj k.s.\n\n    \n    \n    rimeno\n    leda rubando, por ligi aŭ fiksi ion.\n\n    \n    \n    ripari\n    bonigi difekton, ŝiron, tranĉon, rompon, kaŭzitan al ia vesto, k.t.p.; refortikigi eluzitan parton.\n\n    \n    \n    rubando\n    strio el silko aŭ kotono, taŭge kolora, per kiu oni ligas, ornamas, bantas, k.t.p.\n\n    \n    \n    sarseno\n    (sarseneto) dolĉe mola dika silko nun plej ofte uzata kiel subŝtofo.\n\n    \n    \n    serĝo\n    speco de diketa fortika kepra ŝtofo, portata precipe por peza uzado.\n\n    \n    \n    silesio\n    ĉiu el la diversaj maldikaj ŝtofoj netravideblaj, uzataj por fenestro-kovraĵoj.\n\n    \n    \n    silko\n    delikata ŝtofo farita el la fadeno brila produktata de iuj raŭpoj (kaj iuj araneoj).\n\n    \n    \n    stamino\n    vualeca ŝtofo el kotono, nedense teksita, kun maloj iomete pli larĝaj ol tiuj de muslino.\n\n    \n    \n    stebero\n    unu kompleta trapiko kaj tratiro per stebpinto.\n\n    \n    \n    stebi\n    kudri per maŝino (stebilo, stebmaŝino).\n\n    \n    \n    stebmaŝino\n    maŝino kiu kunfiksas pecojn da drapo, aŭ alia ŝtofo kvazaŭ kudrante. Plej ofte ĝi kunplektas du fadenojn, el kiuj unu estas sur bobeno en navedo, la alia tredita tra stebpinto (simila al kudrilo). Kutime oni funkciigas stebmaŝinon per pedalo, sed ekzistas ankaŭ multaj elektraj, kaj aliaj mane funkciigataj (ankaŭ Stebilo).\n\n    \n    \n    subŝtofo\n    ĉia Stalo uzata interne de vesto aŭ por plia diko, aŭ por plia komforta; kutime malpli dika, ofte silka.\n\n    \n    \n    surprovi\n    surmeti faratan veston sur la portonton por eltrovi ĉu modifoj necesas por perfekta fasono.\n\n    \n    \n    surtriki\n    (aŭ surmeti) triki la unuan vicon da maŝoj. Surmeti\n\n    \n    \n    tafto\n    speco de maldika silka ŝtofo, teksita tre glacea.\n\n    \n    \n    tajli\n    A. eltondi ŝtofon en la formoj necesaj por vesto. B. ĉe la brodado: ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas\n\n    \n    \n    tajlori\n    fari vestojn laŭ la fasono kutima ĉe la viroj. Ĉi tiu vorto ampleksas ĉion rilatan al tiu metio: tajli, fasoni, kudri, gladi, k.c.\n\n    \n    \n    teksaĵo\n    ĉia produktaĵo de teksmaŝino.\n\n    \n    \n    tekseĝo\n    la natura sentranĉa longa ego de la teksita ŝtofo, kun ĉiuj returnoj de la veno. Ofte kun pluraj varperoj.\n\n    \n    \n    teria veluro\n    veluro, kies haretoj restas netranĉitaj kaj iom pli longaj.\n\n    \n    \n    tiko\n    speco de fortika tolteksaĵo kun duopaj fadenoj. Ofte uzata por kovri matracon.\n\n    \n    \n    tolo\n    teksita ŝtofo el kanabo aŭ lino, uzata por bonaj vestoj kaj litaj tukoj.\n\n    \n    \n    tondilo\n    instrumento per kiu oni tajlas la ŝtofon, konsistanta el du kunpivotantaj klingoj.\n\n    \n    \n    transpresaĵo\n    (-ilo) maldika paperfolio sur kiu desegnaĵo estas presita per vaksa inko. Oni almetas nin sur ornamotan veston k.s. kaj gladas la malantaŭon. Tio impresas la vaksan desegnon sur Ia veston, kaj laŭ tio oni brodas.\n\n    \n    \n    tredi\n    enmeti fadenon, ŝnuron k.s. tra truo aŭ truoj, orlo, aŭ ringo k.t.p. Oni tredas fadenon en kudrilon; oni tredas silkan rubandon tra truvico ĉirkaŭ bluz-kolumo; oni tredas stangon tra kurtenaj ringoj, laĉon tra truoj en la ŝuo, k.s.\n\n    \n    \n    tredilo\n    instrumento per kiu oni tiras fadenon tra truo (ekz. en kudrilo, aŭ en stebpinto) aŭ tra la tubo de orlo (ekz. ‘ĉirkaŭ la zono de vira piĵama pantalono, aŭ do virina kalsono).\n\n    \n    \n    triki\n    fabriki trikoton (vd.) farante seriojn da maŝoj per du aŭ kvar longaj maldikaj stangoj, la trikiloj. La du bazaj maŝoj estas rekta kaj inversa. Oni faras senfine diversajn desegnojn per alternado kaj diversaj kombinoj de tiuj du, ankaŭ per aliaj rimedoj; ekz. kuntriko (k) de du (aŭ pli) maŝoj, aldoni maŝojn meze en linio, k.t.p.La dikon de la trikiloj oni mezuras per kalibrilo.\n\n    \n    \n    triki inverse\n    Angla metodo: fari maŝon, komence enpuŝante trikilon tra la jama maŝo en la direkto kontraŭ tiu de la trikilo tenanta la jaman maŝon.\n\n    \n    \n    triki rekte\n    Angla metodo: fari maŝon, komence enpuŝante trikilon tra jama maŝo en direkto sama kiel tiu de la trikilo sur kiu la jama maŝo trovigas.\n\n    \n    \n    trikilo\n    La trikilo estas eta stango kun difinita longo, kiu estas uzata por trikado.\n\n    \n    \n    trikilo\n    stango de difinita diko, kun pinto (kaj kutime ankaŭ kapeto), per kiu oni trikas.\n\n    \n    \n    trikoto\n    la rezultato de la trikado, precipe ĉe delikataj materialoj. Bedaŭrinda vorto! Oni bezonas pli taŭgan, por eviti konfuzon inter vesto trikota (kiun oni trikos) kaj vesto trikota (el trikoto). Trikotaĵo estas ŝtofo jam trikita!\n\n    \n    \n    trikroĉi\n    kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki).\n\n    \n    \n    trikroĉilo\n    diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda.\n\n    \n    \n    tuko\n    peco da ŝtofo kun definitiva celo, uzo : tablotuko, naztuko, vindtuko, viŝtuko, k.c.\n\n    \n    \n    tulo\n    delikata kaj travidebla retaĵo ofte uzata por vualoj.\n\n    \n    \n    varpero\n    unu tia fadeno.\n\n    \n    \n    varpo\n    la fadenaro kuŝanta laŭlonge en la teksa.ĵo.\n\n    \n    \n    veftero\n    unu transversiro de vefto.\n\n    \n    \n    vefto\n    la fadenaro kuŝanta transverse en teksaĵo.\n\n    \n    \n    veluro\n    silka, kotona, aŭ lana ŝtofo, unuflanke densteksa, aliflanke havanta mallongajn haretojn.\n\n    \n    \n    vincjeto\n    simila ŝtofo pli maldika, uzata. en Anglujo por dormvestoj, k.s.\n\n    \n    \n    vincjo\n    forta ŝtofo el lano kaj kotono, kun lanuga surfaco uzata por iuj eksteraj vestaĵoj.\n\n    \n    \n    zipligilo\n    rapide fermebla ligilo por longaj aperturoj. Gi konsistas el vico da hoketoj sur ambaŭ flankoj de la aperturo, kiujn oni povas tuj interkroĉigi per (zip-) fermilo. (Oni aŭdas sonon similan al zip ĉe la uzado). Tirligilo\n\n    \n    \n    zono\n    rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto).\n\n    \n    \n    ĉeniljo\n    velureca ŝnuro uzata ĉe la garnado. (ĉenilo)\n\n    \n    \n    ĉifono\n    ĉifita peco da:eluzita ŝtofo.\n\n    \n    \n    ĉirkaŭturni\n    aldoni maŝon jene: metu la lanfadenon sub kaj super la stangon tiel, ke Ia fadeno ĉirkaŭiras Ia stangon.\n\n    \n    \n    ĵaboto\n    punta aŭ alia ornamaĵo pleniganta dekolton aŭ brustan spacon ĉe bluzo aŭ robo.\n\n    \n    \n    ŝika\n    (pli prefere Ĉika) elstare laŭmoda, beleta, moderne eleganta. [nun oni preferas ‘ŝika’ laŭ vortaro.net]\n\n    \n    \n    ŝnuro\n    orde kuntorditaj fadenoj aŭ haroj.\n\n    \n    \n    ŝtofo\n    ĉia substanco ĉu teksita, trikita aŭ alimaniere produktita, (ĉi tie uzata kun la senco) uzebla por vestoj.\n\n    \n    \n    ŝtopi\n    plenigi truon, ekzemple en ŝtrumpo, per entekso de plua lano, aŭ per almeto de fliko."
+					}
+					
+				
+		
+				
+					,
+					
+					"feed-xml": {
+						"id": "feed-xml",
+						"title": "",
+						"categories": "",
+						"url": " /feed.xml",
+						"content": "Leksiko\n    Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj\n\n    https://rcvalle.github.io/\n    \n    Mon, 06 Jan 2025 17:47:56 +0000\n    Mon, 06 Jan 2025 17:47:56 +0000\n    Jekyll v4.3.4"
+					}
+					
+				
+		
+				
+					,
+					
+					"": {
+						"id": "",
+						"title": "Leksiko",
+						"categories": "",
+						"url": " /",
+						"content": "Leksiko\n\nLeksiko de terminoj rilate al inĝenierarto de malmolaj materialoj\n\n\n    \n    \n         agrafingo\n    \n         agrafo\n    \n         aldoni\n    \n         alflikado\n    \n         alpako\n    \n         apreturo\n    \n         atlaso\n    \n         bajeto\n    \n         banto\n    \n         barto\n    \n         batisteto\n    \n         batisto\n    \n         bobeno\n    \n         bombazeno\n    \n         bordero\n    \n         brodi\n    \n         brodtajlado, tajlbrodado\n    \n         broki\n    \n         broĉo\n    \n         buko\n    \n         bulo (lanbulo)\n    \n         butono\n    \n         cirkaŭturni\n    \n         damasko\n    \n         detriki\n    \n         drapiri\n    \n         drapo\n    \n         dreliko\n    \n         dufaldo\n    \n         dutaldo\n    \n         elasta rubando -ŝnuro\n    \n         eskalopoj\n    \n         eĝrubando\n    \n         eĝtubo\n    \n         fadeneltirado\n    \n         fadeno\n    \n         falbalo\n    \n         faldo\n    \n         falsbanto\n    \n         faltarigi\n    \n         faltigi\n    \n         falto\n    \n         fasko\n    \n         fasoni\n    \n         felo\n    \n         felpo\n    \n         felto\n    \n         fibulo\n    \n         fiksfaldo\n    \n         fingringo\n    \n         fintuŝi\n    \n         flaneleto\n    \n         flanelo\n    \n         fliki\n    \n         framo\n    \n         franĝo\n    \n         fusteno\n    \n         galanterio\n    \n         galono\n    \n         garni\n    \n         garnituro\n    \n         grefti\n    \n         haroj\n    \n         indieno\n    \n         inversigi\n    \n         junto\n    \n         kalibrilo\n    \n         kalikoteto\n    \n         kalikoto\n    \n         kamloto\n    \n         kanvaso\n    \n         kapoko\n    \n         katuno\n    \n         kaŝmira drapo\n    \n         kepro\n    \n         kolonoj\n    \n         konfekcio\n    \n         korduro\n    \n         kordurojo\n    \n         kotono\n    \n         krepo\n    \n         kretono\n    \n         krispo\n    \n         kroĉeti\n    \n         kroĉeti\n    \n         kroĉetilo\n    \n         kroĉetilo\n    \n         kruckolora\n    \n         kudrero\n    \n         kudri\n    \n         kudrilo\n    \n         kunkudro\n    \n         kuntriki\n    \n         kvasto\n    \n         lano\n    \n         laĉmetalo\n    \n         laĉo\n    \n         ledo\n    \n         ligo\n    \n         maŝtenilo\n    \n         mercero\n    \n         mezurrubando\n    \n         modelfolio\n    \n         modellibro\n    \n         modo\n    \n         mohajro\n    \n         muslino\n    \n         nankeno\n    \n         navedo\n    \n         nilono\n    \n         nodo\n    \n         numerilo\n    \n         orli\n    \n         orlo\n    \n         pasamento\n    \n         paŭsi\n    \n         pelto\n    \n         perkalo\n    \n         pinglo\n    \n         pintfalto\n    \n         plasto\n    \n         platfaldo\n    \n         plumo(j)\n    \n         pluŝo\n    \n         prembutono\n    \n         provpupo\n    \n         punto\n    \n         refaldo\n    \n         remburi\n    \n         repso\n    \n         reto\n    \n         rimeno\n    \n         ripari\n    \n         rubando\n    \n         sarseno\n    \n         serĝo\n    \n         silesio\n    \n         silko\n    \n         stamino\n    \n         stebero\n    \n         stebi\n    \n         stebmaŝino\n    \n         subŝtofo\n    \n         surprovi\n    \n         surtriki\n    \n         tafto\n    \n         tajli\n    \n         tajlori\n    \n         teksaĵo\n    \n         tekseĝo\n    \n         teria veluro\n    \n         tiko\n    \n         tolo\n    \n         tondilo\n    \n         transpresaĵo\n    \n         tredi\n    \n         tredilo\n    \n         triki\n    \n         triki inverse\n    \n         triki rekte\n    \n         trikilo\n    \n         trikilo\n    \n         trikoto\n    \n         trikroĉi\n    \n         trikroĉilo\n    \n         tuko\n    \n         tulo\n    \n         varpero\n    \n         varpo\n    \n         veftero\n    \n         vefto\n    \n         veluro\n    \n         vincjeto\n    \n         vincjo\n    \n         zipligilo\n    \n         zono\n    \n         ĉeniljo\n    \n         ĉifono\n    \n         ĉirkaŭturni\n    \n         ĵaboto\n    \n         ŝika\n    \n         ŝnuro\n    \n         ŝtofo\n    \n         ŝtopi"
+					}
+					
+				
+		
+				
+					,
+					
+					"assets-js-main-js": {
+						"id": "assets-js-main-js",
+						"title": "",
+						"categories": "",
+						"url": " /assets/js/main.js",
+						"content": "(function($) {\n    'use strict';\n    $(function() {\n        $('[data-toggle=\"tooltip\"]').tooltip();\n        $('[data-toggle=\"popover\"]').popover();\n        $('.popover-dismiss').popover({\n            trigger: 'focus'\n        })\n    });\n\n    function bottomPos(element) {\n        return element.offset().top + element.outerHeight();\n    }\n    $(function() {\n        var promo = $(\".js-td-cover\");\n        if (!promo.length) {\n            return\n        }\n        var promoOffset = bottomPos(promo);\n        var navbarOffset = $('.js-navbar-scroll').offset().top;\n        var threshold = Math.ceil($('.js-navbar-scroll').outerHeight());\n        if ((promoOffset - navbarOffset) < threshold) {\n            $('.js-navbar-scroll').addClass('navbar-bg-onscroll');\n        }\n        $(window).on('scroll', function() {\n            var navtop = $('.js-navbar-scroll').offset().top - $(window).scrollTop();\n            var promoOffset = bottomPos($('.js-td-cover'));\n            var navbarOffset = $('.js-navbar-scroll').offset().top;\n            if ((promoOffset - navbarOffset) < threshold) {\n                $('.js-navbar-scroll').addClass('navbar-bg-onscroll');\n            } else {\n                $('.js-navbar-scroll').removeClass('navbar-bg-onscroll');\n                $('.js-navbar-scroll').addClass('navbar-bg-onscroll--fade');\n            }\n        });\n    });\n}(jQuery));\n(function($) {\n    'use strict';\n    var Search = {\n        init: function() {\n            $(document).ready(function() {\n                $(document).on('keypress', '.td-search-input', function(e) {\n                    if (e.keyCode !== 13) {\n                        return\n                    }\n                    var query = $(this).val();\n                    var searchPage = \"https://rcvalle.github.io/search/?q=\" + query;\n                    document.location = searchPage;\n                    return false;\n                });\n            });\n        },\n    };\n    Search.init();\n}(jQuery));"
+					}
+					
+				
+		
+				
+					,
+					
+					"news": {
+						"id": "news",
+						"title": "News",
+						"categories": "",
+						"url": " /news/",
+						"content": "News\n\nSubscribe with RSS to keep up with the latest news.\nFor site changes, see the changelog kept with the code base.\n\n\n\nWant to see more? See the News Archive."
+					}
+					
+				
+		
+				
+					,
+					
+					"pri": {
+						"id": "pri",
+						"title": "About",
+						"categories": "",
+						"url": " /pri/",
+						"content": "About\n\nSupport"
+					}
+					
+				
+		
+				
+		
+				
+		
+				
+					,
+					
+					"sitemap-xml": {
+						"id": "sitemap-xml",
+						"title": "",
+						"categories": "",
+						"url": " /sitemap.xml",
+						"content": "/\n     {{ \"now\" | date: \"%Y-%m-%d\" }}\n     daily\n    \n{% for section in site.data.toc %}\n     {{ site.baseurl }}{{ section.url }}/\n     {{ \"now\" | date: \"%Y-%m-%d\" }}\n     daily\n    \n{% endfor %}"
+					}
+					
+				
+		
+				
+					,
+					
+					"tags": {
+						"id": "tags",
+						"title": "Tags Index",
+						"categories": "",
+						"url": " /tags/",
+						"content": "Tags Index\n{% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}{% assign docs_tags = \"\" %}{% for doc in site.docs %}{% assign ttags = doc.tags | join:',' | append:',' %}{% assign docs_tags = docs_tags | append:ttags %}{% endfor %}\n{% assign all_tags = site_tags | append:docs_tags %}{% assign tags_list = all_tags | split:',' | uniq | sort %}\n\n{% for tag in tags_list %}{% if tag %}{{ tag }}\n\n    {% for post in site.tags[tag] %}\n    {{- post.title -}}\n     {{- post.date | date: \"%B %d, %Y\" -}}\n{%- endfor -%}\n{% for doc in site.docs %}{% if doc.tags contains tag %}\n\n    {{ doc.title }}\n         {{- doc.date | date: \"%B %d, %Y\" -}}\n    {% endif %}{% endfor %}\n{% endif %}{%- endfor -%}"
+					}
+					
+				
+		
+	};
+</script>
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
+
+<script>
+var headers = ["h1", "h2", "h3", "h4"]
+var colors = ["text-primary", "text-secondary", "text-success", "text-info"]
+
+$.each(headers, function(i, header){
+    var color = colors[i];
+    $(header).each(function () {
+        var href=$(this).attr("id");
+        $(this).append('<a class="headerlink ' + color + '" href="#' + href + '" title="Permanenta ligilo">¶</a>')
+    });
+})
+</script>
+
+
+
+<script
+  src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function() {
+
+    var toc = $('#TOC');
+
+    // Select each header
+    sections = $('main h1');
+        $.each(sections, function(idx, v) {
+            section = $(v);
+            var div_id = $(section).attr('id');
+            var div_text = section.text().split('¶')[0];
+            var parent = $("#" + div_id)
+            var content = '<li id="link_' + div_id + '" class="md-nav__item"><a class="md-nav__link" href="#' + div_id + '" title="' + div_text +'">' + div_text +'</a></li>';
+            $(toc).append(content);
+
+            // Add section code to subnavigation
+            var children = $('<nav class="md-nav"><ul class="md-nav__list"></nav></ul>')
+            var contenders = $("#" + div_id).nextUntil("h1");
+            $.each(contenders, function(idx, contender){
+               if($(contender).is('h2') || $(contender).is('h3')) {
+                   var contender_id = $(contender).attr('id');
+                   var contender_text = $(contender).text().split('¶')[0];
+                   var content = '<li class="md-nav__item"><a class="md-nav__link" href="#' + contender_id + '" title="' + contender_text +'">' + contender_text +'</a></li>';
+                   children.append(content);
+                }
+             })
+             $("#link_" + div_id).append(children);
+        });
+    });
+</script>
+
+
+              
+              <br/>
+
+
+           </div>
+          </main>
+      <footer class="footer bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+<div class="col-12 text-center py-2 order-sm-2">
+  <small class="text-white">
+    © 2025 Irizanjo
+    &bull; All Rights Reserved
+    
+    
+    <!-- &bull; <a href="https://github.com/pforret"><i class="fab fa-github"></i> github.com/pforret</a>
+    &bull; <a href="https://blog.forret.com"><i class="fab fa-wordpress"></i> blog.forret.com</a>
+    &bull; <a href="https://toolstud.io"><i class="fas fa-tools"></i> toolstud.io</a>
+    &bull; <a href="https://nuuz.io/laravel"><i class="fas fa-newspaper"></i> nuuz.io/laravel</a> -->
+  </small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="/assets/js/main.js"></script>
+
+  </body>
+</html>

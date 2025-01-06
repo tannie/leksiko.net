@@ -1,0 +1,86 @@
+[
+  {
+    "metadata": {
+      "layout": "post",
+      "title": "kroĉeti",
+      "subtitle": null,
+      "description": "Ago de kroĉetado",
+      "image": null,
+      "category": "ago",
+      "tags": [
+        "kroĉetado"
+      ],
+      "author": "irizanjo"
+    },
+    "sections": {
+      "Difino": "",
+      "Uzado": "",
+      "Ekzemploj": ""
+    },
+    "languages": {
+      "NL": "haken",
+      "UK": "crochet"
+    },
+    "sources": [
+      {
+        "title": "[Kroĉetado",
+        "url": "Vikipedio](https://eo.wikipedia.org/wiki/Kro%C4%89etado)"
+      }
+    ],
+    "references": [
+      {
+        "title": "[Kroĉetado",
+        "url": "Vikipedio](https://eo.wikipedia.org/wiki/Kro%C4%89etado)"
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "layout": "post",
+      "title": "kroĉetilo",
+      "subtitle": null,
+      "description": null,
+      "image": null,
+      "category": "iloj",
+      "tags": [
+        "kroĉeti",
+        "hoko"
+      ],
+      "author": "irizanjo"
+    },
+    "sections": {
+      "Difino": "La vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per hoko, kaj konektas la ligojn formi kompletan teksaĵon.",
+      "Uzado": "",
+      "Ekzemploj": ""
+    },
+    "languages": {},
+        "sources": [],
+    "references": []
+  },
+  {
+    "metadata": {
+      "layout": "post",
+      "title": "trikilo",
+      "subtitle": null,
+      "description": "La trikilo estas eta stango kun difinita longo, kiu estas uzata por trikado.",
+      "image": null,
+      "category": "iloj",
+      "tags": [
+        "triki",
+        "ilo",
+        "ligno",
+        "metalo",
+        "trikado"
+      ],
+      "author": "irizanjo"
+    },
+    "sections": {
+      "Difino": "La trikilo estas eta stango kun difinita longo, kiu estas uzata por trikado.",
+      "Uzado": "",
+      "Ekzemploj": ""
+    },
+    "sources": [],
+    "languages": {},
+    "references": []
+  }
+]
