@@ -1,5 +1,5 @@
-/* @override 
-	http://127.0.0.1:4000/assets/css/palette.css 
+/* @override
+	http://127.0.0.1:4000/assets/css/palette.css
 	http://leksiko.net/assets/css/palette.css */
 
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i";
@@ -5112,7 +5112,7 @@ aside {
   }
 
 }
- 
+
 .lingvoj {
 	padding: 5px;
 }
@@ -5126,4 +5126,18 @@ aside {
 
 aside.lingvoj table.infobox tbody tr td.languagename {
 	font-weight: 900;
+}
+
+.td-search-input {
+  background: transparent;
+  border-radius: 1rem;
+  font-family: "font awesome 5 free", open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  padding-left: 6px;
+
+}
+
+.td-search-input.form-control:focus {
+  border-color: #f5f8fb;
+  -webkit-box-shadow: 0 0 0 2px #82afd5;
+  box-shadow: 0 0 0 2px #82afd5
 }
