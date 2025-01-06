@@ -1,0 +1,2 @@
+# leksiko.net
+retejo
