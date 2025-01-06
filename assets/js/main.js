@@ -45,7 +45,7 @@
                         return
                     }
                     var query = $(this).val();
-                    var searchPage = "https://rcvalle.github.io/search/?q=" + query;
+                    var searchPage = "https://leksiko.net/search/?q=" + query;
                     document.location = searchPage;
                     return false;
                 });
