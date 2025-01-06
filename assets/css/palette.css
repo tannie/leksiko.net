@@ -1,5 +1,6 @@
 /* @override 
-	http://127.0.0.1:4000/assets/css/palette.css */
+	http://127.0.0.1:4000/assets/css/palette.css 
+	http://leksiko.net/assets/css/palette.css */
 
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i";
 @fa-font-path: "../webfonts";
@@ -5065,16 +5066,20 @@ margin-right:10px;
 }
 
 aside {
-  max-width: 250px;
+  max-width: 450px;
   margin: 0 auto;
   position: static;
   float: right;
+  min-width: 180px;
+  width: 25%;
+
 }
 
 @media screen and (max-width: 576px) {
   aside {
-float: none !important;
-position:relative;
+  max-width: 250px;
+  width: 50%;
+  min-width: 180px;
   }
 
 }
