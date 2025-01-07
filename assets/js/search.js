@@ -164,8 +164,8 @@
                         else {
                             tagsPreview = "";
                         }
-                    if (Array.isArray(item.metadata.languages)) {
-                        var languages = item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Array.isArray(Object.values(lang)[0]) ? Object.values(lang)[0].join(", ") : Object.values(lang)[0]}`).join(" - ");
+                    if (item.metadata.languages) {
+                        var languages = Object.keys(item.metadata.languages).map(lang => `${lang.toUpperCase()}: ${item.metadata.languages[lang].join(", ")}`).join(" - ");
                         languagesPreview = getPreview(query, languages);
                     }
                     else {
@@ -213,9 +213,7 @@
             var item = window.data[key];
             var tags = item.metadata.tags ? item.metadata.tags.join(" ") : "";
             var page_body = item.content ? item.content : "";
-            var languages = Array.isArray(item.metadata.languages) ? item.metadata.languages.map(function(lang) {
-                return Array.isArray(Object.values(lang)[0]) ? Object.values(lang)[0].join(", ") : Object.values(lang)[0];
-            }).join(" ") : "";
+            var languages = item.metadata.languages ? Object.keys(item.metadata.languages).map(lang => `${lang.toUpperCase()}: ${item.metadata.languages[lang].join(", ")}`).join(" ") : "";
 
             modifiedhQueries.concat(modifiedxQueries, modifiedQueries).forEach(function(modifiedQuery) {
                 if (item.metadata.title && (item.metadata.title.toLowerCase() === query.toLowerCase() || item.metadata.title.toLowerCase() === modifiedQuery.toLowerCase())) {

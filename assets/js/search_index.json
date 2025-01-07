@@ -7,7 +7,7 @@
       "url": "/agrafingo"
     },
     "sections": {},
-    "content": "stangeto (fadendika) kies ambaŭ ekstremoj estas ringoj por ebligi kudron sur veston. Agrafo trovigas, ekz., sur unu basko kaj agrafingo sur la alia."
+    "content": "stangeto (fadendika) kies ambaŭ ekstremoj estas ringoj por ebligi kudron sur veston. [Agrafo]({% link _docs/agrafo.md %}) trovigas, ekz., sur unu basko kaj agrafingo sur la alia."
   },
   {
     "metadata": {
@@ -853,14 +853,14 @@
         "kroĉetado"
       ],
       "author": "irizanjo",
-      "languages": [
-        {
-          "nl": "haken"
-        },
-        {
-          "uk": "crochet"
-        }
-      ],
+      "languages": {
+        "nl": [
+          "haken"
+        ],
+        "uk": [
+          "crochet"
+        ]
+      },
       "references": [
         {
           "title": "Kroĉetado - Vikipedio",
@@ -884,14 +884,14 @@
         "hoko"
       ],
       "author": "irizanjo",
-      "languages": [
-        {
-          "nl": "haaknaald"
-        },
-        {
-          "uk": "crochet hook"
-        }
-      ],
+      "languages": {
+        "nl": [
+          "haaknaald"
+        ],
+        "uk": [
+          "crochet hook"
+        ]
+      },
       "url": "/kroĉetilo"
     },
     "sections": {},
@@ -1823,14 +1823,14 @@
       "title": "zono",
       "description": "rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto)",
       "category": "ligiloj",
-      "languages": [
-        {
-          "nl": "riem"
-        },
-        {
-          "en": "belt"
-        }
-      ],
+      "languages": {
+        "nl": [
+          "riem"
+        ],
+        "en": [
+          "belt"
+        ]
+      },
       "url": "/zono"
     },
     "sections": {},
@@ -1882,18 +1882,14 @@
       "title": "ŝika",
       "description": "(pli prefere Ĉika) elstare laŭmoda, beleta, moderne eleganta",
       "category": "diversaj vortoj",
-      "languages": [
-        {
-          "nl": [
-            "chique"
-          ]
-        },
-        {
-          "uk": [
-            "chic"
-          ]
-        }
-      ],
+      "languages": {
+        "nl": [
+          "chique"
+        ],
+        "uk": [
+          "chic"
+        ]
+      },
       "url": "/ŝika"
     },
     "sections": {},
