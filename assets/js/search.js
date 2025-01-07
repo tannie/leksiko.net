@@ -77,7 +77,7 @@
                     var contentPreview = getPreview(query, item.sections.Difino || item.sections.Uzado || item.sections.Ekzemploj || "", 170),
                         titlePreview = getPreview(query, item.metadata.title),
                         languagesPreview = item.metadata.languages ? item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Object.values(lang)[0].replace(new RegExp("(" + query + ")", "gi"), "<strong>$1</strong>")}`).join("<br>") : "";
-                    resultsHTML += "<li><h5><a href='" + precomposed + "'>" + titlePreview + "</a></h5><p><small>" + contentPreview + "</small></p><p><small>" + languagesPreview + "</small></p></li>";
+                    resultsHTML += "<li><h6><a href='" + precomposed + "'>" + titlePreview + "</a></h6><p><small>" + contentPreview + "</small></p><p><small>" + languagesPreview + "</small></p></li>";
                 }
             });
 
