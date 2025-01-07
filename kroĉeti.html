@@ -40,13 +40,15 @@
 
   <body>
     <header class="header">
-    <nav class="navbar navbar-expand-lg bg-primary">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-primary"  data-bs-theme="dark">
+    <div class="container-fluid" >
         <a class="navbar-brand" href="/">
-        <span class="navbar-logo"></span><img height="32" src="/assets/img/logo/android-icon-192x192.png"> <span
-        class="text-uppercase font-weight-bold">Leksiko</span>
+        <span class="navbar-logo"></span>
+        <!-- <img height="32" src="/assets/img/logo/android-icon-192x192.png">  -->
+        <span
+        class="text-uppercase font-weight-bold" >Leksiko</span>
         </a>
-    <form class="d-flex">
+    <form class="d-flex"  data-bs-theme="light">
 
         <input class="form-control fa td-search-input me-sm-2" type="search" placeholder="&#xf002 Serĉu…">
     </form>
@@ -115,18 +117,56 @@ $(document).ready(function() {
     </aside><
   </div> -->
     	      
+<div class="card border-primary col-md-6 float-md-end mb-3 ms-md-3" style="max-width: 30rem;">
+  <div class="card-header">aliaj lingvoj</div>
+  <div class="card-body">
+    <table>
+    
+    <tr>
+      <td class="languagename"></td>
+      <td class="languageword"></td>
+    </tr>
+    
+    <tr>
+      <td class="languagename"></td>
+      <td class="languageword"></td>
+    </tr>
+    
+  </table>
+  </div>
+</div>
+<style>
+.infobox {
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-collapse: collapse;
+}
+.infobox th, .infobox td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+.infobox th {
+  background-color: #f2f2f2;
+}
+</style>
+
+
 <h1 id="kroĉeti" class="title">kroĉeti</h1>
 
-<span class="post-date" style="font-style: italic;">January 07, 2025</span>
 
 
 
 
-<p><p>(Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena.</p>
+
+<p><p>La vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per <a href="kroĉetilo">hoko</a>, kaj konektas la ligojn formi kompletan teksaĵon.</p>
+
+<p>(Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena.</p>
 </p>
 
 
-
+<span class="post-date" style="font-style: italic;">January 07, 2025</span>
 <div class="clearfix"></div>
 
 <script>
@@ -143,7 +183,7 @@ $.each(headers, function(i, header){
 </script>
 
 <script>
-$('h1').first().append('<div></div>')</script>
+$('h1').first().append('<div class="tags"><span style="font-size:12px" class="badge rounded-pill bg-secondary"><a href="https://leksiko.net/tags#kroĉetado ">kroĉetado</a></span></div>')</script>
 
 <script
   src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"

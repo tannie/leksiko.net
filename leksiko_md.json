@@ -1,68 +1,1326 @@
 [
   {
     "metadata": {
-      "layout": "post",
-      "title": "kroĉeti",
-      "subtitle": null,
-      "description": "Ago de kroĉetado",
-      "image": null,
-      "category": "ago",
-      "tags": [
-        "kroĉetado"
-      ],
-      "author": "irizanjo"
+      "title": "agrafingo",
+      "description": "stangeto (fadendika) kies ambaŭ ekstremoj estas ringoj por ebligi kudron sur veston",
+      "category": "ligiloj"
     },
-    "sections": {
-      "Difino": "",
-      "Uzado": "",
-      "Ekzemploj": ""
-    },
-    "languages": {
-      "NL": "haken",
-      "UK": "crochet"
-    },
-    "sources": [
-      {
-        "title": "[Kroĉetado",
-        "url": "Vikipedio](https://eo.wikipedia.org/wiki/Kro%C4%89etado)"
-      }
-    ],
-    "references": [
-      {
-        "title": "[Kroĉetado",
-        "url": "Vikipedio](https://eo.wikipedia.org/wiki/Kro%C4%89etado)"
-      }
-    ]
+    "content": "stangeto (fadendika) kies ambaŭ ekstremoj estas ringoj por ebligi kudron sur veston. Agrafo trovigas, ekz., sur unu basko kaj agrafingo sur la alia."
   },
   {
     "metadata": {
-      "layout": "post",
+      "title": "agrafo",
+      "description": "hoketo kun ringetoj aŭ truoj, kiuj ebligas kudri ĝin al vostajo",
+      "category": "ligiloj"
+    },
+    "content": "hoketo kun ringetoj aŭ truoj, kiuj ebligas kudri ĝin al vostajo."
+  },
+  {
+    "metadata": {
+      "title": "aldoni",
+      "description": "ĉe la trikado: oni pligrandigas la nombron da maŝoj en linio, trikante du maŝojn en unu maŝo jam farita",
+      "mallongigo": "ald",
+      "category": "procedoj"
+    },
+    "content": "ĉe la trikado: oni pligrandigas la nombron da maŝoj en linio, trikante du maŝojn en unu maŝo jam farita."
+  },
+  {
+    "metadata": {
+      "title": "alflikado",
+      "description": "la surkudrado de pecoj el unu ŝtofo sur fonon el alia ŝtofo, por formi desegnon",
+      "category": "laborspecoj"
+    },
+    "content": "la surkudrado de pecoj el unu ŝtofo sur fonon el alia ŝtofo, por formi desegnon."
+  },
+  {
+    "metadata": {
+      "title": "alpako",
+      "description": "ŝtofo farita el la teksita lano de besto samnoma, sud-amerika speco de ŝafoj, similaj al la lamoj",
+      "category": "materialoj"
+    },
+    "content": "ŝtofo farita el la teksita lano de besto samnoma, sud-amerika speco de ŝafoj, similaj al la lamoj."
+  },
+  {
+    "metadata": {
+      "title": "apreturo",
+      "description": "kemia glazuro ofte uzata por finpretigi ŝtofojn, precipe malaltekostajn tolojn",
+      "category": "diversaj vortoj"
+    },
+    "content": "kemia glazuro ofte uzata por finpretigi ŝtofojn, precipe malaltekostajn tolojn."
+  },
+  {
+    "metadata": {
+      "title": "atlaso",
+      "description": "mola kaj glacea silkeca ŝtofo; ĝenerale nur unu flanko estas glacea",
+      "category": "materialoj"
+    },
+    "content": "mola kaj glacea silkeca ŝtofo; ĝenerale nur unu flanko estas glacea."
+  },
+  {
+    "metadata": {
+      "title": "bajeto",
+      "neologismo": true,
+      "description": "maldelikata dika lanteksaĵo, ofte uzata por kovri i",
+      "category": "materialoj"
+    },
+    "content": "maldelikata dika lanteksaĵo, ofte uzata por kovri i.a. tablojn k.s. Rafinitan specon oni uzas por kovri bilardan tablon."
+  },
+  {
+    "metadata": {
+      "title": "banto",
+      "description": "ligo per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin",
+      "category": "ligiloj"
+    },
+    "content": "ligo per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin."
+  },
+  {
+    "metadata": {
+      "title": "barto",
+      "description": "balena 'dento' (osteca lameno) uzata por rigidigi vestojn k",
+      "category": "galanterio"
+    },
+    "content": "balena 'dento' (osteca lameno) uzata por rigidigi vestojn k.s."
+  },
+  {
+    "metadata": {
+      "title": "batisteto",
+      "description": "tre maldiku batisto, kia estas uzata por virinaj poŝtukoj k",
+      "category": "materialoj"
+    },
+    "content": "tre maldiku batisto, kia estas uzata por virinaj poŝtukoj k.s."
+  },
+  {
+    "metadata": {
+      "title": "batisto",
+      "description": "plej delikata lina tolo",
+      "category": "materialoj"
+    },
+    "content": "plej delikata lina tolo."
+  },
+  {
+    "metadata": {
+      "title": "bobeno",
+      "description": "cilindroforma objekto (kun du diskaj flankoj kutime) sur kiu oni volvas fadenon",
+      "category": "iloj"
+    },
+    "content": "cilindroforma objekto (kun du diskaj flankoj kutime) sur kiu oni volvas fadenon."
+  },
+  {
+    "metadata": {
+      "title": "bombazeno",
+      "description": "kepreca ŝtofo el silko kaj lano",
+      "category": "materialoj"
+    },
+    "content": "kepreca ŝtofo el silko kaj lano."
+  },
+  {
+    "metadata": {
+      "title": "bordero",
+      "description": "ia ajn ornama aranĝo de ŝtofrando",
+      "category": "diversaj vortoj"
+    },
+    "content": "ia ajn ornama aranĝo de ŝtofrando."
+  },
+  {
+    "metadata": {
+      "title": "brodi",
+      "description": "ornami teksaĵon per fadenoj, variigante la desegnon per diversaj kudreroj (vidu tiun rubrikon) ekz",
+      "category": "laborspecoj"
+    },
+    "content": "ornami teksaĵon per fadenoj, variigante la desegnon per diversaj kudreroj (vidu tiun rubrikon) ekz. ĉena, faska, filosta, kuranta, k.s."
+  },
+  {
+    "metadata": {
+      "title": "brodtajlado, tajlbrodado",
+      "description": "ornami teksaĵojn, eltranĉante pecetojn, laŭ desegno jam indikita per randa kudrado (vd",
+      "category": "laborspecoj"
+    },
+    "content": "ornami teksaĵojn, eltranĉante pecetojn, laŭ desegno jam indikita per randa kudrado (vd.); la randon de la truo tiel lasita fortikigas la randkudro (vd. ankaŭ sub [tajli](tajli))."
+  },
+  {
+    "metadata": {
+      "title": "broki",
+      "description": "enteksi brodsimilan desegnon reliefan",
+      "category": "laborspecoj"
+    },
+    "content": "enteksi brodsimilan desegnon reliefan."
+  },
+  {
+    "metadata": {
+      "title": "broĉo",
+      "description": "fibulo kun ornama disko aŭ juvelo sur unu stango",
+      "category": "ligiloj"
+    },
+    "content": "fibulo kun ornama disko aŭ juvelo sur unu stango."
+  },
+  {
+    "metadata": {
+      "title": "buko",
+      "description": "ligilo kutima ĉe rimenoj kaj zonoj, precipe ledaj, konsistanta el metala ringo kun transversa stangeto, sur kiu trovigas nefiksita \"langeto\" el metalo, kiu malhelpas elgliton de la rimeno",
+      "category": "ligiloj"
+    },
+    "content": "ligilo kutima ĉe rimenoj kaj zonoj, precipe ledaj, konsistanta el metala ringo kun transversa stangeto, sur kiu trovigas nefiksita \"langeto\" el metalo, kiu malhelpas elgliton de la rimeno."
+  },
+  {
+    "metadata": {
+      "title": "bulo (lanbulo)",
+      "description": "globforma stato de lanfadeno preta por trikado",
+      "category": "diversaj vortoj"
+    },
+    "content": "globforma stato de lanfadeno preta por trikado."
+  },
+  {
+    "metadata": {
+      "title": "butono",
+      "description": "tubero aŭ disko, kudrata sur vesto kaj puŝata tra truo por kunteni, ekz la jakan fronton",
+      "category": "ligiloj"
+    },
+    "content": "tubero aŭ disko, kudrata sur vesto kaj puŝata tra truo por kunteni, ekz la jakan fronton."
+  },
+  {
+    "metadata": {
+      "title": "cirkaŭturni",
+      "description": "ĉe la trikado: oni aldouas maŝon jene: volvu la lanfadenon unufojon ĉirkaŭ la trikilon, tirante ĝin sube unue kaj transmetante ĝin supere",
+      "mallongigo": "ĉt",
+      "category": "procedoj"
+    },
+    "content": "ĉe la trikado: oni aldouas maŝon jene: volvu la lanfadenon unufojon ĉirkaŭ la trikilon, tirante ĝin sube unue kaj transmetante ĝin supere."
+  },
+  {
+    "metadata": {
+      "title": "damasko",
+      "description": "speco de tolo kun enteksita samkolora silka desegno",
+      "category": "materialoj"
+    },
+    "content": "speco de tolo kun enteksita samkolora silka desegno."
+  },
+  {
+    "metadata": {
+      "title": "detriki",
+      "description": "forigi unuope Ia lastajn trikmalojn tiel, ke ili restos firme trikitaj",
+      "category": "procedoj"
+    },
+    "content": "forigi unuope Ia lastajn trikmalojn tiel, ke ili restos firme trikitaj."
+  },
+  {
+    "metadata": {
+      "title": "drapiri",
+      "description": "orname kovri per gracie pendanta drapo, silko k",
+      "category": "procedoj"
+    },
+    "content": "orname kovri per gracie pendanta drapo, silko k.s.; aranĝi belaj la faldojn de pendanta kurteno, k.s."
+  },
+  {
+    "metadata": {
+      "title": "drapo",
+      "description": "lana ŝtofo, uzata por fari vestojn",
+      "category": "materialoj"
+    },
+    "content": "lana ŝtofo, uzata por fari vestojn."
+  },
+  {
+    "metadata": {
+      "title": "dreliko",
+      "description": "speco de fortika kaj nedelikata tolo uzata por sakoj, laborvestoj, tornistroj k",
+      "category": "materialoj"
+    },
+    "content": "speco de fortika kaj nedelikata tolo uzata por sakoj, laborvestoj, tornistroj k.s."
+  },
+  {
+    "metadata": {
+      "title": "dufaldo",
+      "description": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd",
+      "category": "diversaj vortoj"
+    },
+    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
+  },
+  {
+    "metadata": {
+      "title": "dutaldo",
+      "category": "diversaj vortoj"
+    },
+    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
+  },
+  {
+    "metadata": {
+      "title": "elasta rubando -ŝnuro",
+      "description": "ĉio tia, kiu estas elasta, etendebla, streĉebla",
+      "category": "galanterio"
+    },
+    "content": "ĉio tia, kiu estas elasta, etendebla, streĉebla."
+  },
+  {
+    "metadata": {
+      "title": "eskalopoj",
+      "description": "serio da duonrondoj, kiuj ofte anstataŭas orlon aŭ alian randan ornamon",
+      "category": "diversaj vortoj"
+    },
+    "content": "serio da duonrondoj, kiuj ofte anstataŭas orlon aŭ alian randan ornamon."
+  },
+  {
+    "metadata": {
+      "title": "eĝrubando",
+      "description": "rubando pli aŭ malpli dika, larĝa, fortika, uzata plej ofte por fortikigi kaj protekti la eĝon de ŝtofo, de matetoj, de tapiŝoj",
+      "category": "galanterio"
+    },
+    "content": "rubando pli aŭ malpli dika, larĝa, fortika, uzata plej ofte por fortikigi kaj protekti la eĝon de ŝtofo, de matetoj, de tapiŝoj."
+  },
+  {
+    "metadata": {
+      "title": "eĝtubo",
+      "description": "tubforma rubando, enhavanta ŝnureton, iam uzata por ornami la eĝojn de koltruo, roba poŝo, k",
+      "category": "galanterio"
+    },
+    "content": "tubforma rubando, enhavanta ŝnureton, iam uzata por ornami la eĝojn de koltruo, roba poŝo, k.s. (Ankaŭ Tubrubando)."
+  },
+  {
+    "metadata": {
+      "title": "fadeneltirado",
+      "description": "ornami teksaĵon per la eltirado de apartaj aŭ tipaj fadenoj de vefto aŭ/kaj varpo",
+      "category": "laborspecoj"
+    },
+    "content": "ornami teksaĵon per la eltirado de apartaj aŭ tipaj fadenoj de vefto aŭ/kaj varpo."
+  },
+  {
+    "metadata": {
+      "title": "fadeno",
+      "description": "silka aŭ kotona; longa maldika kuntordaĵo de multaj harecaj fibroj taŭgaj por la kudro, stebo, brodo, k",
+      "category": "galanterio"
+    },
+    "content": "silka aŭ kotona; longa maldika kuntordaĵo de multaj harecaj fibroj taŭgaj por la kudro, stebo, brodo, k.t.p."
+  },
+  {
+    "metadata": {
+      "title": "falbalo",
+      "description": "krispa larĝa rubando alkudrebla sur jupon k",
+      "category": "galanterio"
+    },
+    "content": "krispa larĝa rubando alkudrebla sur jupon k.s. por ornamo."
+  },
+  {
+    "metadata": {
+      "title": "faldo",
+      "description": "ĝenerala vorto por ĉiuj procedoj aŭ drapiroj , kiuj necesigas duobligon de la ŝtofo",
+      "category": "diversaj vortoj"
+    },
+    "content": "ĝenerala vorto por ĉiuj procedoj aŭ drapiroj , kiuj necesigas duobligon de la ŝtofo. Vidu: Platfaldo, Dutaldo, Pintfaldo, Refaldo, Fiksfaldo."
+  },
+  {
+    "metadata": {
+      "title": "falsbanto",
+      "description": "tia ligo sed kudrita por ne malligigi, kaj uzata por kaŝi agrafon, k",
+      "category": "ligiloj"
+    },
+    "content": "tia ligo sed kudrita por ne malligigi, kaj uzata por kaŝi agrafon, k.s."
+  },
+  {
+    "metadata": {
+      "title": "faltarigi",
+      "description": "fari multajn tiajn faltojn, kiel ekz",
+      "category": "procedoj"
+    },
+    "content": "fari multajn tiajn faltojn, kiel ekz. ĉe kamparaua kitelo en Anglujo; kutime oni brodornainas tiujn faltarojn."
+  },
+  {
+    "metadata": {
+      "title": "faltigi",
+      "description": "kuntiri mallarĝan faldeton en ŝtofo, kaj tion fiksi per kudro aŭ glade",
+      "category": "procedoj"
+    },
+    "content": "kuntiri mallarĝan faldeton en ŝtofo, kaj tion fiksi per kudro aŭ glade."
+  },
+  {
+    "metadata": {
+      "title": "falto",
+      "description": "tre malgranda faldo kudrita aŭ premita tiel ke pli restos videbla; neregula faldeto lasita de malbona glado",
+      "category": "diversaj vortoj"
+    },
+    "content": "tre malgranda faldo kudrita aŭ premita tiel ke pli restos videbla; neregula faldeto lasita de malbona glado. (Pintfaltoj= plej malgrandaj faltetoj ornamaj)."
+  },
+  {
+    "metadata": {
+      "title": "fasko",
+      "description": "(Lanfasko) ringforma stato de lanfadeno, antaŭ ol buligo por trikado (ankaŭ Lanringo)",
+      "category": "diversaj vortoj"
+    },
+    "content": "(Lanfasko) ringforma stato de lanfadeno, antaŭ ol buligo por trikado (ankaŭ Lanringo)."
+  },
+  {
+    "metadata": {
+      "title": "fasoni",
+      "description": "tiel tajli kaj kunkudri veston, ke ĝi havas belan formon kaj komforte, taŭge, sidas al la figuro de la portanto",
+      "category": "procedoj"
+    },
+    "content": "tiel tajli kaj kunkudri veston, ke ĝi havas belan formon kaj komforte, taŭge, sidas al la figuro de la portanto. Fasonita vesto kontrasta kun [Konfekcio](konfekcio)."
+  },
+  {
+    "metadata": {
+      "title": "felo",
+      "description": "la haŭto de besto, kun aŭ sen la haroj, tanota kaj uzota kiel materialo por vesto",
+      "category": "materialoj"
+    },
+    "content": "la haŭto de besto, kun aŭ sen la haroj, tanota kaj uzota kiel materialo por vesto."
+  },
+  {
+    "metadata": {
+      "title": "felpo",
+      "description": "ŝtofo simila al veluro, sed havanta harojn pli longajn, plate kuŝantajn",
+      "category": "materialoj"
+    },
+    "content": "ŝtofo simila al veluro, sed havanta harojn pli longajn, plate kuŝantajn."
+  },
+  {
+    "metadata": {
+      "title": "felto",
+      "description": "ŝtofo farita el kungluitaj kaj forte kunpremitaj haroj, fadenoj, laneroj, k",
+      "category": "materialoj"
+    },
+    "content": "ŝtofo farita el kungluitaj kaj forte kunpremitaj haroj, fadenoj, laneroj, k.s. Ofte uzata por sorbi skuvibrojn, dampi bruon (ĝi bone malhelpas ke bruo penetru)."
+  },
+  {
+    "metadata": {
+      "title": "fibulo",
+      "description": "sendanĝera pinglo; ĝi konsistas el longa pinglo, kies pinto estas turnita al la kapo kaj kovrata per ŝirmilo tie fiksita",
+      "category": "ligiloj"
+    },
+    "content": "sendanĝera pinglo; ĝi konsistas el longa pinglo, kies pinto estas turnita al la kapo kaj kovrata per ŝirmilo tie fiksita."
+  },
+  {
+    "metadata": {
+      "title": "fiksfaldo",
+      "description": "(Fiksita Faldo) faldu uzata por mallongigi veston k",
+      "category": "diversaj vortoj"
+    },
+    "content": "(Fiksita Faldo) faldu uzata por mallongigi veston k.c. kudrita aŭ alie firmigita."
+  },
+  {
+    "metadata": {
+      "title": "fingringo",
+      "description": "protekta kovrajo por la fingropinto",
+      "category": "iloj"
+    },
+    "content": "protekta kovrajo por la fingropinto."
+  },
+  {
+    "metadata": {
+      "title": "fintuŝi",
+      "description": "netigi la lastajn pecctojn de brodaĵo, de farata vesto, orlo, kunkudro, k",
+      "category": "procedoj"
+    },
+    "content": "netigi la lastajn pecctojn de brodaĵo, de farata vesto, orlo, kunkudro, k.t.p. per delikataj kudreroj."
+  },
+  {
+    "metadata": {
+      "title": "flaneleto",
+      "description": "simila ŝtofo pli maldika",
+      "category": "materialoj"
+    },
+    "content": "simila ŝtofo pli maldika."
+  },
+  {
+    "metadata": {
+      "title": "flanelo",
+      "description": "mola teksaĵo el lano, varmiga, delikata kaj havanta sorbajn kvalitojn; ofte uzata por subvestoj k",
+      "category": "materialoj"
+    },
+    "content": "mola teksaĵo el lano, varmiga, delikata kaj havanta sorbajn kvalitojn; ofte uzata por subvestoj k.s. dum malvarma sezono."
+  },
+  {
+    "metadata": {
+      "title": "fliki",
+      "description": "surkudri aŭ surkudri al truo aŭ difektita parto de vesto aŭ tuko pecon da ŝtofo (kutime precize similan al la ŝtofo de la vesto aŭ tuko mem) por ĝin ripari",
+      "category": "laborspecoj"
+    },
+    "content": "surkudri aŭ surkudri al truo aŭ difektita parto de vesto aŭ tuko pecon da ŝtofo (kutime precize similan al la ŝtofo de la vesto aŭ tuko mem) por ĝin ripari."
+  },
+  {
+    "metadata": {
+      "title": "framo",
+      "description": "kadro sur kiu oni streĉas surbrodatan ŝtofon",
+      "category": "iloj"
+    },
+    "content": "kadro sur kiu oni streĉas surbrodatan ŝtofon."
+  },
+  {
+    "metadata": {
+      "title": "franĝo",
+      "description": "vico da proksime pendantaj kvastetoj, fadenoj, kutime el silko, per kiu oni borderas aŭ alie ornamas veston, kusenon, meblon",
+      "category": "galanterio"
+    },
+    "content": "vico da proksime pendantaj kvastetoj, fadenoj, kutime el silko, per kiu oni borderas aŭ alie ornamas veston, kusenon, meblon."
+  },
+  {
+    "metadata": {
+      "title": "fusteno",
+      "description": "fortika ŝtofo, ofte kepra, farita el kotono kaj lino, kapabla elporti multan uzadon (similas al kotona veltiro)",
+      "category": "materialoj"
+    },
+    "content": "fortika ŝtofo, ofte kepra, farita el kotono kaj lino, kapabla elporti multan uzadon (similas al kotona veltiro)."
+  },
+  {
+    "metadata": {
+      "title": "galanterio",
+      "description": "ĉia akcesora ornamaĵo aŭ utilaĵo rilata al vestaĵoj aŭ tualeto",
+      "category": "galanterio"
+    },
+    "content": "ĉia akcesora ornamaĵo aŭ utilaĵo rilata al vestaĵoj aŭ tualeto."
+  },
+  {
+    "metadata": {
+      "title": "galono",
+      "description": "ŝnuro aŭ rubando iom peza, ofte el oraj aŭ arĝentaj fadenoj, uzata por ornami vestojn kaj uniformojn; ankaŭ por indiki rangon, oficon (pli peza ol ĉeniljo)",
+      "category": "galanterio"
+    },
+    "content": "ŝnuro aŭ rubando iom peza, ofte el oraj aŭ arĝentaj fadenoj, uzata por ornami vestojn kaj uniformojn; ankaŭ por indiki rangon, oficon (pli peza ol ĉeniljo)."
+  },
+  {
+    "metadata": {
+      "title": "garni",
+      "description": "ornami ion per aldona",
+      "category": "procedoj"
+    },
+    "content": "ornami ion per aldona.do de garnituro, bantoj, ĉeniljo, kvastoj, k.s. akcesoraĵoj."
+  },
+  {
+    "metadata": {
+      "title": "garnituro",
+      "description": "garnaĵo; ĉia objekto ne nepre necesa, sed almetita por plibeligi",
+      "category": "galanterio"
+    },
+    "content": "garnaĵo; ĉia objekto ne nepre necesa, sed almetita por plibeligi."
+  },
+  {
+    "metadata": {
+      "title": "grefti",
+      "description": "A",
+      "category": "procedoj"
+    },
+    "content": "A.tiel kuntriki du egojn, ke la rezulti kunigo ne estas videbla.B.tiel enteksi la egojn de la fliko, ke la nova peco ne estas distingebla for de la originala ŝtofo."
+  },
+  {
+    "metadata": {
+      "title": "haroj",
+      "description": "ĉio fadensimila, ĉu animala aŭ ne, kiun oni povos uzi por la remburado k",
+      "category": "materialoj"
+    },
+    "content": "ĉio fadensimila, ĉu animala aŭ ne, kiun oni povos uzi por la remburado k.s.; ĉevalajn kaj aliajn longajn oni foje uzas tekse."
+  },
+  {
+    "metadata": {
+      "title": "indieno",
+      "description": "maldika kotona kolordesegna teksaĵo kutime iom glacea",
+      "category": "materialoj"
+    },
+    "content": "maldika kotona kolordesegna teksaĵo kutime iom glacea."
+  },
+  {
+    "metadata": {
+      "title": "inversigi",
+      "description": "turni la internon de ŝtofo eksteren pro pli bona aspekto",
+      "category": "diversaj vortoj"
+    },
+    "content": "turni la internon de ŝtofo eksteren pro pli bona aspekto"
+  },
+  {
+    "metadata": {
+      "title": "junto",
+      "description": "vorto uzebla anstataŭ Kunkudro (vd",
+      "category": "diversaj vortoj"
+    },
+    "content": "vorto uzebla anstataŭ Kunkudro (vd.)"
+  },
+  {
+    "metadata": {
+      "title": "kalibrilo",
+      "description": "mezurilo por la diko de trikiloj k",
+      "category": "iloj"
+    },
+    "content": "mezurilo por la diko de trikiloj k.t.p."
+  },
+  {
+    "metadata": {
+      "title": "kalikoteto",
+      "description": "(=perkalo) pli delikata kaj maldika ol kalikoto",
+      "category": "materialoj"
+    },
+    "content": "(=perkalo) pli delikata kaj maldika ol kalikoto."
+  },
+  {
+    "metadata": {
+      "title": "kalikoto",
+      "description": "ŝtofo simila al tolo, iom dense teksita el kotono",
+      "category": "materialoj"
+    },
+    "content": "ŝtofo simila al tolo, iom dense teksita el kotono."
+  },
+  {
+    "metadata": {
+      "title": "kamloto",
+      "description": "dika kaj maldelikata ŝtofo, kutime farita el la haroj de la Angora kapro, miksita kun silko, kotono aŭ lano",
+      "category": "materialoj"
+    },
+    "content": "dika kaj maldelikata ŝtofo, kutime farita el la haroj de la Angora kapro, miksita kun silko, kotono aŭ lano."
+  },
+  {
+    "metadata": {
+      "title": "kanvaso",
+      "description": "tolo el lino aŭ kanabo; se tre maldense teksita per dikaj fadenoj oni faras sur ĝi brodadon; dense teksitan oni uzas por veloj, tendoj, k",
+      "category": "materialoj"
+    },
+    "content": "tolo el lino aŭ kanabo; se tre maldense teksita per dikaj fadenoj oni faras sur ĝi brodadon; dense teksitan oni uzas por veloj, tendoj, k.s."
+  },
+  {
+    "metadata": {
+      "title": "kapoko",
+      "description": "kotono de aparta speco, havanta mallongajn barsimilajn fadenojn; multe uzata anstataŭ haroj por remburi pli bonkvalitajn kusenojn kaj matracojn",
+      "category": "materialoj"
+    },
+    "content": "kotono de aparta speco, havanta mallongajn barsimilajn fadenojn; multe uzata anstataŭ haroj por remburi pli bonkvalitajn kusenojn kaj matracojn."
+  },
+  {
+    "metadata": {
+      "title": "katuno",
+      "description": "maldika, relative malaltekosta, teksaĵo el kotono; ĝenerale la desegno sur ĝi estas surpresata unuflanke kaj ne enteksita",
+      "category": "materialoj"
+    },
+    "content": "maldika, relative malaltekosta, teksaĵo el kotono; ĝenerale la desegno sur ĝi estas surpresata unuflanke kaj ne enteksita."
+  },
+  {
+    "metadata": {
+      "title": "kaŝmira drapo",
+      "description": "(Kaŝmirajo) mola lanteksaĵo el la lano de la Kalmiraj kaproj",
+      "category": "materialoj"
+    },
+    "content": "(Kaŝmirajo) mola lanteksaĵo el la lano de la Kalmiraj kaproj."
+  },
+  {
+    "metadata": {
+      "title": "kepro",
+      "description": "sia ŝtofo teksita tiel ke la vefto transiras unu varpan fadenon kaj subiras du aŭ pli, por fari oblikvajn striojn sur la surfaco de la Ŝtofo",
+      "category": "materialoj"
+    },
+    "content": "sia ŝtofo teksita tiel ke la vefto transiras unu varpan fadenon kaj subiras du aŭ pli, por fari oblikvajn striojn sur la surfaco de la Ŝtofo. Kepri, Kepra. (Kepro estas vorto genra)."
+  },
+  {
+    "metadata": {
+      "title": "kolonoj",
+      "description": "strioj faritaj per maŝoj en la sama loko en ĉiu linio",
+      "category": "diversaj vortoj"
+    },
+    "content": "strioj faritaj per maŝoj en la sama loko en ĉiu linio."
+  },
+  {
+    "metadata": {
+      "title": "konfekcio",
+      "description": "vestoj jam faritaj, kaj aĉetataj rekte el la vendejo senmezure; vestoj ne faritaj laŭ speciala mezuro de portonto",
+      "category": "diversaj vortoj"
+    },
+    "content": "vestoj jam faritaj, kaj aĉetataj rekte el la vendejo senmezure; vestoj ne faritaj laŭ speciala mezuro de portonto. Kontrastas kun [Fasonitaj Vestoj](fasoni)."
+  },
+  {
+    "metadata": {
+      "title": "korduro",
+      "description": "(ankaŭ Kordurojo) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn",
+      "category": "materialoj"
+    },
+    "content": "(ankaŭ Kordurojo) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn."
+  },
+  {
+    "metadata": {
+      "title": "kordurojo",
+      "description": "(ankaŭ Korduro) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn",
+      "category": "materialoj"
+    },
+    "content": "(ankaŭ Korduro) : fortika maldelikata kotona teksaĵo, kies surfaco havas rektajn reliefajn striojn interproksimajn."
+  },
+  {
+    "metadata": {
+      "title": "kotono",
+      "description": "la kruda lanugeca substanco el kiu oni teksas katunon kaj similajn ŝtofojn",
+      "category": "materialoj"
+    },
+    "content": "la kruda lanugeca substanco el kiu oni teksas katunon kaj similajn ŝtofojn."
+  },
+  {
+    "metadata": {
+      "title": "krepo",
+      "description": "krispa ŝtofo kutime gazeca, el silko aŭ lano",
+      "category": "materialoj"
+    },
+    "content": "krispa ŝtofo kutime gazeca, el silko aŭ lano. La vorto estas aplikebla ankaŭ al aliaj substancoj, ekz. kaŭĉuko, papero. (Komp. Krispa= havanta pli-malpli regulajn kaj ordajn ondojn; Krepa=havanta multajn malpli grandajn faltojn kaj ondetojn senordajn)."
+  },
+  {
+    "metadata": {
+      "title": "kretono",
+      "description": "fortika senglazura ŝtofo (varpo el kanabo, vefto el lino) kiun oni ofte surpresas per desegno",
+      "category": "materialoj"
+    },
+    "content": "fortika senglazura ŝtofo (varpo el kanabo, vefto el lino) kiun oni ofte surpresas per desegno."
+  },
+  {
+    "metadata": {
+      "title": "krispo",
+      "description": "ondetara ŝtofo, iam uzata kiel kolumo",
+      "category": "galanterio"
+    },
+    "content": "ondetara ŝtofo, iam uzata kiel kolumo."
+  },
+  {
+    "metadata": {
+      "title": "kroki",
+      "description": "",
+      "category": "laborspecoj",
+      "neoligismo": true
+    },
+    "content": "Krokado (ankaŭ nomata tunizia aŭ afgana [kroĉetado]({% link _docs/kroĉeti.md %})) estas manarta tekniko uzata por produkti tekstilojn per [kroĉetilo]({% link _docs/kroĉetilo.md %}) kaj [fadeno]({% link _docs/fadeno.md %}). La tekniko havas similecojn kun ambaŭ [triki]({% link _docs/triki.md %}) kaj [kroĉeti]({% link _docs/kroĉeti.md %}). La procedo estas alterne unue meti maŝojn sur la kroĉetilon kaj poste forigi ĉiujn krom la lasta. Krokado estis uzata por krei ĉion, de vestaĵoj, gantoj kaj ŝtrumpetoj ĝis purigaj tukoj, kovriloj kaj bendoj."
+  },
+  {
+    "metadata": {
+      "title": "kroĉeti",
+      "subtitle": null,
+      "description": "(Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena",
+      "image": null,
+      "category": "laborspecoj",
+      "tags": [
+        "kroĉetado"
+      ],
+      "author": "irizanjo",
+      "languages": [
+        {
+          "nl": "haken"
+        },
+        {
+          "uk": "crochet"
+        }
+      ],
+      "references": [
+        {
+          "title": "Kroĉetado - Vikipedio",
+          "url": "https://eo.wikipedia.org/wiki/Kro%C4%89etado"
+        }
+      ]
+    },
+    "content": "La vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per [hoko](kroĉetilo), kaj konektas la ligojn formi kompletan teksaĵon.\n\n\n\n\n\n(Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena."
+  },
+  {
+    "metadata": {
       "title": "kroĉetilo",
       "subtitle": null,
-      "description": null,
+      "description": "maldika, malgranda stango kun hoketo, uzata ĉe la kroĉetado",
       "image": null,
       "category": "iloj",
       "tags": [
         "kroĉeti",
         "hoko"
       ],
-      "author": "irizanjo"
+      "author": "irizanjo",
+      "languages": [
+        {
+          "nl": "haaknaald"
+        },
+        {
+          "uk": "crochet hook"
+        }
+      ]
     },
-    "sections": {
-      "Difino": "La vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per hoko, kaj konektas la ligojn formi kompletan teksaĵon.",
-      "Uzado": "",
-      "Ekzemploj": ""
-    },
-    "languages": {},
-        "sources": [],
-    "references": []
+    "content": "maldika, malgranda stango kun hoketo, uzata ĉe la kroĉetado."
   },
   {
     "metadata": {
-      "layout": "post",
+      "title": "kruckolora",
+      "description": "silkajo teksita el malsamkoloraj vefto kaj varpo; laŭ vidpunkto kaj lumo unu koloro aŭ la alia, aŭ ambaŭ, vidigis",
+      "category": "diversaj vortoj"
+    },
+    "content": "silkajo teksita el malsamkoloraj vefto kaj varpo; laŭ vidpunkto kaj lumo unu koloro aŭ la alia, aŭ ambaŭ, vidigis."
+  },
+  {
+    "metadata": {
+      "title": "kudrero",
+      "description": "unu kompleta tratiro per kudrilo kaj fadeno",
+      "category": "laborspecoj"
+    },
+    "content": "unu kompleta tratiro per kudrilo kaj fadeno."
+  },
+  {
+    "metadata": {
+      "title": "kudri",
+      "description": "kunfiksi per fadeno du pecojn da ŝtofo aŭ du apartojn de unu peco; aŭ ornami per fadeno",
+      "category": "laborspecoj"
+    },
+    "content": "kunfiksi per fadeno du pecojn da ŝtofo aŭ du apartojn de unu peco; aŭ ornami per fadeno. Oni tratiras la fadenojn per maldika stangeto, la kudrilo."
+  },
+  {
+    "metadata": {
+      "title": "kudrilo",
+      "description": "malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj",
+      "category": "iloj"
+    },
+    "content": "malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj."
+  },
+  {
+    "metadata": {
+      "title": "kunkudro",
+      "description": "kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko",
+      "category": "diversaj vortoj"
+    },
+    "content": "kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko."
+  },
+  {
+    "metadata": {
+      "title": "kuntriki",
+      "description": "preni du malojn (aŭ pli) sur la trikilon kune por ke en postaj vicoj estu tiesloke nur unu maŝo (mallonge kt",
+      "mallongigo": "kt",
+      "category": "procedoj"
+    },
+    "content": "preni du malojn (aŭ pli) sur la trikilon kune por ke en postaj vicoj estu tiesloke nur unu maŝo (mallonge kt.)"
+  },
+  {
+    "metadata": {
+      "title": "kvasto",
+      "description": "fadenoj pendantaj faske aŭ kvazaŭ peniko, kutime silkaj, uzataj kiel dekoraciaĵo (ankaŭ Kvato, Peniko)",
+      "category": "galanterio"
+    },
+    "content": "fadenoj pendantaj faske aŭ kvazaŭ peniko, kutime silkaj, uzataj kiel dekoraciaĵo (ankaŭ Kvato, Peniko)."
+  },
+  {
+    "metadata": {
+      "title": "lano",
+      "description": "kreskaĵo harsimila sur la ŝafoj, sur iuj kunikloj, iuj kaproj, kaj la alpakoj",
+      "category": "materialoj"
+    },
+    "content": "kreskaĵo harsimila sur la ŝafoj, sur iuj kunikloj, iuj kaproj, kaj la alpakoj."
+  },
+  {
+    "metadata": {
+      "title": "laĉmetalo",
+      "description": "unu el la metalaj pecetoj, fiksitaj al ĉiu ekstremo de laĉo por faciligi tredadon",
+      "category": "ligiloj"
+    },
+    "content": "unu el la metalaj pecetoj, fiksitaj al ĉiu ekstremo de laĉo por faciligi tredadon."
+  },
+  {
+    "metadata": {
+      "title": "laĉo",
+      "description": "beleta ŝnuro uzata por ligfiksi ŝuon, korsaĵon k",
+      "category": "ligiloj"
+    },
+    "content": "beleta ŝnuro uzata por ligfiksi ŝuon, korsaĵon k.s."
+  },
+  {
+    "metadata": {
+      "title": "ledo",
+      "description": "tanita besthaŭto senhara, preparita, por ŝuoj, rimenoj, kaj similaj uzoj",
+      "category": "materialoj"
+    },
+    "content": "tanita besthaŭto senhara, preparita, por ŝuoj, rimenoj, kaj similaj uzoj."
+  },
+  {
+    "metadata": {
+      "title": "ligo",
+      "description": "kunvolvo de ŝnuro, rubando, k",
+      "category": "diversaj vortoj"
+    },
+    "content": "kunvolvo de ŝnuro, rubando, k.s. por kunteni du pecojn; nodo, banto."
+  },
+  {
+    "metadata": {
+      "title": "maŝtenilo",
+      "description": "ilo, ofte kun formo de longa fibulo, kiun oni tredas tra la maŝoj de trikado, por provizore teni ilin dum oni faras alian procedon",
+      "category": "iloj"
+    },
+    "content": "ilo, ofte kun formo de longa fibulo, kiun oni tredas tra la maŝoj de trikado, por provizore teni ilin dum oni faras alian procedon."
+  },
+  {
+    "metadata": {
+      "title": "mercero",
+      "description": "la komercado per kaj pri galanterio kaj kudraj akcesoraĵoj",
+      "category": "galanterio"
+    },
+    "content": "la komercado per kaj pri galanterio kaj kudraj akcesoraĵoj."
+  },
+  {
+    "metadata": {
+      "title": "mezurrubando",
+      "description": "mezurilo kun formo de rubando, markita laŭ la uzataj (naciaj) mezurunuoj",
+      "category": "iloj"
+    },
+    "content": "mezurilo kun formo de rubando, markita laŭ la uzataj (naciaj) mezurunuoj."
+  },
+  {
+    "metadata": {
+      "title": "modelfolio",
+      "description": "papera folio kun la formo de la aparta vestoparto kiun oni tajlas",
+      "category": "iloj"
+    },
+    "content": "papera folio kun la formo de la aparta vestoparto kiun oni tajlas. Oni kuŝigas ĝin sur la ŝtofo kaj aŭ tajlas ĉirkaŭe, aŭ markas ĉirkaŭe kaj tajlas laŭ la marko."
+  },
+  {
+    "metadata": {
+      "title": "modellibro",
+      "description": "ĉia eldonaĵo por prezento de novaj (freŝaj) modoj, stiloj, k",
+      "category": "diversaj vortoj"
+    },
+    "content": "ĉia eldonaĵo por prezento de novaj (freŝaj) modoj, stiloj, k.t.p. (ankaŭ Modgazeto)."
+  },
+  {
+    "metadata": {
+      "title": "modo",
+      "description": "vestmaniero, stilo, siatempe populara",
+      "category": "diversaj vortoj"
+    },
+    "content": "vestmaniero, stilo, siatempe populara."
+  },
+  {
+    "metadata": {
+      "title": "mohajro",
+      "description": "la tekseblaj haroj de la Angoraj kaproj",
+      "category": "materialoj"
+    },
+    "content": "la tekseblaj haroj de la Angoraj kaproj."
+  },
+  {
+    "metadata": {
+      "title": "muslino",
+      "description": "delikate malpeza katuno, uzata por inaj vestoj, kurtenoj, k",
+      "category": "materialoj"
+    },
+    "content": "delikate malpeza katuno, uzata por inaj vestoj, kurtenoj, k.t.p."
+  },
+  {
+    "metadata": {
+      "title": "nankeno",
+      "description": "ŝtofo el naturkolora kotono (laŭ nomo de urbo en Ĉinujo)",
+      "category": "materialoj"
+    },
+    "content": "ŝtofo el naturkolora kotono (laŭ nomo de urbo en Ĉinujo)."
+  },
+  {
+    "metadata": {
+      "title": "navedo",
+      "description": "bobenujo aŭ -ingo, kiu en stebilo aŭ teksmaŝino portas la fadenon tien-reen (ankaŭ Naveto)",
+      "category": "iloj"
+    },
+    "content": "bobenujo aŭ -ingo, kiu en stebilo aŭ teksmaŝino portas la fadenon tien-reen (ankaŭ Naveto)."
+  },
+  {
+    "metadata": {
+      "title": "nilono",
+      "description": "plej moderna (1947) materialo modpopulara por virinaj ŝtrumpoj (ankaŭ aliaj objektoj, ekz",
+      "category": "materialoj"
+    },
+    "content": "plej moderna (1947) materialo modpopulara por virinaj ŝtrumpoj (ankaŭ aliaj objektoj, ekz. brosharoj k.s.)"
+  },
+  {
+    "metadata": {
+      "title": "nodo",
+      "description": "tubera ligaĵo de ŝnuro k",
+      "category": "diversaj vortoj"
+    },
+    "content": "tubera ligaĵo de ŝnuro k.s. (vd. Ligo)."
+  },
+  {
+    "metadata": {
+      "title": "numerilo",
+      "description": "ĉiu el la diversaj netoj uzataj por registri aŭ \"memori",
+      "category": "iloj"
+    },
+    "content": "ĉiu el la diversaj netoj uzataj por registri aŭ \"memori. ' la nombron da triklinioj aŭ trikeroj jam faritaj k.s."
+  },
+  {
+    "metadata": {
+      "title": "orli",
+      "description": "fari falditan randon; enfaldi kaj kunkudri la egojn de poŝtuko, jupo, aŭ de ĉia ajn ŝtofo",
+      "category": "procedoj"
+    },
+    "content": "fari falditan randon; enfaldi kaj kunkudri la egojn de poŝtuko, jupo, aŭ de ĉia ajn ŝtofo."
+  },
+  {
+    "metadata": {
+      "title": "orlo",
+      "description": "rando de ŝtofo refaldita kaj kudrita tiel, ke kruda ego estas protektata kaj nevidebla",
+      "category": "diversaj vortoj"
+    },
+    "content": "rando de ŝtofo refaldita kaj kudrita tiel, ke kruda ego estas protektata kaj nevidebla."
+  },
+  {
+    "metadata": {
+      "title": "pasamento",
+      "description": "ŝnuro aŭ rubando simila al Galono (supre) sed pli delikata, ofte el silko",
+      "category": "galanterio"
+    },
+    "content": "ŝnuro aŭ rubando simila al Galono (supre) sed pli delikata, ofte el silko."
+  },
+  {
+    "metadata": {
+      "title": "paŭsi",
+      "description": "trakopii desegnon; la desegno trovigas sur papero, sub kiu kuŝas la robo aŭ brodfono; inter la desegno kaj la ŝtofo kuŝas paperfolio inke aŭ vakse kolorigita",
+      "category": "procedoj"
+    },
+    "content": "trakopii desegnon; la desegno trovigas sur papero, sub kiu kuŝas la robo aŭ brodfono; inter la desegno kaj la ŝtofo kuŝas paperfolio inke aŭ vakse kolorigita. Kiam oni krajonas laŭ la desegno la intera folio lasas la desegnon sur la ŝtofo. Oni brodas laŭ tiu paŭsita desegno."
+  },
+  {
+    "metadata": {
+      "title": "pelto",
+      "description": "preparita felo, ĝenerale belhara, uzebla por fari aŭ ornami vestojn",
+      "category": "materialoj"
+    },
+    "content": "preparita felo, ĝenerale belhara, uzebla por fari aŭ ornami vestojn."
+  },
+  {
+    "metadata": {
+      "title": "perkalo",
+      "description": "delikata sed dense teksita katuno, tia kian oni uzas por fari naztukojn",
+      "category": "materialoj"
+    },
+    "content": "delikata sed dense teksita katuno, tia kian oni uzas por fari naztukojn."
+  },
+  {
+    "metadata": {
+      "title": "pinglo",
+      "description": "stangeto kun kapeto kaj pinto",
+      "category": "ligiloj"
+    },
+    "content": "stangeto kun kapeto kaj pinto."
+  },
+  {
+    "metadata": {
+      "title": "pintfalto",
+      "description": "(vd",
+      "category": "diversaj vortoj"
+    },
+    "content": "(vd. supra Falto)."
+  },
+  {
+    "metadata": {
+      "title": "plasto",
+      "description": "ĉiu el la multaj produktaĵoj faritaj el plastikaj substancoj, mulditaj ĉirkaŭ, sur, aŭ en modlilo aŭ muldilo; ofte koloraj, klare travideblaj, pluvrezistaj, kaj fortikaj",
+      "category": "materialoj"
+    },
+    "content": "ĉiu el la multaj produktaĵoj faritaj el plastikaj substancoj, mulditaj ĉirkaŭ, sur, aŭ en modlilo aŭ muldilo; ofte koloraj, klare travideblaj, pluvrezistaj, kaj fortikaj."
+  },
+  {
+    "metadata": {
+      "title": "platfaldo",
+      "description": "faldo glade firm-markita por ornami aŭ doni formon al vesto",
+      "category": "diversaj vortoj"
+    },
+    "content": "faldo glade firm-markita por ornami aŭ doni formon al vesto."
+  },
+  {
+    "metadata": {
+      "title": "plumo(j)",
+      "description": "la birdaj kovrajoj uzataj kiel garnituroj aŭ kiel remburaĵoj por kusenoj",
+      "category": "materialoj"
+    },
+    "content": "la birdaj kovrajoj uzataj kiel garnituroj aŭ kiel remburaĵoj por kusenoj."
+  },
+  {
+    "metadata": {
+      "title": "pluŝo",
+      "description": "ŝtofo simila al veluro, sed havanta pli longajn harojn",
+      "category": "materialoj"
+    },
+    "content": "ŝtofo simila al veluro, sed havanta pli longajn harojn."
+  },
+  {
+    "metadata": {
+      "title": "prembutono",
+      "description": "metala butoneto en du partoj; unu parto (prembutoningo) povas fiksi sin sur la alian per iom forta premo; oni apartigas per pli forta tiro; ofte uzata ĉe jupligejo sub agrafoj, kiuj estas pli firmligaj",
+      "category": "ligiloj"
+    },
+    "content": "metala butoneto en du partoj; unu parto (prembutoningo) povas fiksi sin sur la alian per iom forta premo; oni apartigas per pli forta tiro; ofte uzata ĉe jupligejo sub agrafoj, kiuj estas pli firmligaj."
+  },
+  {
+    "metadata": {
+      "title": "provpupo",
+      "description": "torso de pupo homgranda, kun pli-malpli natura formo, kiu portas veston faratan",
+      "category": "diversaj vortoj"
+    },
+    "content": "torso de pupo homgranda, kun pli-malpli natura formo, kiu portas veston faratan."
+  },
+  {
+    "metadata": {
+      "title": "punto",
+      "description": "delikata aĵureca retaĵo, kutime el silko aŭ maldika katuno, kun arte belaj desegnoj (ofte kroĉtrikita)",
+      "category": "materialoj"
+    },
+    "content": "delikata aĵureca retaĵo, kutime el silko aŭ maldika katuno, kun arte belaj desegnoj (ofte kroĉtrikita)."
+  },
+  {
+    "metadata": {
+      "title": "refaldo",
+      "description": "faldo ĉe vestrando, kolumo, por montri la flankon internan",
+      "category": "diversaj vortoj"
+    },
+    "content": "faldo ĉe vestrando, kolumo, por montri la flankon internan."
+  },
+  {
+    "metadata": {
+      "title": "remburi",
+      "description": "(simple) plenŝtopi sakon",
+      "category": "procedoj"
+    },
+    "content": "(simple) plenŝtopi sakon. (Praktike) plenigi poŝforman aŭ sakforman spacon per ia ajn ŝtofo, tiel, ke ĝi molsolidiĝas. Oni povas rembureti flikon dum alflikado por ilin elstarigi; aŭ plenigi pupon per ĉifonajoj, haroj, k.s.; aŭ kusenon, k.t.p."
+  },
+  {
+    "metadata": {
+      "title": "repso",
+      "description": "fortika ŝtofo el lano kaj kotono, iom simila al korduro (vd",
+      "category": "materialoj"
+    },
+    "content": "fortika ŝtofo el lano kaj kotono, iom simila al korduro (vd.)"
+  },
+  {
+    "metadata": {
+      "title": "reto",
+      "description": "malaro; fadeno tiel teksita aŭ trikita, ke ĝi faras seriojn da ringoj aŭ kvadratoj k",
+      "category": "materialoj"
+    },
+    "content": "malaro; fadeno tiel teksita aŭ trikita, ke ĝi faras seriojn da ringoj aŭ kvadratoj k.s."
+  },
+  {
+    "metadata": {
+      "title": "rimeno",
+      "description": "leda rubando, por ligi aŭ fiksi ion",
+      "category": "galanterio"
+    },
+    "content": "leda rubando, por ligi aŭ fiksi ion."
+  },
+  {
+    "metadata": {
+      "title": "ripari",
+      "description": "bonigi difekton, ŝiron, tranĉon, rompon, kaŭzitan al ia vesto, k",
+      "category": "procedoj"
+    },
+    "content": "bonigi difekton, ŝiron, tranĉon, rompon, kaŭzitan al ia vesto, k.t.p.; refortikigi eluzitan parton."
+  },
+  {
+    "metadata": {
+      "title": "rubando",
+      "description": "strio el silko aŭ kotono, taŭge kolora, per kiu oni ligas, ornamas, bantas, k",
+      "category": "galanterio"
+    },
+    "content": "strio el silko aŭ kotono, taŭge kolora, per kiu oni ligas, ornamas, bantas, k.t.p."
+  },
+  {
+    "metadata": {
+      "title": "sarseno",
+      "neologismo": true,
+      "description": "(sarseneto) dolĉe mola dika silko nun plej ofte uzata kiel subŝtofo",
+      "category": "materialoj"
+    },
+    "content": "(sarseneto) dolĉe mola dika silko nun plej ofte uzata kiel subŝtofo."
+  },
+  {
+    "metadata": {
+      "title": "serĝo",
+      "description": "speco de diketa fortika kepra ŝtofo, portata precipe por peza uzado",
+      "category": "materialoj"
+    },
+    "content": "speco de diketa fortika kepra ŝtofo, portata precipe por peza uzado."
+  },
+  {
+    "metadata": {
+      "title": "silesio",
+      "neologismo": true,
+      "description": "ĉiu el la diversaj maldikaj ŝtofoj netravideblaj, uzataj por fenestro-kovraĵoj",
+      "category": "materialoj"
+    },
+    "content": "ĉiu el la diversaj maldikaj ŝtofoj netravideblaj, uzataj por fenestro-kovraĵoj."
+  },
+  {
+    "metadata": {
+      "title": "silko",
+      "description": "delikata ŝtofo farita el la fadeno brila produktata de iuj raŭpoj (kaj iuj araneoj)",
+      "category": "materialoj"
+    },
+    "content": "delikata ŝtofo farita el la fadeno brila produktata de iuj raŭpoj (kaj iuj araneoj)."
+  },
+  {
+    "metadata": {
+      "title": "stamino",
+      "description": "vualeca ŝtofo el kotono, nedense teksita, kun maloj iomete pli larĝaj ol tiuj de muslino",
+      "category": "materialoj"
+    },
+    "content": "vualeca ŝtofo el kotono, nedense teksita, kun maloj iomete pli larĝaj ol tiuj de muslino."
+  },
+  {
+    "metadata": {
+      "title": "stebero",
+      "description": "unu kompleta trapiko kaj tratiro per stebpinto",
+      "category": "laborspecoj"
+    },
+    "content": "unu kompleta trapiko kaj tratiro per stebpinto."
+  },
+  {
+    "metadata": {
+      "title": "stebi",
+      "description": "kudri per maŝino (stebilo, stebmaŝino)",
+      "category": "laborspecoj"
+    },
+    "content": "kudri per maŝino (stebilo, stebmaŝino)."
+  },
+  {
+    "metadata": {
+      "title": "stebmaŝino",
+      "description": "maŝino kiu kunfiksas pecojn da drapo, aŭ alia ŝtofo kvazaŭ kudrante",
+      "category": "iloj"
+    },
+    "content": "maŝino kiu kunfiksas pecojn da drapo, aŭ alia ŝtofo kvazaŭ kudrante. Plej ofte ĝi kunplektas du fadenojn, el kiuj unu estas sur bobeno en navedo, la alia tredita tra stebpinto (simila al kudrilo). Kutime oni funkciigas stebmaŝinon per pedalo, sed ekzistas ankaŭ multaj elektraj, kaj aliaj mane funkciigataj (ankaŭ Stebilo)."
+  },
+  {
+    "metadata": {
+      "title": "subŝtofo",
+      "description": "ĉia Stalo uzata interne de vesto aŭ por plia diko, aŭ por plia komforta; kutime malpli dika, ofte silka",
+      "category": "diversaj vortoj"
+    },
+    "content": "ĉia Stalo uzata interne de vesto aŭ por plia diko, aŭ por plia komforta; kutime malpli dika, ofte silka."
+  },
+  {
+    "metadata": {
+      "title": "surprovi",
+      "description": "surmeti faratan veston sur la portonton por eltrovi ĉu modifoj necesas por perfekta fasono",
+      "category": "procedoj"
+    },
+    "content": "surmeti faratan veston sur la portonton por eltrovi ĉu modifoj necesas por perfekta fasono."
+  },
+  {
+    "metadata": {
+      "title": "surtriki",
+      "description": "(aŭ surmeti) triki la unuan vicon da maŝoj",
+      "category": "procedoj"
+    },
+    "content": "(aŭ surmeti) triki la unuan vicon da maŝoj. Surmeti"
+  },
+  {
+    "metadata": {
+      "title": "tafto",
+      "description": "speco de maldika silka ŝtofo, teksita tre glacea",
+      "category": "materialoj"
+    },
+    "content": "speco de maldika silka ŝtofo, teksita tre glacea."
+  },
+  {
+    "metadata": {
+      "title": "tajli",
+      "description": "A",
+      "category": "procedoj"
+    },
+    "content": "A. eltondi ŝtofon en la formoj necesaj por vesto. B. ĉe la brodado: ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas"
+  },
+  {
+    "metadata": {
+      "title": "tajlori",
+      "description": "fari vestojn laŭ la fasono kutima ĉe la viroj",
+      "category": "laborspecoj"
+    },
+    "content": "fari vestojn laŭ la fasono kutima ĉe la viroj. Ĉi tiu vorto ampleksas ĉion rilatan al tiu metio: tajli, fasoni, kudri, gladi, k.c."
+  },
+  {
+    "metadata": {
+      "title": "teksaĵo",
+      "description": "ĉia produktaĵo de teksmaŝino",
+      "category": "materialoj"
+    },
+    "content": "ĉia produktaĵo de teksmaŝino."
+  },
+  {
+    "metadata": {
+      "title": "tekseĝo",
+      "description": "la natura sentranĉa longa ego de la teksita ŝtofo, kun ĉiuj returnoj de la veno",
+      "category": "diversaj vortoj"
+    },
+    "content": "la natura sentranĉa longa ego de la teksita ŝtofo, kun ĉiuj returnoj de la veno. Ofte kun pluraj varperoj."
+  },
+  {
+    "metadata": {
+      "title": "teria veluro",
+      "description": "veluro, kies haretoj restas netranĉitaj kaj iom pli longaj",
+      "category": "materialoj"
+    },
+    "content": "veluro, kies haretoj restas netranĉitaj kaj iom pli longaj."
+  },
+  {
+    "metadata": {
+      "title": "tiko",
+      "description": "speco de fortika tolteksaĵo kun duopaj fadenoj",
+      "category": "materialoj"
+    },
+    "content": "speco de fortika tolteksaĵo kun duopaj fadenoj. Ofte uzata por kovri matracon."
+  },
+  {
+    "metadata": {
+      "title": "tolo",
+      "description": "teksita ŝtofo el kanabo aŭ lino, uzata por bonaj vestoj kaj litaj tukoj",
+      "category": "materialoj"
+    },
+    "content": "teksita ŝtofo el kanabo aŭ lino, uzata por bonaj vestoj kaj litaj tukoj."
+  },
+  {
+    "metadata": {
+      "title": "tondilo",
+      "description": "instrumento per kiu oni tajlas la ŝtofon, konsistanta el du kunpivotantaj klingoj",
+      "category": "iloj"
+    },
+    "content": "instrumento per kiu oni tajlas la ŝtofon, konsistanta el du kunpivotantaj klingoj."
+  },
+  {
+    "metadata": {
+      "title": "transpresaĵo",
+      "description": "(-ilo) maldika paperfolio sur kiu desegnaĵo estas presita per vaksa inko",
+      "category": "iloj"
+    },
+    "content": "(-ilo) maldika paperfolio sur kiu desegnaĵo estas presita per vaksa inko. Oni almetas nin sur ornamotan veston k.s. kaj gladas la malantaŭon. Tio impresas la vaksan desegnon sur Ia veston, kaj laŭ tio oni brodas."
+  },
+  {
+    "metadata": {
+      "title": "tredi",
+      "description": "enmeti fadenon, ŝnuron k",
+      "category": "procedoj"
+    },
+    "content": "enmeti fadenon, ŝnuron k.s. tra truo aŭ truoj, orlo, aŭ ringo k.t.p. Oni tredas fadenon en kudrilon; oni tredas silkan rubandon tra truvico ĉirkaŭ bluz-kolumo; oni tredas stangon tra kurtenaj ringoj, laĉon tra truoj en la ŝuo, k.s."
+  },
+  {
+    "metadata": {
+      "title": "tredilo",
+      "description": "instrumento per kiu oni tiras fadenon tra truo (ekz",
+      "category": "iloj"
+    },
+    "content": "instrumento per kiu oni tiras fadenon tra truo (ekz. en kudrilo, aŭ en stebpinto) aŭ tra la tubo de orlo (ekz. 'ĉirkaŭ la zono de vira piĵama pantalono, aŭ do virina kalsono)."
+  },
+  {
+    "metadata": {
+      "title": "triki",
+      "description": "fabriki trikoton (vd",
+      "category": "laborspecoj",
+      "fundamenta": true
+    },
+    "content": "fabriki trikoton (vd.) farante seriojn da maŝoj per du aŭ kvar longaj maldikaj stangoj, la trikiloj. La du bazaj maŝoj estas rekta kaj inversa. Oni faras senfine diversajn desegnojn per alternado kaj diversaj kombinoj de tiuj du, ankaŭ per aliaj rimedoj; ekz. kuntriko (k) de du (aŭ pli) maŝoj, aldoni maŝojn meze en linio, k.t.p.La dikon de la trikiloj oni mezuras per kalibrilo."
+  },
+  {
+    "metadata": {
+      "title": "triki inverse",
+      "description": "Angla metodo: fari maŝon, komence enpuŝante trikilon tra la jama maŝo en la direkto kontraŭ tiu de la trikilo tenanta la jaman maŝon",
+      "mallongigo": "mallonge, inv",
+      "category": "procedoj"
+    },
+    "content": "Angla metodo: fari maŝon, komence enpuŝante trikilon tra la jama maŝo en la direkto kontraŭ tiu de la trikilo tenanta la jaman maŝon."
+  },
+  {
+    "metadata": {
+      "title": "triki rekte",
+      "description": "Angla metodo: fari maŝon, komence enpuŝante trikilon tra jama maŝo en direkto sama kiel tiu de la trikilo sur kiu la jama maŝo trovigas",
+      "mallongigo": "mallonge, rek aŭ rk",
+      "category": "procedoj"
+    },
+    "content": "Angla metodo: fari maŝon, komence enpuŝante trikilon tra jama maŝo en direkto sama kiel tiu de la trikilo sur kiu la jama maŝo trovigas."
+  },
+  {
+    "metadata": {
+      "layout": "leksiko",
       "title": "trikilo",
       "subtitle": null,
-      "description": "La trikilo estas eta stango kun difinita longo, kiu estas uzata por trikado.",
+      "description": "stango de difinita diko, kun pinto (kaj kutime ankaŭ kapeto), per kiu oni trikas",
       "image": null,
       "category": "iloj",
       "tags": [
@@ -72,15 +1330,235 @@
         "metalo",
         "trikado"
       ],
-      "author": "irizanjo"
+      "author": "irizanjo",
+      "languages": {
+        "nl": [
+          "breinaaldje",
+          "breinaald",
+          "naald"
+        ],
+        "uk": [
+          "knitting needle"
+        ]
+      }
     },
-    "sections": {
-      "Difino": "La trikilo estas eta stango kun difinita longo, kiu estas uzata por trikado.",
-      "Uzado": "",
-      "Ekzemploj": ""
+    "content": "La trikilo estas eta stango kun difinita longo, kiu estas uzata por [trikado](triki).\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nIn sit amet quam molestie metus fermentum condimentum lacinia et purus. Mauris blandit sem et porta tincidunt. Nam egestas feugiat lorem, quis maximus ex placerat.\n\nVestibulum porttitor blandit augue, vitae iaculis odio tincidunt in. Suspendisse sed pretium purus. Etiam quis turpis imperdiet, vulputate ante sed, dapibus erat. Integer enim mi, suscipit in risus sit amet, congue porttitor lacus. In sem mauris, bibendum non felis eu, rutrum consectetur sapien. Aenean ac elementum elit. Aenean ut est non est dapibus gravida sed vitae magna. Aliquam congue, quam a imperdiet dictum, purus nulla dignissim tortor, sed mollis leo urna vitae elit. Suspendisse tempor, tellus sit amet ultricies hendrerit, ligula felis efficitur risus, ac maximus odio nunc eget eros. Aenean lorem orci, ornare nec dolor sed, faucibus eleifend enim. Duis faucibus magna non accumsan tristique. Praesent egestas massa ut lectus suscipit suscipit. Nam malesuada efficitur mollis. Nullam felis erat, aliquet eu ante sed, laoreet iaculis diam. Morbi ultrices nisl eu lectus venenatis laoreet.\n\nVestibulum eget pulvinar orci. Donec in diam finibus, ultricies augue ac, porta dolor. Praesent porta lectus id auctor ultricies. Donec vitae magna nec leo feugiat ullamcorper eget sit amet ex. Phasellus lectus mi, rutrum sit amet ante et, tincidunt malesuada elit. Nunc id elit congue, imperdiet ligula nec, interdum enim. Quisque non placerat augue. In vitae sagittis sem, nec tincidunt nunc. Vivamus ut velit ac tellus luctus porta a nec lorem. Nam ultrices, lectus at facilisis pellentesque, odio massa consectetur ex, id dapibus sem lorem scelerisque nisi. Cras euismod quam velit, id hendrerit dolor tristique et. Phasellus ex mauris, ullamcorper eget pellentesque ornare, volutpat at nisl. Fusce mollis fermentum dui.\nFusce sed lorem diam. Morbi tempor risus lectus, nec volutpat lorem tempor eu. Morbi gravida efficitur erat eu blandit. Aliquam tempus mi magna, at porta lorem pretium ut. Ut finibus pulvinar pharetra. Aliquam erat volutpat. Aenean gravida lacus libero. Sed vel justo enim.\n\nNunc enim nibh, tempor maximus lobortis quis, condimentum ac ex. Cras porta, neque ut rhoncus fringilla, tortor orci eleifend lorem, ac tincidunt orci nisl mattis lectus. Vivamus interdum tellus lacinia mauris placerat laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam nec nisl egestas, ornare nulla ac, sagittis lectus. Nam quis gravida ipsum. In vitae consectetur neque. Praesent nisi tellus, aliquam sed ullamcorper id, aliquam vel orci. Vivamus lobortis urna lacinia ultricies dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque id sapien neque. Pellentesque sed facilisis arcu. Proin pellentesque metus ut quam sodales maximus. Mauris congue, arcu a sollicitudin efficitur, tellus dolor rutrum sem, vel condimentum lorem elit ac elit.\n\nstango de difinita diko, kun pinto (kaj kutime ankaŭ kapeto), per kiu oni trikas."
+  },
+  {
+    "metadata": {
+      "title": "trikkroĉi",
+      "neologismo": true,
+      "description": "kiel la nomo indikas, la trikkroĉado estas hibrido de la trikado kaj kroĉado",
+      "category": "laborspecoj"
     },
-    "sources": [],
-    "languages": {},
-    "references": []
+    "content": "kiel la nomo indikas, la trikkroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikkroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki).\n\n* aldonis plian k"
+  },
+  {
+    "metadata": {
+      "title": "trikkroĉilo",
+      "description": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda",
+      "category": "iloj"
+    },
+    "content": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda.\n\n* aldonis plian k"
+  },
+  {
+    "metadata": {
+      "title": "trikoto",
+      "description": "la rezultato de la trikado, precipe ĉe delikataj materialoj",
+      "category": "materialoj"
+    },
+    "content": "la rezultato de la trikado, precipe ĉe delikataj materialoj. Bedaŭrinda vorto! Oni bezonas pli taŭgan, por eviti konfuzon inter vesto trikota (kiun oni trikos) kaj vesto trikota (el trikoto). Trikotaĵo estas ŝtofo jam trikita!"
+  },
+  {
+    "metadata": {
+      "title": "trikroĉi",
+      "neologismo": true,
+      "description": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado",
+      "category": "laborspecoj"
+    },
+    "content": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki)."
+  },
+  {
+    "metadata": {
+      "title": "trikroĉilo",
+      "description": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda",
+      "category": "iloj"
+    },
+    "content": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda."
+  },
+  {
+    "metadata": {
+      "title": "tuko",
+      "description": "peco da ŝtofo kun definitiva celo, uzo : tablotuko, naztuko, vindtuko, viŝtuko, k",
+      "category": "galanterio"
+    },
+    "content": "peco da ŝtofo kun definitiva celo, uzo : tablotuko, naztuko, vindtuko, viŝtuko, k.c."
+  },
+  {
+    "metadata": {
+      "title": "tulo",
+      "description": "delikata kaj travidebla retaĵo ofte uzata por vualoj",
+      "category": "materialoj"
+    },
+    "content": "delikata kaj travidebla retaĵo ofte uzata por vualoj."
+  },
+  {
+    "metadata": {
+      "title": "varpero",
+      "description": "unu tia fadeno",
+      "category": "diversaj vortoj"
+    },
+    "content": "unu tia fadeno."
+  },
+  {
+    "metadata": {
+      "title": "varpo",
+      "description": "la fadenaro kuŝanta laŭlonge en la teksa",
+      "category": "diversaj vortoj"
+    },
+    "content": "la fadenaro kuŝanta laŭlonge en la teksa.ĵo."
+  },
+  {
+    "metadata": {
+      "title": "veftero",
+      "description": "unu transversiro de vefto",
+      "category": "diversaj vortoj"
+    },
+    "content": "unu transversiro de vefto."
+  },
+  {
+    "metadata": {
+      "title": "vefto",
+      "description": "la fadenaro kuŝanta transverse en teksaĵo",
+      "category": "diversaj vortoj"
+    },
+    "content": "la fadenaro kuŝanta transverse en teksaĵo."
+  },
+  {
+    "metadata": {
+      "title": "veluro",
+      "description": "silka, kotona, aŭ lana ŝtofo, unuflanke densteksa, aliflanke havanta mallongajn haretojn",
+      "category": "materialoj"
+    },
+    "content": "silka, kotona, aŭ lana ŝtofo, unuflanke densteksa, aliflanke havanta mallongajn haretojn."
+  },
+  {
+    "metadata": {
+      "title": "vincjeto",
+      "neologismo": true,
+      "description": "simila ŝtofo pli maldika, uzata",
+      "category": "materialoj"
+    },
+    "content": "simila ŝtofo pli maldika, uzata. en Anglujo por dormvestoj, k.s."
+  },
+  {
+    "metadata": {
+      "title": "vincjo",
+      "neologismo": true,
+      "description": "forta ŝtofo el lano kaj kotono, kun lanuga surfaco uzata por iuj eksteraj vestaĵoj",
+      "category": "materialoj"
+    },
+    "content": "forta ŝtofo el lano kaj kotono, kun lanuga surfaco uzata por iuj eksteraj vestaĵoj."
+  },
+  {
+    "metadata": {
+      "title": "zipligilo",
+      "description": "rapide fermebla ligilo por longaj aperturoj",
+      "category": "ligiloj"
+    },
+    "content": "rapide fermebla ligilo por longaj aperturoj. Gi konsistas el vico da hoketoj sur ambaŭ flankoj de la aperturo, kiujn oni povas tuj interkroĉigi per (zip-) fermilo. (Oni aŭdas sonon similan al zip ĉe la uzado). Tirligilo"
+  },
+  {
+    "metadata": {
+      "title": "zono",
+      "description": "rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto)",
+      "category": "ligiloj",
+      "languages": [
+        {
+          "nl": "riem"
+        },
+        {
+          "en": "belt"
+        }
+      ]
+    },
+    "content": "rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto)."
+  },
+  {
+    "metadata": {
+      "title": "ĉeniljo",
+      "neologismo": true,
+      "description": "velureca ŝnuro uzata ĉe la garnado",
+      "category": "galanterio"
+    },
+    "content": "velureca ŝnuro uzata ĉe la garnado. (ĉenilo)"
+  },
+  {
+    "metadata": {
+      "title": "ĉifono",
+      "description": "ĉifita peco da:eluzita ŝtofo",
+      "category": "materialoj"
+    },
+    "content": "ĉifita peco da:eluzita ŝtofo."
+  },
+  {
+    "metadata": {
+      "title": "ĉirkaŭturni",
+      "description": "aldoni maŝon jene: metu la lanfadenon sub kaj super la stangon tiel, ke Ia fadeno ĉirkaŭiras Ia stangon",
+      "category": "diversaj vortoj"
+    },
+    "content": "aldoni maŝon jene: metu la lanfadenon sub kaj super la stangon tiel, ke Ia fadeno ĉirkaŭiras Ia stangon."
+  },
+  {
+    "metadata": {
+      "title": "ĵaboto",
+      "description": "punta aŭ alia ornamaĵo pleniganta dekolton aŭ brustan spacon ĉe bluzo aŭ robo",
+      "category": "galanterio"
+    },
+    "content": "punta aŭ alia ornamaĵo pleniganta dekolton aŭ brustan spacon ĉe bluzo aŭ robo."
+  },
+  {
+    "metadata": {
+      "title": "ŝika",
+      "description": "(pli prefere Ĉika) elstare laŭmoda, beleta, moderne eleganta",
+      "category": "diversaj vortoj",
+      "languages": [
+        {
+          "nl": [
+            "chique"
+          ]
+        },
+        {
+          "uk": [
+            "chic"
+          ]
+        }
+      ]
+    },
+    "content": "(pli prefere Ĉika) elstare laŭmoda, beleta, moderne eleganta. [nun oni preferas 'ŝika' laŭ vortaro.net]"
+  },
+  {
+    "metadata": {
+      "title": "ŝnuro",
+      "description": "orde kuntorditaj fadenoj aŭ haroj",
+      "category": "ligiloj"
+    },
+    "content": "orde kuntorditaj fadenoj aŭ haroj."
+  },
+  {
+    "metadata": {
+      "title": "ŝtofo",
+      "description": "ĉia substanco ĉu teksita, trikita aŭ alimaniere produktita, (ĉi tie uzata kun la senco) uzebla por vestoj",
+      "category": "materialoj"
+    },
+    "content": "ĉia substanco ĉu teksita, trikita aŭ alimaniere produktita, (ĉi tie uzata kun la senco) uzebla por vestoj."
+  },
+  {
+    "metadata": {
+      "title": "ŝtopi",
+      "description": "plenigi truon, ekzemple en ŝtrumpo, per entekso de plua lano, aŭ per almeto de fliko",
+      "category": "procedoj"
+    },
+    "content": "plenigi truon, ekzemple en ŝtrumpo, per entekso de plua lano, aŭ per almeto de fliko."
   }
 ]

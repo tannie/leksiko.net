@@ -1,4 +1,32 @@
 (function () {
+
+    var replacementsh = {
+        'ch': 'ĉ', 'Ch': 'Ĉ',
+        'gh': 'ĝ', 'Gh': 'Ĝ',
+        'hh': 'ĥ', 'HH': 'Ĥ',
+        'jh': 'ĵ', 'Jh': 'Ĵ',
+        'sh': 'ŝ', 'Sh': 'Ŝ',
+        'uh': 'ŭ', 'Uh': 'Ŭ'
+    };
+
+    var replacementsx = {
+        'cx': 'ĉ', 'Cx': 'Ĉ',
+        'gx': 'ĝ', 'Gx': 'Ĝ',
+        'hx': 'ĥ', 'Hx': 'Ĥ',
+        'jx': 'ĵ', 'Jx': 'Ĵ',
+        'sx': 'ŝ', 'Sx': 'Ŝ',
+        'ux': 'ŭ', 'Ux': 'Ŭ'
+    };
+
+    var replacements = {
+        'c': 'ĉ', 'C': 'Ĉ',
+        'g': 'ĝ', 'G': 'Ĝ',
+        'h': 'ĥ', 'H': 'Ĥ',
+        'j': 'ĵ', 'J': 'Ĵ',
+        's': 'ŝ', 'S': 'Ŝ',
+        'u': 'ŭ', 'U': 'Ŭ'
+    };
+
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1),
             vars = query.split("&");
@@ -20,6 +48,7 @@
 
     function getPreview(query, content, previewLength) {
         previewLength = previewLength || (content.length * 2);
+        var found = false;
 
         // Sanitize content by removing Markdown links
         content = sanitizeMarkdownLinks(content);
@@ -55,12 +84,60 @@
             }
 
             // Highlight query parts
-            preview = preview.replace(new RegExp("(" + parts.join("|") + ")", "gi"), "<strong>$1</strong>");
-        } else {
-            // Use start of content if no match found
-            preview = content.substring(0, previewLength).trim() + (content.length > previewLength ? "..." : "");
-        }
+            preview = preview.replace(new RegExp("(" + parts.join("|") + ")", "gi"), "<span class=\"hilight\">$1</span>");
+            found = true;
 
+        }
+        else {
+            // check for version with h, x and c replaced
+            var modifiedhQueries = [query];
+            for (var key in replacementsh) {
+                modifiedhQueries.push(query.replace(new RegExp(key, 'g'), replacementsh[key]));
+            }
+
+            var modifiedxQueries = [query];
+            for (var key in replacementsx) {
+                modifiedxQueries.push(query.replace(new RegExp(key, 'g'), replacementsx[key]));
+            }
+
+            var modifiedQueries = [query];
+            for (var key in replacements) {
+                modifiedQueries.push(query.replace(new RegExp(key, 'g'), replacements[key]));
+            }
+
+
+            modifiedhQueries.concat(modifiedxQueries, modifiedQueries).forEach(function (modifiedQuery) {
+                if (found) {
+                    return;
+                }
+                match = content.toLowerCase().indexOf(modifiedQuery.toLowerCase());
+                matchLength = modifiedQuery.length;
+                if (match >= 0) {
+                    var start = match - (previewLength / 2),
+                        end = start > 0 ? match + matchLength + (previewLength / 2) : previewLength;
+
+                    preview = content.substring(start, end).trim();
+
+                    if (start > 0) {
+                        preview = "..." + preview;
+                    }
+
+                    if (end < content.length) {
+                        preview = preview + "...";
+                    }
+
+                    // Highlight query parts
+                    preview = preview.replace(new RegExp("(" + modifiedQuery.split(" ").join("|") + ")", "gi"), "<span class=\"hilight-alt\">$1</span>");
+                    found = true;
+                }
+                else {
+                    console.log("Not found in alt: " + modifiedQuery);
+                    // Use start of content if no match found
+                    preview = content.substring(0, previewLength).trim() + (content.length > previewLength ? "..." : "");
+                }
+            }
+            );
+        }
         return preview;
     }
 
@@ -72,12 +149,32 @@
             var resultsHTML = "";
             results.forEach(function (item) {
                 if (item.metadata && item.metadata.title) {
+                    console.log("Found: " + item.metadata.url);
                     let url = item.metadata.url ? item.metadata.url.trim() : '';
                     let precomposed = url.normalize('NFC'); // Precomposed form
-                    var contentPreview = getPreview(query, item.sections.Difino || item.sections.Uzado || item.sections.Ekzemploj || "", 170),
+                    var contentPreview = getPreview(query, item.content || "", 170),
                         titlePreview = getPreview(query, item.metadata.title),
-                        languagesPreview = item.metadata.languages ? item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Object.values(lang)[0].replace(new RegExp("(" + query + ")", "gi"), "<span class=\"hilight\">$1</span>")}`).join("<br>") : "";
-                    resultsHTML += "<li><h6><a href='" + precomposed + "'>" + titlePreview + "</a></h6><p><small>" + contentPreview + "</small></p><p><small>" + languagesPreview + "</small></p></li>";
+                        tagsPreview = "",
+                        languagesPreview = "";
+
+                    if (item.metadata.tags) {
+                            var tags = item.metadata.tags ? item.metadata.tags.join(", ") : "";
+                        tagsPreview = "<i class=\"fa fa-tag text-body-secondary\"></i> " + getPreview(query, tags) + "<br />";
+                            }
+                        else {
+                            tagsPreview = "";
+                        }
+                    if (Array.isArray(item.metadata.languages)) {
+                        var languages = item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Array.isArray(Object.values(lang)[0]) ? Object.values(lang)[0].join(", ") : Object.values(lang)[0]}`).join(" - ");
+                        languagesPreview = getPreview(query, languages);
+                    }
+                    else {
+                        languagesPreview = "";
+                    }
+
+
+
+                    resultsHTML += "<li><h6><a href='" + precomposed + "'>" + titlePreview + "</a></h6><p><small>" + tagsPreview  + languagesPreview + "</small ></p><p><small>" + contentPreview + "</small></p></li > ";
                 }
             });
 
@@ -95,29 +192,60 @@
         var partialTitleMatches = [];
         var languageMatches = [];
         var contentMatches = [];
+        var tagsMatches = [];
+
+        var modifiedhQueries = [query];
+        for (var key in replacementsh) {
+            modifiedhQueries.push(query.replace(new RegExp(key, 'g'), replacementsh[key]));
+        }
+
+        var modifiedxQueries = [query];
+        for (var key in replacementsx) {
+            modifiedxQueries.push(query.replace(new RegExp(key, 'g'), replacementsx[key]));
+        }
+
+        var modifiedQueries = [query];
+        for (var key in replacements) {
+            modifiedQueries.push(query.replace(new RegExp(key, 'g'), replacements[key]));
+        }
 
         for (var key in window.data) {
             var item = window.data[key];
             var tags = item.metadata.tags ? item.metadata.tags.join(" ") : "";
-            var languages = item.metadata.languages ? item.metadata.languages.map(lang => Object.values(lang)[0]).join(" ") : "";
+            var page_body = item.content ? item.content : "";
+            var languages = Array.isArray(item.metadata.languages) ? item.metadata.languages.map(function(lang) {
+                return Array.isArray(Object.values(lang)[0]) ? Object.values(lang)[0].join(", ") : Object.values(lang)[0];
+            }).join(" ") : "";
 
-            if (item.metadata.title && item.metadata.title.toLowerCase() === query.toLowerCase()) {
-                exactTitleMatches.push(item);
-            } else if (item.metadata.title && item.metadata.title.toLowerCase().split(" ").includes(query.toLowerCase())) {
-                phraseTitleMatches.push(item);
-            } else if (item.metadata.title && item.metadata.title.toLowerCase().includes(query.toLowerCase())) {
-                partialTitleMatches.push(item);
-            } else if (languages.toLowerCase().includes(query.toLowerCase())) {
-                languageMatches.push(item);
-            } else if ((item.sections.Difino && item.sections.Difino.toLowerCase().includes(query.toLowerCase())) ||
-                       (item.sections.Uzado && item.sections.Uzado.toLowerCase().includes(query.toLowerCase())) ||
-                       (item.sections.Ekzemploj && item.sections.Ekzemploj.toLowerCase().includes(query.toLowerCase())) ||
-                       tags.toLowerCase().includes(query.toLowerCase())) {
-                contentMatches.push(item);
-            }
+            modifiedhQueries.concat(modifiedxQueries, modifiedQueries).forEach(function(modifiedQuery) {
+                if (item.metadata.title && (item.metadata.title.toLowerCase() === query.toLowerCase() || item.metadata.title.toLowerCase() === modifiedQuery.toLowerCase())) {
+                    exactTitleMatches.push(item);
+                } else if (item.metadata.title && (item.metadata.title.toLowerCase().split(" ").includes(query.toLowerCase()) || item.metadata.title.toLowerCase().split(" ").includes(modifiedQuery.toLowerCase()))) {
+                    phraseTitleMatches.push(item);
+                } else if (item.metadata.title && (item.metadata.title.toLowerCase().includes(query.toLowerCase()) || item.metadata.title.toLowerCase().includes(modifiedQuery.toLowerCase()))) {
+                    partialTitleMatches.push(item);
+                } else if (languages.toLowerCase().includes(query.toLowerCase()) || languages.toLowerCase().includes(modifiedQuery.toLowerCase())) {
+                    languageMatches.push(item);
+                } else if (page_body.toLowerCase().includes(query.toLowerCase()) || page_body.toLowerCase().includes(modifiedQuery.toLowerCase())) {
+                    contentMatches.push(item);
+                }
+                else if (tags.toLowerCase().includes(query.toLowerCase()) || tags.toLowerCase().includes(modifiedQuery.toLowerCase())) {
+                    tagsMatches.push(item);
+                }
+
+            });
         }
+        // remove duplicates
+        exactTitleMatches = exactTitleMatches.filter((v, i, a) => a.findIndex(t => (t.metadata.title === v.metadata.title)) === i);
+        phraseTitleMatches = phraseTitleMatches.filter((v, i, a) => a.findIndex(t => (t.metadata.title === v.metadata.title)) === i);
+        partialTitleMatches = partialTitleMatches.filter((v, i, a) => a.findIndex(t => (t.metadata.title === v.metadata.title)) === i);
+        languageMatches = languageMatches.filter((v, i, a) => a.findIndex(t => (t.metadata.title === v.metadata.title)) === i);
+        contentMatches = contentMatches.filter((v, i, a) => a.findIndex(t => (t.metadata.title === v.metadata.title)) === i);
+        tagsMatches = tagsMatches.filter((v, i, a) => a.findIndex(t => (t.metadata.title === v.metadata.title)) === i);
 
-        return exactTitleMatches.concat(phraseTitleMatches, partialTitleMatches, languageMatches, contentMatches);
+
+
+        return exactTitleMatches.concat(phraseTitleMatches, partialTitleMatches, languageMatches, contentMatches, tagsMatches);
     }
 
     var query = decodeURIComponent((getQueryVariable("q") || "").replace(/\+/g, "%20")),

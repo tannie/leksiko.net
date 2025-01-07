@@ -40,13 +40,15 @@
 
   <body>
     <header class="header">
-    <nav class="navbar navbar-expand-lg bg-primary">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-primary"  data-bs-theme="dark">
+    <div class="container-fluid" >
         <a class="navbar-brand" href="/">
-        <span class="navbar-logo"></span><img height="32" src="/assets/img/logo/android-icon-192x192.png"> <span
-        class="text-uppercase font-weight-bold">Leksiko</span>
+        <span class="navbar-logo"></span>
+        <!-- <img height="32" src="/assets/img/logo/android-icon-192x192.png">  -->
+        <span
+        class="text-uppercase font-weight-bold" >Leksiko</span>
         </a>
-    <form class="d-flex">
+    <form class="d-flex"  data-bs-theme="light">
 
         <input class="form-control fa td-search-input me-sm-2" type="search" placeholder="&#xf002 Serĉu…">
     </form>
@@ -119,23 +121,17 @@ $(document).ready(function() {
   <div class="card-header">aliaj lingvoj</div>
   <div class="card-body">
     <table>
-  <tbody>
-    
     
     <tr>
-      <td class="languagename">nl</td>
-      <td class="languageword">riem</td>
+      <td class="languagename"></td>
+      <td class="languageword"></td>
     </tr>
-    
-    
     
     <tr>
-      <td class="languagename">en</td>
-      <td class="languageword">belt</td>
+      <td class="languagename"></td>
+      <td class="languageword"></td>
     </tr>
     
-    
-  </tbody>
   </table>
   </div>
 </div>
@@ -159,7 +155,7 @@ $(document).ready(function() {
 
 <h1 id="zono" class="title">zono</h1>
 
-<span class="post-date" style="font-style: italic;">January 07, 2025</span>
+
 
 
 
@@ -168,7 +164,7 @@ $(document).ready(function() {
 </p>
 
 
-
+<span class="post-date" style="font-style: italic;">January 07, 2025</span>
 <div class="clearfix"></div>
 
 <script>
@@ -185,7 +181,7 @@ $.each(headers, function(i, header){
 </script>
 
 <script>
-$('h1').first().append('<div></div>')</script>
+$('h1').first().append('<div class="tags"></div>')</script>
 
 <script
   src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"

@@ -13,16 +13,22 @@ all_json_data = []
 
 md_files.each do |file_path|
   # Read the markdown file
-  content = File.read(file_path)
+  file_content = File.read(file_path)
 
   # Split the content into front matter and body
-  front_matter, body = content.split('---', 3)[1..2]
+  front_matter, body = file_content.split('---', 3)[1..2]
+
+
+  # set content to body and strip leading and trailing whitespace
+  content = body.strip
 
   # Parse the front matter as YAML
   metadata = YAML.load(front_matter)
 
-  # create url for the page based on filename and add that to metadata
-  metadata['url'] = "/" + file_path.split('/').last.split('.').first
+  # create url for the page based on filename and add that to metadata if it doesn't already exist
+  if metadata['url'].nil?
+    metadata['url'] = "/" + file_path.split('/').last.split('.').first
+  end
 
   # Extract sections
   sections = {}
@@ -59,8 +65,7 @@ md_files.each do |file_path|
   json_data = {
     metadata: metadata,
     sections: sections,
-    #languages: languages,
-    references: references
+    content: content
   }
 
   # Add the JSON data to the array

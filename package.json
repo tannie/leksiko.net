@@ -1,7 +1,7 @@
 {
   "name": "leksiko",
   "version": "1.0.1",
-  "description": "Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj",
+  "description": "Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj kaj aliaj fibrometioj",
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all build:css build:html",

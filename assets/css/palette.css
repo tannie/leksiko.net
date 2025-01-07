@@ -7,24 +7,23 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i";
 @fa-font-path: "../webfonts";
 
+:root {
+--bs-link-color: #457b16;
+--bs-link-color-rgb: 69, 123, 22;
+--bs-primary: #396512;
+--bs-primary-rgb: 57,101,18;
+}
+
+
+
 .green-icon {
-  color: green;
+  color: #457b16;
 }
 
 .highlight pre {
   border: none !important;
 }
 
-:root {
-  --bulma-primary-h: 110deg;
-  --bulma-primary-l: 30%;
-  --bulma-link-h: 100deg;
-  --bulma-link-l: 20%;
-  --bulma-success-s: 68%;
-  --bulma-link-s: 50%;
-  --bulma-danger-l: 62%;
-  --bulma-scheme-h: 143;
-}
 
 .td-toc {
   border-left: 1px solid #dee2e6;
@@ -5129,16 +5128,31 @@ aside.lingvoj table.infobox tbody tr td.languagename {
   font-family: "font awesome 5 free", open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
   padding-left: 6px;
   float: right;
+  opacity: .9;
+  color: black;
+  
 }
 
+::placeholder {
+	color: #4f4b4b !important;
+	  opacity: .7;
+
+}
 .td-search-input.form-control:focus {
   border-color: #f5f8fb;
   -webkit-box-shadow: 0 0 0 2px #82afd5;
-  box-shadow: 0 0 0 2px #82afd5
+  box-shadow: 0 0 0 2px #82afd5;
+
 }
+
 
 span.hilight {
 	background-color: #dcedbb;
+	color: rgba(12, 11, 11, 0.99);
+}
+
+span.hilight-alt {
+	background-color: #e3d5f4;
 	color: rgba(12, 11, 11, 0.99);
 }
 
@@ -5161,10 +5175,13 @@ margin-left: 25px !important;
 align-content: center;
 margin-right: 25px;
 }
-body main div.container.content div.card.border-primary.mb-3 div.card-body table tbody tr td.languagename:after
+td.languagename:after
 {
 	  content: ": "
 
+}
+td.languagename {
+	min-width: 50px;
 }
 @media screen and (max-width:990px) {
 .navbar-nav {
@@ -5180,4 +5197,13 @@ body main div.container.content div.card.border-primary.mb-3 div.card-body table
 
 div#navbarColor01.collapse.navbar-collapse {
 	float: left;
+}
+
+.tags span.badge.rounded-pill a {
+	color: #f6f5f5;
+	text-decoration: none;
+}
+
+.tags span.badge.rounded-pill {
+	margin-right: 5px;;
 }
