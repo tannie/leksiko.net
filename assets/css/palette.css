@@ -1,4 +1,5 @@
 /* @override
+	http://localhost:4000/assets/css/palette.css
 	http://127.0.0.1:4000/assets/css/palette.css
 	http://leksiko.net/assets/css/palette.css
 	https://leksiko.net/assets/css/palette.css */
@@ -5127,11 +5128,56 @@ aside.lingvoj table.infobox tbody tr td.languagename {
   border-radius: 1rem;
   font-family: "font awesome 5 free", open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
   padding-left: 6px;
-
+  float: right;
 }
 
 .td-search-input.form-control:focus {
   border-color: #f5f8fb;
   -webkit-box-shadow: 0 0 0 2px #82afd5;
   box-shadow: 0 0 0 2px #82afd5
+}
+
+span.hilight {
+	background-color: #dcedbb;
+	color: rgba(12, 11, 11, 0.99);
+}
+
+.container {
+	margin-top: 25px;
+}
+
+.category-section {
+	margin-top: 25px;
+}
+
+.navbar-toggler {
+	position: static;
+	right: 0px;
+	top: 0px;
+}
+
+body main div.container.content div.card {
+margin-left: 25px !important;
+align-content: center;
+margin-right: 25px;
+}
+body main div.container.content div.card.border-primary.mb-3 div.card-body table tbody tr td.languagename:after
+{
+	  content: ": "
+
+}
+@media screen and (max-width:990px) {
+.navbar-nav {
+	display: inline;
+}
+
+.collapse.show ul.navbar-nav.me-auto li {
+	display: block !important;
+	float: left;
+	padding-right: 10px;
+}
+}
+
+div#navbarColor01.collapse.navbar-collapse {
+	float: left;
 }

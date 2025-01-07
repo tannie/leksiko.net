@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leksiko</title>
-    <description>Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj
+    <description>Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj kaj aliaj fibrometioj
 </description>
     <link>https://leksiko.net/</link>
     <atom:link href="https://leksiko.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jan 2025 00:23:10 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2025 00:23:10 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2025 13:32:33 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2025 13:32:33 +0000</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
   </channel>

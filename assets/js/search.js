@@ -76,16 +76,16 @@
                     let precomposed = url.normalize('NFC'); // Precomposed form
                     var contentPreview = getPreview(query, item.sections.Difino || item.sections.Uzado || item.sections.Ekzemploj || "", 170),
                         titlePreview = getPreview(query, item.metadata.title),
-                        languagesPreview = item.metadata.languages ? item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Object.values(lang)[0].replace(new RegExp("(" + query + ")", "gi"), "<strong>$1</strong>")}`).join("<br>") : "";
+                        languagesPreview = item.metadata.languages ? item.metadata.languages.map(lang => `${Object.keys(lang)[0].toUpperCase()}: ${Object.values(lang)[0].replace(new RegExp("(" + query + ")", "gi"), "<span class=\"hilight\">$1</span>")}`).join("<br>") : "";
                     resultsHTML += "<li><h6><a href='" + precomposed + "'>" + titlePreview + "</a></h6><p><small>" + contentPreview + "</small></p><p><small>" + languagesPreview + "</small></p></li>";
                 }
             });
 
             searchResultsEl.innerHTML = resultsHTML;
-            searchProcessEl.innerText = "Rezultoj trovante";
+            searchProcessEl.innerText = "Rezultoj trovataj";
         } else {
             searchResultsEl.style.display = "none";
-            searchProcessEl.innerText = "No";
+            searchProcessEl.innerText = "Neniu rezulto trovita";
         }
     }
 
