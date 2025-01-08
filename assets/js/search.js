@@ -179,10 +179,10 @@
             });
 
             searchResultsEl.innerHTML = resultsHTML;
-            searchProcessEl.innerText = "Rezultoj trovataj";
+            searchProcessEl.innerText = "Trovis rezultojn";
         } else {
             searchResultsEl.style.display = "none";
-            searchProcessEl.innerText = "Neniu rezulto trovita";
+            searchProcessEl.innerText = "Ne trovis rezultojn";
         }
     }
 

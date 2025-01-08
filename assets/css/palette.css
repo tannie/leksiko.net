@@ -4,17 +4,22 @@
 	http://leksiko.net/assets/css/palette.css
 	https://leksiko.net/assets/css/palette.css */
 
-@import "https://fonts.googleapis.com/css?family=Bitter:300,300i,400,400i,700,700i";
-@fa-font-path: "../webfonts";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');@fa-font-path: "../webfonts";
 
 :root {
 --bs-link-color: #457b16;
 --bs-link-color-rgb: 69, 123, 22;
 --bs-primary: #396512;
 --bs-primary-rgb: 57,101,18;
+--bs-gutter-x: 0rem !important; 
+--bs-body-font-family: 	font-family: Noto Serif, "Times New Roman", Times, serif;
 }
-
-
+h1, h2, h3, h4, h5 {
+	font-family: Noto Serif, "Times New Roman", Times, serif;
+}
+.row {
+	--bs-gutter-x: 0rem !important; 
+}
 
 .green-icon {
   color: #457b16;
@@ -5069,20 +5074,39 @@ aside {
 
 }
 
+	form.d-flex {
+		max-width: 80%;
+	}
+
+
 @media screen and (max-width: 576px) {
   aside {
   max-width: 250px;
   width: 50%;
   min-width: 180px;
   }
+   article.leksiko {
+		margin-left: 25px !important;
+		margin-right: 25px !important;
+	}
+	form.d-flex {
+		max-width: 55%;
+		min-width: 120px;
+	}
 
 }
 
 
+	
 @media screen and (min-width: 576px) {
   aside {
     max-width: 300px;
   }
+ .mx-sm-5 {
+ 	margin-right: 0px !important;
+ 	margin-left: 0px !important;
+ }
+	
 
 }
 
@@ -5175,6 +5199,7 @@ margin-left: 25px !important;
 align-content: center;
 margin-right: 25px;
 }
+
 td.languagename:after
 {
 	  content: ": "
@@ -5206,4 +5231,21 @@ div#navbarColor01.collapse.navbar-collapse {
 
 .tags span.badge.rounded-pill {
 	margin-right: 5px;;
+}
+
+.category p {
+	font-variant: small-caps;
+}
+
+
+main {
+min-height: 70vh !important;
+}
+
+footer {
+	clear: both;
+}
+
+footer.bg-dark {
+		background-color:var(--bs-primary) !important;
 }
