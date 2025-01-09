@@ -24,11 +24,51 @@ h1, h2, h3, h4, h5 {
 .green-icon {
   color: #457b16;
 }
+.center {
+margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+section#klarigo.legend {
+	margin-top: 55px;
+}
+section#klarigo.legend ul li {
+	border-style: none;
+	list-style: none;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+section#klarigo.legend ul li i{
+	width: 15px;
+
+}
+section#klarigo.legend ul li span::before {
+	content:"- ";
+}
+section#klarigo.legend ul li span {
+margin-left: 5px;
+}
+
 
 .highlight pre {
   border: none !important;
 }
 
+.section-index .fundamenta,
+.section-index .neoligismo {
+	font-size: smaller !important;
+	position: relative; 
+    top: -5px;
+}
+
+
+.section-index .badge {
+	font-size: medium;
+}
 
 .td-toc {
   border-left: 1px solid #dee2e6;
@@ -2076,6 +2116,10 @@ margin-right:10px;
 }
 
 .fa-fire:before {
+  content: "\f7e4"
+}
+
+.fa-fire-flame-curved:before {
   content: "\f06d"
 }
 
