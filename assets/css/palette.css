@@ -5186,7 +5186,7 @@ aside {
 .lingvoj {
 	padding: 5px;
 }
-
+p.category,
 .lingvoj .infobox {
 	background: #f5f5f5;
 	font-family: "Courier New", Courier, mono;
