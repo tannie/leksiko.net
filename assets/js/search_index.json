@@ -203,10 +203,11 @@
   },
   {
     "metadata": {
-      "title": "bulo (lanbulo)",
+      "title": "bulo",
       "description": "globforma stato de lanfadeno preta por trikado",
       "category": "diversaj vortoj",
-      "url": "/bulo_(lanbulo)"
+      "alternative_title": "lanbulo",
+      "url": "/bulo"
     },
     "sections": {},
     "content": "globforma stato de lanfadeno preta por trikado."
@@ -656,6 +657,9 @@
       "title": "junto",
       "description": "vorto uzebla anstataŭ Kunkudro (vd",
       "category": "diversaj vortoj",
+      "alternative": [
+        "kunkudro"
+      ],
       "url": "/junto"
     },
     "sections": {},
@@ -942,6 +946,9 @@
       "title": "kunkudro",
       "description": "kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko",
       "category": "diversaj vortoj",
+      "alternative": [
+        "junto"
+      ],
       "url": "/kunkudro"
     },
     "sections": {},

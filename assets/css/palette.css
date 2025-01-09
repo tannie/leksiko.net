@@ -44,6 +44,8 @@ section#klarigo.legend ul li {
 
 section#klarigo.legend ul li i{
 	width: 15px;
+    color: rgba(55, 144, 64, 0.65);
+	text-align: center;
 
 }
 section#klarigo.legend ul li span::before {
@@ -63,11 +65,17 @@ margin-left: 5px;
 	font-size: x-small !important;
 	position: relative; 
     top: -5px;
+	margin-left: -13px;
+	margin-right: 5px;
+	color: rgba(55, 144, 64, 0.65);
 }
 
 
 .section-index .badge {
 	font-size: medium;
+	margin-left: -10px !important;
+	margin-right: 0px !important;
+
 }
 
 .td-toc {

@@ -3,7 +3,7 @@ require 'yaml'
 require 'fileutils'
 
 # Path to the JSON file
-json_file_path = '/Users/ripley/Sites/leksiko/leksiko_md.json'
+json_file_path = 'leksiko_md.json'
 
 # Read the JSON file
 json_data = JSON.parse(File.read(json_file_path))
@@ -14,7 +14,7 @@ json_data = json_data.group_by { |entry| entry['metadata']['title'] }.map { |_, 
 
 
 # Directory to save the markdown files
-output_dir = '/Users/ripley/Sites/leksiko/_docs_recreated'
+output_dir = '_docs_recreated'
 FileUtils.mkdir_p(output_dir)
 
 json_data.each do |entry|

@@ -163,9 +163,10 @@
   },
   {
     "metadata": {
-      "title": "bulo (lanbulo)",
+      "title": "bulo",
       "description": "globforma stato de lanfadeno preta por trikado",
-      "category": "diversaj vortoj"
+      "category": "diversaj vortoj",
+      "alternative_title": "lanbulo"
     },
     "content": "globforma stato de lanfadeno preta por trikado."
   },
@@ -525,7 +526,10 @@
     "metadata": {
       "title": "junto",
       "description": "vorto uzebla anstataŭ Kunkudro (vd",
-      "category": "diversaj vortoj"
+      "category": "diversaj vortoj",
+      "alternative": [
+        "kunkudro"
+      ]
     },
     "content": "vorto uzebla anstataŭ Kunkudro (vd.)"
   },
@@ -761,7 +765,10 @@
     "metadata": {
       "title": "kunkudro",
       "description": "kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko",
-      "category": "diversaj vortoj"
+      "category": "diversaj vortoj",
+      "alternative": [
+        "junto"
+      ]
     },
     "content": "kutima vorto por ĉia kunfiksejo de ŝtofoj; flanke laŭ pantalono, sube laŭ maniko."
   },
@@ -1474,8 +1481,12 @@
       "description": "rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto)",
       "category": "ligiloj",
       "languages": {
-        "nl": "riem",
-        "en": "uk"
+        "nl": [
+          "riem"
+        ],
+        "en": [
+          "belt"
+        ]
       }
     },
     "content": "rimeno aŭ rubando ĉirkaŭ la talio (kaj ofte ĉirkaŭ alia korpoparto)."
@@ -1520,14 +1531,10 @@
       "category": "diversaj vortoj",
       "languages": {
         "nl": [
-          [
-            "chique"
-          ]
+          "chique"
         ],
         "uk": [
-          [
-            "chic"
-          ]
+          "chic"
         ]
       }
     },

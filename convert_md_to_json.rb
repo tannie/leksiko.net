@@ -3,7 +3,7 @@ require 'yaml'
 require 'fileutils'
 
 # Directory containing markdown files
-docs_dir = '/Users/ripley/Sites/leksiko/_docs'
+docs_dir = '_docs'
 
 # Get all markdown files in the directory
 md_files = Dir.glob(File.join(docs_dir, '*.md'))
@@ -135,7 +135,7 @@ md_files.each do |file_path|
 end
 
 # Write all JSON data to a single file
-output_file_path = '/Users/ripley/Sites/leksiko/leksiko_md.json'
+output_file_path = 'leksiko_md.json'
 File.open(output_file_path, 'w') do |file|
   file.write(JSON.pretty_generate(all_json_data))
 end
