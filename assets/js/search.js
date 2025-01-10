@@ -84,7 +84,7 @@
             }
 
             // Highlight query parts
-            preview = preview.replace(new RegExp("(" + parts.join("|") + ")", "gi"), "<span class=\"hilight\">$1</span>");
+            preview = preview.replace(new RegExp("(" + parts.join("|") + ")", "gi"), "<mark><span class=\"hilight2\">$1</span></mark>");
             found = true;
 
         }
@@ -127,7 +127,7 @@
                     }
 
                     // Highlight query parts
-                    preview = preview.replace(new RegExp("(" + modifiedQuery.split(" ").join("|") + ")", "gi"), "<span class=\"hilight-alt\">$1</span>");
+                    preview = preview.replace(new RegExp("(" + modifiedQuery.split(" ").join("|") + ")", "gi"), "<mark><span class=\"hilight-alt\">$1</span></mark>");
                     found = true;
                 }
                 else {

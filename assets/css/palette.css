@@ -2,7 +2,7 @@
 	http://localhost:4000/assets/css/palette.css
 	http://127.0.0.1:4000/assets/css/palette.css
 	http://leksiko.net/assets/css/palette.css
-	https://leksiko.net/assets/css/palette.css */
+	https://leksiko.net/assets/css/palette.css*/
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');@fa-font-path: "../webfonts";
 
@@ -13,6 +13,7 @@
 --bs-primary-rgb: 57,101,18;
 --bs-gutter-x: 0rem !important; 
 --bs-body-font-family: 	font-family: Noto Serif, "Times New Roman", Times, serif;
+--bs-highlight-bg:#dcedbb;
 }
 h1, h2, h3, h4, h5 {
 	font-family: Noto Serif, "Times New Roman", Times, serif;
@@ -20,7 +21,22 @@ h1, h2, h3, h4, h5 {
 .row {
 	--bs-gutter-x: 0rem !important; 
 }
+#search-results li p small i {
+	font-size: xx-small;
+	top: -2px;
+	position: relative;
+}
+#search-results li h6,
+#search-results li p {
+	margin-bottom: 0px;
+}
+#search-results li {
+	margin-bottom: 30px;
+}
 
+mark {
+	padding: 0;
+}
 .green-icon {
   color: #457b16;
 }
@@ -88,6 +104,10 @@ margin-left: 5px;
   padding-bottom: 1.5rem;
   vertical-align: top;
 margin-right:10px;
+}
+div.section-index div.entry h5 i.green-icon {
+	margin-left: -5px;
+	top: -10px;
 }
 
 @supports((position:-webkit-sticky) or (position:sticky)) {
@@ -5192,6 +5212,15 @@ p.category,
 	font-family: "Courier New", Courier, mono;
 	font-variant: small-caps;
 	text-transform: none;
+}
+
+p.category {
+	min-width: 50px;
+	display: inline-block;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
 }
 
 aside.lingvoj table.infobox tbody tr td.languagename {
