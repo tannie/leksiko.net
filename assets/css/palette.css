@@ -2,7 +2,7 @@
 	http://localhost:4000/assets/css/palette.css
 	http://127.0.0.1:4000/assets/css/palette.css
 	http://leksiko.net/assets/css/palette.css
-	https://leksiko.net/assets/css/palette.css*/
+	https://leksiko.net/assets/css/palette.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');@fa-font-path: "../webfonts";
 
@@ -13,7 +13,7 @@
 --bs-primary-rgb: 57,101,18;
 --bs-gutter-x: 0rem !important; 
 --bs-body-font-family: 	font-family: Noto Serif, "Times New Roman", Times, serif;
---bs-highlight-bg:#dcedbb;
+--bs-body-font-size: 18px;
 }
 h1, h2, h3, h4, h5 {
 	font-family: Noto Serif, "Times New Roman", Times, serif;
