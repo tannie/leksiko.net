@@ -179,7 +179,7 @@
           "url": "https://vortaro.net/#brodotajli_kd"
         }
       ],
-      "url": "/brodtajlado"
+      "url": "/brodotajli"
     },
     "sections": {},
     "content": "Ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas per kudro; la randon de la truo tiel lasita fortikigas la randkudro (vd. ankaŭ sub [tajli](tajli))."
@@ -302,19 +302,28 @@
   {
     "metadata": {
       "title": "dufaldo",
-      "description": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd",
+      "description": "(Interna, Ekstera) duobla platfaldo, aranĝita pare",
       "category": "diversaj vortoj",
       "url": "/dufaldo"
     },
     "sections": {},
-    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare\n<!-- (vd. desegnon sur pago 63). -->"
+    "content": "(Interna, Ekstera) duobla platfaldo, aranĝita pare\n<!-- (vd. desegnon sur pago 63). -->"
+  },
+  {
+    "metadata": {
+      "title": "dutaldo",
+      "category": "diversaj vortoj",
+      "url": "/dutaldo"
+    },
+    "sections": {},
+    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
   },
   {
     "metadata": {
       "title": "elasta rubando-ŝnuro",
       "description": "ĉio tia, kiu estas elasta, etendebla, streĉebla",
       "category": "galanterio",
-      "url": "/elasta_rubando_-ŝnuro"
+      "url": "/elasta_rubando-ŝnuro"
     },
     "sections": {},
     "content": "ĉio tia, kiu estas elasta, etendebla, streĉebla."
@@ -943,6 +952,7 @@
       "title": "kudrilo",
       "description": "malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj",
       "category": "iloj",
+      "image": "/images/kudrilo.jpg",
       "url": "/kudrilo"
     },
     "sections": {},

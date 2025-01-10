@@ -246,10 +246,17 @@
   {
     "metadata": {
       "title": "dufaldo",
-      "description": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd",
+      "description": "(Interna, Ekstera) duobla platfaldo, aranĝita pare",
       "category": "diversaj vortoj"
     },
-    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare\n<!-- (vd. desegnon sur pago 63). -->"
+    "content": "(Interna, Ekstera) duobla platfaldo, aranĝita pare\n<!-- (vd. desegnon sur pago 63). -->"
+  },
+  {
+    "metadata": {
+      "title": "dutaldo",
+      "category": "diversaj vortoj"
+    },
+    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
   },
   {
     "metadata": {
@@ -766,7 +773,8 @@
     "metadata": {
       "title": "kudrilo",
       "description": "malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj",
-      "category": "iloj"
+      "category": "iloj",
+      "image": "/images/kudrilo.jpg"
     },
     "content": "malgranda stangeto havanta akran pinton kaj longan trueton, per kiu oni tiras fadenon tra drapo kaj ĉiaj ŝtofoj."
   },

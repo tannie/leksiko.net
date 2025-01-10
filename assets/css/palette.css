@@ -4,22 +4,33 @@
 	http://leksiko.net/assets/css/palette.css
 	https://leksiko.net/assets/css/palette.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');@fa-font-path: "../webfonts";
-
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Caveat:wght@400..700&family=Cherry+Swash:wght@400;700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
 --bs-link-color: #457b16;
 --bs-link-color-rgb: 69, 123, 22;
 --bs-primary: #396512;
 --bs-primary-rgb: 57,101,18;
 --bs-gutter-x: 0rem !important; 
---bs-body-font-family: 	font-family: Noto Serif, "Times New Roman", Times, serif;
---bs-body-font-size: 18px;
+--bs-body-font-family: 	font-family: Arbutus Slab, "Times New Roman", Times, serif;
+--bs-body-font-size: 20px;
+--bs-body-font-weight:500;
 }
 h1, h2, h3, h4, h5 {
-	font-family: Noto Serif, "Times New Roman", Times, serif;
+	font-family: Arbutus Slab, "Times New Roman", Times, serif;
 }
 .row {
 	--bs-gutter-x: 0rem !important; 
+}
+article.leksiko div.image-container {
+	max-width: 450px;
+	width: 75%;
+	min-width: 150px;
+}
+.image-card {
+	border: 1px solid #f2f1f1!important;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f2f1f1;
 }
 #search-results li p small i {
 	font-size: xx-small;
@@ -88,7 +99,7 @@ margin-left: 5px;
 
 
 .section-index .badge {
-	font-size: medium;
+	font-size: smaller;
 	margin-left: -10px !important;
 	margin-right: 0px !important;
 
