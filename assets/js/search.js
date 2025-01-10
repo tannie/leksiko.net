@@ -213,6 +213,14 @@
             var item = window.data[key];
             var tags = item.metadata.tags ? item.metadata.tags.join(" ") : "";
             var page_body = item.content ? item.content : "";
+            var page_alternatives = item.metadata.alternative_title ? item.metadata.alternative_title.join(", ") : "";
+            // add alternatives to title in the format 'title (alternatives)'
+            if (page_alternatives) {
+                item.metadata.title = item.metadata.title + " (" + page_alternatives + ")";
+            }
+            //console.log("Checking: " + item.metadata.title);
+            //console.log("Alternatives: " + page_alternatives);
+
             var languages = item.metadata.languages ? Object.keys(item.metadata.languages).map(lang => `${lang.toUpperCase()}: ${item.metadata.languages[lang].join(", ")}`).join(" ") : "";
 
             modifiedhQueries.concat(modifiedxQueries, modifiedQueries).forEach(function(modifiedQuery) {

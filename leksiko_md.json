@@ -71,7 +71,7 @@
       "description": "ligo per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin",
       "category": "ligiloj"
     },
-    "content": "ligo per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin."
+    "content": "[ligo]({% link _docs/ligo.md %}) per du ŝnuroj aŭ rubandoj, tiel farita, ke per tiro oni povas malligi ĝin."
   },
   {
     "metadata": {
@@ -131,11 +131,24 @@
   },
   {
     "metadata": {
-      "title": "brodtajlado, tajlbrodado",
-      "description": "ornami teksaĵojn, eltranĉante pecetojn, laŭ desegno jam indikita per randa kudrado (vd",
-      "category": "laborspecoj"
+      "title": "brodotajli",
+      "description": "Ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas per kudro",
+      "category": "laborspecoj",
+      "alternative_title": [
+        "tajlbrodado",
+        "brodtajlado"
+      ],
+      "alternative": [
+        "tajli"
+      ],
+      "references": [
+        {
+          "title": "Brodotajli - Vortaro.net",
+          "url": "https://vortaro.net/#brodotajli_kd"
+        }
+      ]
     },
-    "content": "ornami teksaĵojn, eltranĉante pecetojn, laŭ desegno jam indikita per randa kudrado (vd.); la randon de la truo tiel lasita fortikigas la randkudro (vd. ankaŭ sub [tajli](tajli))."
+    "content": "Ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas per kudro; la randon de la truo tiel lasita fortikigas la randkudro (vd. ankaŭ sub [tajli](tajli))."
   },
   {
     "metadata": {
@@ -166,7 +179,10 @@
       "title": "bulo",
       "description": "globforma stato de lanfadeno preta por trikado",
       "category": "diversaj vortoj",
-      "alternative_title": "lanbulo"
+      "alternative_title": [
+        "lanbulo"
+      ],
+      "updated": "2025-01-10"
     },
     "content": "globforma stato de lanfadeno preta por trikado."
   },
@@ -233,18 +249,11 @@
       "description": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd",
       "category": "diversaj vortoj"
     },
-    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
+    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare\n<!-- (vd. desegnon sur pago 63). -->"
   },
   {
     "metadata": {
-      "title": "dutaldo",
-      "category": "diversaj vortoj"
-    },
-    "content": "(Interna, Ekstera)  duobla platfaldo, aranĝita pare (vd. desegnon sur pago 63)."
-  },
-  {
-    "metadata": {
-      "title": "elasta rubando -ŝnuro",
+      "title": "elasta rubando-ŝnuro",
       "description": "ĉio tia, kiu estas elasta, etendebla, streĉebla",
       "category": "galanterio"
     },
@@ -676,7 +685,7 @@
       "category": "laborspecoj",
       "neoligismo": true
     },
-    "content": "Krokado (ankaŭ nomata tunizia aŭ afgana [kroĉetado]({% link _docs/kroĉeti.md %})) estas manarta tekniko uzata por produkti tekstilojn per [kroĉetilo]({% link _docs/kroĉetilo.md %}) kaj [fadeno]({% link _docs/fadeno.md %}). La tekniko havas similecojn kun ambaŭ [triki]({% link _docs/triki.md %}) kaj [kroĉeti]({% link _docs/kroĉeti.md %}). La procedo estas alterne unue meti maŝojn sur la kroĉetilon kaj poste forigi ĉiujn krom la lasta. Krokado estis uzata por krei ĉion, de vestaĵoj, gantoj kaj ŝtrumpetoj ĝis purigaj tukoj, kovriloj kaj bendoj."
+    "content": "Krokado (ankaŭ nomata tunizia aŭ afgana [kroĉetado]({% link _docs/kroĉeti.md %})) estas manarta tekniko uzata por produkti teksaĵojn per [kroĉetilo]({% link _docs/kroĉetilo.md %}) kaj [fadeno]({% link _docs/fadeno.md %}). La tekniko havas similecojn kun ambaŭ [triki]({% link _docs/triki.md %}) kaj [kroĉeti]({% link _docs/kroĉeti.md %}). La procedo estas alterne unue meti maŝojn sur la kroĉetilon kaj poste forigi ĉiujn krom la lasta."
   },
   {
     "metadata": {
@@ -824,10 +833,13 @@
   {
     "metadata": {
       "title": "ligo",
-      "description": "kunvolvo de ŝnuro, rubando, k",
-      "category": "diversaj vortoj"
+      "description": "kunvolvo de ŝnuro, rubando, k.s.",
+      "category": "diversaj vortoj",
+      "alternative": [
+        "“nodo”"
+      ]
     },
-    "content": "kunvolvo de ŝnuro, rubando, k.s. por kunteni du pecojn; nodo, banto."
+    "content": "kunvolvo de ŝnuro, rubando, k.s. por kunteni du pecojn; [nodo]({% link _docs/nodo.md %}), [banto]({% link _docs/banto.md %})."
   },
   {
     "metadata": {
@@ -920,18 +932,21 @@
   {
     "metadata": {
       "title": "nodo",
-      "description": "tubera ligaĵo de ŝnuro k",
-      "category": "diversaj vortoj"
+      "description": "tubera ligaĵo de ŝnuro",
+      "category": "diversaj vortoj",
+      "alternative": [
+        "“ligo”"
+      ]
     },
-    "content": "tubera ligaĵo de ŝnuro k.s. (vd. Ligo)."
+    "content": "tubera ligaĵo de ŝnuro k.s. (vd. [ligo]({% link _docs/ligo.md %}))."
   },
   {
     "metadata": {
       "title": "numerilo",
-      "description": "ĉiu el la diversaj netoj uzataj por registri aŭ \"memori",
+      "description": "ĉiu el la diversaj netoj uzataj por registri aŭ \"memori\" la nombron",
       "category": "iloj"
     },
-    "content": "ĉiu el la diversaj netoj uzataj por registri aŭ \"memori. ' la nombron da triklinioj aŭ trikeroj jam faritaj k.s."
+    "content": "ĉiu el la diversaj netoj uzataj por registri aŭ \"memori\" la nombron da triklinioj aŭ trikeroj jam faritaj k.s."
   },
   {
     "metadata": {
@@ -1210,10 +1225,10 @@
   {
     "metadata": {
       "title": "tajli",
-      "description": "A",
+      "description": "eltondi ŝtofon en la formoj necesaj por vesto",
       "category": "procedoj"
     },
-    "content": "A. eltondi ŝtofon en la formoj necesaj por vesto. B. ĉe la brodado: ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas"
+    "content": "A. eltondi ŝtofon en la formoj necesaj por vesto.\nB. ĉe la brodado: ornami brodaĵon per la eltondo de diversformaj truoj, kies randojn oni fortikigas"
   },
   {
     "metadata": {
