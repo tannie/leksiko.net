@@ -72,22 +72,6 @@
 
 </header>
 
-<!-- script>
-$(document).ready(function() {
-  var url = "https://api.github.com/search/repositories?q=tannie/leksiko";
-  fetch(url, {
-      headers: {"Accept":"application/vnd.github.preview"}
-  }).then(function(e) {
-    return e.json()
-  }).then(function(r) {
-     console.log(r.items[0])
-     stars = r.items[0]['stargazers_count']
-     forks = r.items[0]['forks_count']
-     $('#stars').text(stars + " Stars")
-     $('#forks').text(forks + " Forks")
-  });
-});
-</script -->
 
     <div class="clearfix"></div>
     <!-- <nav>
@@ -112,10 +96,7 @@ $(document).ready(function() {
        </nav>
     </aside><
   </div> -->
-    	      <!-- <input class="form-control fa td-search-input" type="search" name="q" id="search-input" placeholder="&#xf002 Search this site…"  style="margin-top:5px" autofocus>
-<i style="color:white; margin-right:8px; margin-left:5px" class="fa fa-search"></i> -->
-
-<p><span id="search-process">Serĉas</span> <span id="search-query-container" style="display: none;">por "<strong id="search-query"></strong>"</span></p>
+    	      <p><span id="search-process">Serĉas</span> <span id="search-query-container" style="display: none;">por "<strong id="search-query"></strong>"</span></p>
 
 <ul id="search-results"></ul>
 
@@ -197,7 +178,7 @@ $(document).ready(function() {
 						"title": "",
 						"categories": "",
 						"url": " /feed.xml",
-						"content": "Leksiko\n    Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj kaj aliaj fibrometioj\n\n    https://leksiko.net/\n    \n    Sat, 11 Jan 2025 11:40:02 +0000\n    Sat, 11 Jan 2025 11:40:02 +0000\n    Jekyll v4.3.4"
+						"content": "Leksiko\n    Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj kaj aliaj fibrometioj\n\n    https://leksiko.net/\n    \n    Sat, 11 Jan 2025 11:46:34 +0000\n    Sat, 11 Jan 2025 11:46:34 +0000\n    Jekyll v4.3.4"
 					}
 					
 				
@@ -302,42 +283,6 @@ $.each(headers, function(i, header){
 })
 </script>
 
-
-<script
-  src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-<script>
-$(document).ready(function() {
-
-    var toc = $('#TOC');
-
-    // Select each header
-    sections = $('main h1');
-        $.each(sections, function(idx, v) {
-            section = $(v);
-            var div_id = $(section).attr('id');
-            var div_text = section.text().split('¶')[0];
-            var parent = $("#" + div_id)
-            var content = '<li id="link_' + div_id + '" class="md-nav__item"><a class="md-nav__link" href="#' + div_id + '" title="' + div_text +'">' + div_text +'</a></li>';
-            $(toc).append(content);
-
-            // Add section code to subnavigation
-            var children = $('<nav class="md-nav"><ul class="md-nav__list"></nav></ul>')
-            var contenders = $("#" + div_id).nextUntil("h1");
-            $.each(contenders, function(idx, contender){
-               if($(contender).is('h2') || $(contender).is('h3')) {
-                   var contender_id = $(contender).attr('id');
-                   var contender_text = $(contender).text().split('¶')[0];
-                   var content = '<li class="md-nav__item"><a class="md-nav__link" href="#' + contender_id + '" title="' + contender_text +'">' + contender_text +'</a></li>';
-                   children.append(content);
-                }
-             })
-             $("#link_" + div_id).append(children);
-        });
-    });
-</script>
 
 
             
