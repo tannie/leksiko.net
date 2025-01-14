@@ -1874,6 +1874,9 @@
       "neologismo": true,
       "description": "kiel la nomo indikas, la trikkroĉado estas hibrido de la trikado kaj kroĉado",
       "category": "laborspecoj",
+      "alternative_title": [
+        "kroĉettriki"
+      ],
       "url": "/trikkroĉi"
     },
     "sections": {},
@@ -1900,29 +1903,6 @@
     },
     "sections": {},
     "content": "la rezultato de la trikado, precipe ĉe delikataj materialoj. Bedaŭrinda vorto! Oni bezonas pli taŭgan, por eviti konfuzon inter vesto trikota (kiun oni trikos) kaj vesto trikota (el trikoto). Trikotaĵo estas ŝtofo jam trikita!"
-  },
-  {
-    "metadata": {
-      "published": true,
-      "title": "trikroĉi",
-      "neologismo": true,
-      "description": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado",
-      "category": "laborspecoj",
-      "url": "/trikroĉi"
-    },
-    "sections": {},
-    "content": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki)."
-  },
-  {
-    "metadata": {
-      "published": true,
-      "title": "trikroĉilo",
-      "description": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda",
-      "category": "iloj",
-      "url": "/trikroĉilo"
-    },
-    "sections": {},
-    "content": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda."
   },
   {
     "metadata": {

@@ -10,7 +10,7 @@
 --bs-link-color-rgb: 69, 123, 22;
 --bs-primary: #396512;
 --bs-primary-rgb: 57,101,18;
---bs-gutter-x: 0rem !important; 
+--bs-gutter-x: 0rem !important;
 --bs-body-font-family: 	font-family: Arbutus Slab, "Times New Roman", Times, serif;
 --bs-body-font-size: 20px;
 --bs-body-font-weight:500;
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 	font-family: Arbutus Slab, "Times New Roman", Times, serif;
 }
 .row {
-	--bs-gutter-x: 0rem !important; 
+	--bs-gutter-x: 0rem !important;
 }
 article.leksiko div.image-container {
 	max-width: 450px;
@@ -89,9 +89,9 @@ margin-left: 5px;
 }
 
 .section-index .fundamenta,
-.section-index .neoligismo {
+.section-index .neologismo {
 	font-size: x-small !important;
-	position: relative; 
+	position: relative;
     top: -5px;
 	margin-left: -13px;
 	margin-right: 5px;
@@ -287,7 +287,7 @@ aside {
 }
 
 
-	
+
 @media screen and (min-width: 576px) {
   aside {
     max-width: 300px;
@@ -296,7 +296,7 @@ aside {
  	margin-right: 0px !important;
  	margin-left: 0px !important;
  }
-	
+
 
 }
 
@@ -353,7 +353,7 @@ aside.lingvoj table.infobox tbody tr td.languagename {
   float: right;
   opacity: .9;
   color: black;
-  
+
 }
 
 ::placeholder {
