@@ -774,7 +774,7 @@
       "title": "kroki",
       "description": "",
       "category": "laborspecoj",
-      "neoligismo": true
+      "neologismo": true
     },
     "content": "Krokado (ankaŭ nomata tunizia aŭ afgana [kroĉetado]({% link _docs/kroĉeti.md %})) estas manarta tekniko uzata por produkti teksaĵojn per [kroĉetilo]({% link _docs/kroĉetilo.md %}) kaj [fadeno]({% link _docs/fadeno.md %}). La tekniko havas similecojn kun ambaŭ [triki]({% link _docs/triki.md %}) kaj [kroĉeti]({% link _docs/kroĉeti.md %}). La procedo estas alterne unue meti maŝojn sur la kroĉetilon kaj poste forigi ĉiujn krom la lasta."
   },
@@ -802,7 +802,21 @@
         {
           "title": "Kroĉetado - Vikipedio",
           "url": "https://eo.wikipedia.org/wiki/Kro%C4%89etado"
+        },
+        {
+          "title": "Kroĉeti - Vortaro",
+          "url": "https://vortaro.net/#kroĉeti_kd"
         }
+      ],
+      "source": [
+        {
+          "title": "Kudra kaj trika terminaro",
+          "url": null
+        }
+      ],
+      "alternative_title": [
+        "kroĉtriki",
+        "hoktriki"
       ]
     },
     "content": "La vorto kroĉetado devenas de la mezepoka franca vorto croc aŭ croche, kiu signifas hoko. Kroĉetado estas ago de fari teksaĵon el fadeno. Oni faras ligetojn el la fadeno per [hoko](kroĉetilo), kaj konektas la ligojn formi kompletan teksaĵon.\n\n\n\n\n\n(Kroĉi) la kroĉ(et)ado estas triksimila laboro por kiu oni uzas maldikan kroĉetilon; la baza kudrero estas la ĉena."
@@ -1553,7 +1567,10 @@
       "title": "trikkroĉi",
       "neologismo": true,
       "description": "kiel la nomo indikas, la trikkroĉado estas hibrido de la trikado kaj kroĉado",
-      "category": "laborspecoj"
+      "category": "laborspecoj",
+      "alternative_title": [
+        "kroĉettriki"
+      ]
     },
     "content": "kiel la nomo indikas, la trikkroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikkroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki).\n\n* aldonis plian k"
   },
@@ -1574,25 +1591,6 @@
       "category": "materialoj"
     },
     "content": "la rezultato de la trikado, precipe ĉe delikataj materialoj. Bedaŭrinda vorto! Oni bezonas pli taŭgan, por eviti konfuzon inter vesto trikota (kiun oni trikos) kaj vesto trikota (el trikoto). Trikotaĵo estas ŝtofo jam trikita!"
-  },
-  {
-    "metadata": {
-      "published": true,
-      "title": "trikroĉi",
-      "neologismo": true,
-      "description": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado",
-      "category": "laborspecoj"
-    },
-    "content": "kiel la nomo indikas, la trikroĉado estas hibrido de la trikado kaj kroĉado. Oni kvazaŭ trikas, uzante kroĉilforman stangon, la trikroĉilon, sed uzas la ĉenon de la kroĉado aŭ la diversajn maŝojn, k.s. de la trikado, laŭbezone. (Kroĉettriki)."
-  },
-  {
-    "metadata": {
-      "published": true,
-      "title": "trikroĉilo",
-      "description": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda",
-      "category": "iloj"
-    },
-    "content": "diketa trikilo, kun hoketo (kaj kutime ankaŭ kapeto) simila al tiu de kroĉilo sed kutime pli granda."
   },
   {
     "metadata": {

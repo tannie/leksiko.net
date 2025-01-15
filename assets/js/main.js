@@ -45,7 +45,7 @@
                         return
                     }
                     var query = $(this).val();
-                    var searchPage = "https://leksiko.net/search/?q=" + query;
+                    var searchPage = "https://leksikono.net/search/?q=" + query;
                     document.location = searchPage;
                     return false;
                 });

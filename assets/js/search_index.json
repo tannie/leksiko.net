@@ -940,7 +940,7 @@
       "title": "kroki",
       "description": "",
       "category": "laborspecoj",
-      "neoligismo": true,
+      "neologismo": true,
       "url": "/kroki"
     },
     "sections": {},
@@ -970,7 +970,21 @@
         {
           "title": "Kroĉetado - Vikipedio",
           "url": "https://eo.wikipedia.org/wiki/Kro%C4%89etado"
+        },
+        {
+          "title": "Kroĉeti - Vortaro",
+          "url": "https://vortaro.net/#kroĉeti_kd"
         }
+      ],
+      "source": [
+        {
+          "title": "Kudra kaj trika terminaro",
+          "url": null
+        }
+      ],
+      "alternative_title": [
+        "kroĉtriki",
+        "hoktriki"
       ],
       "url": "/kroĉeti"
     },

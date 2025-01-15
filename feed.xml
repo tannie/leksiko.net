@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leksiko</title>
-    <description>Leksiko de terminoj rilate al inĝenierarto de malmolaj materialoj kaj aliaj fibrometioj
+    <title>Leksikono</title>
+    <description>Leksikono de terminoj rilate al inĝenierarto de malmolaj materialoj kaj aliaj fibrometioj
 </description>
-    <link>https://leksiko.net/</link>
-    <atom:link href="https://leksiko.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jan 2025 19:43:47 +0000</pubDate>
-    <lastBuildDate>Tue, 14 Jan 2025 19:43:47 +0000</lastBuildDate>
+    <link>https://leksikono.net/</link>
+    <atom:link href="https://leksikono.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Jan 2025 13:19:29 +0000</pubDate>
+    <lastBuildDate>Wed, 15 Jan 2025 13:19:29 +0000</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
   </channel>
